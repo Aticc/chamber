@@ -270,7 +270,7 @@
   .large-statement {
     font-size: 48px;
     font-weight: 400;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 20px;
   }
   
@@ -292,13 +292,13 @@
   .bullet-list li {
     padding: 8px 28px;
     font-size: 15px;
-    color: #2E4156;
+    color: #1A1A1A;
     border-bottom: 1px solid #E8EBED;
   }
   
   .bullet-list li::before {
     content: "✓";
-    color: #17015e;
+    color: #031B4E;
     margin-right: 12px;
     font-weight: bold;
   }
@@ -324,7 +324,7 @@
   
   .framework-right p {
     font-size: 15px;
-    color: #2E4156;
+    color: #1A1A1A;
     line-height: 1.6;
   }
   

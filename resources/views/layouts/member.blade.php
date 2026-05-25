@@ -53,7 +53,7 @@
         .sidebar-logo-icon {
             width: 36px;
             height: 36px;
-            background: #17015e;
+            background: #041931;
             border-radius: 10px;
             display: flex;
             align-items: center;
@@ -66,7 +66,7 @@
         .sidebar-logo-text {
             font-size: 18px;
             font-weight: 600;
-            color: #17015e;
+            color: #031B4E;
             letter-spacing: 0.5px;
         }
         
@@ -131,16 +131,16 @@
         
         .nav-item:hover {
             background: #F5F7FA;
-            color: #17015e;
+            color: #031B4E;
         }
         
         .nav-item.active {
             background: rgba(23, 1, 94, 0.08);
-            color: #17015e;
+            color: #031B4E;
         }
         
         .nav-item.active svg {
-            color: #17015e;
+            color: #031B4E;
             opacity: 1;
         }
         
@@ -189,7 +189,7 @@
         .member-avatar {
             width: 42px;
             height: 42px;
-            background: #17015e;
+            background: #041931;
             border-radius: 12px;
             display: flex;
             align-items: center;

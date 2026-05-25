@@ -9,7 +9,7 @@
             <img src="{{ asset('assets/images/logo.png') }}" alt="ATICC Logo" style="max-width: 180px;">
         </div>
         
-        <h2 style="color: #17015e;">Thank You for Your Submission</h2>
+        <h2 style="color: #031B4E;">Thank You for Your Submission</h2>
         
         <p>Dear {{ $name }},</p>
         
@@ -20,7 +20,7 @@
             <p><strong>Submission Date:</strong> {{ now()->format('F j, Y, g:i a') }}</p>
         </div>
         
-        <h3 style="color: #17015e;">What happens next?</h3>
+        <h3 style="color: #031B4E;">What happens next?</h3>
         <ol>
             <li>Our investment team will review your submission</li>
             <li>You will receive an initial response within 5-7 business days</li>

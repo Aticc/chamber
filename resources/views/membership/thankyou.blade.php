@@ -15,21 +15,21 @@
         <p>Thank you for applying for institutional membership with ATICC.</p>
         <div class="divider"></div>
         <div class="info-card">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#17015e" stroke-width="1.5">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
                 <circle cx="12" cy="12" r="10"/>
                 <path d="M12 16v-4M12 8h.01"/>
             </svg>
             <p>Your application has been received and is pending review by our membership committee.</p>
         </div>
         <div class="info-card">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#17015e" stroke-width="1.5">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                 <polyline points="22,6 12,13 2,6"/>
             </svg>
             <p>You will receive an email notification once your application has been approved.</p>
         </div>
         <div class="info-card">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#17015e" stroke-width="1.5">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
                 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
                 <polyline points="9 22 9 12 15 12 15 22"/>
             </svg>
@@ -119,7 +119,7 @@
     .success-icon {
         width: 90px;
         height: 90px;
-        background: linear-gradient(135deg, #17015e 0%, #2a0280 100%);
+        background: linear-gradient(135deg, #041931 0%, #031B4E 100%);
         color: white;
         border-radius: 50%;
         display: flex;
@@ -131,7 +131,7 @@
     .thankyou-content h1 {
         font-size: 32px;
         margin-bottom: 12px;
-        color: #17015e;
+        color: #031B4E;
         font-weight: 700;
     }
     .thankyou-content > p {
@@ -143,7 +143,7 @@
     .divider {
         width: 60px;
         height: 3px;
-        background: linear-gradient(90deg, #17015e, #C49A6C);
+        background: linear-gradient(90deg, #041931, #C49A6C);
         margin: 25px auto;
         border-radius: 3px;
     }
@@ -161,7 +161,7 @@
     }
     .info-card:hover {
         transform: translateX(5px);
-        border-color: #17015e;
+        border-color: #031B4E;
     }
     .info-card svg {
         flex-shrink: 0;
@@ -192,20 +192,20 @@
         cursor: pointer;
     }
     .home-btn {
-        background: #17015e;
+        background: #041931;
         color: white;
         border: none;
         box-shadow: 0 2px 8px rgba(23, 1, 94, 0.2);
     }
     .home-btn:hover {
-        background: #2a0280;
+        background: #031B4E;
         transform: translateY(-2px);
         box-shadow: 0 8px 20px rgba(23, 1, 94, 0.25);
     }
     .status-btn {
         background: transparent;
-        color: #17015e;
-        border: 1.5px solid #17015e;
+        color: #031B4E;
+        border: 1.5px solid #041931;
     }
     .status-btn:hover {
         background: rgba(23, 1, 94, 0.05);
@@ -252,20 +252,20 @@
     }
     
     .bottom-nav-item:hover {
-        color: #17015e;
+        color: #031B4E;
         background: #F5F6F8;
     }
     
     .bottom-nav-item:hover svg {
-        stroke: #17015e;
+        stroke: #041931;
     }
     
     .bottom-nav-item.active {
-        color: #17015e;
+        color: #031B4E;
     }
     
     .bottom-nav-item.active svg {
-        stroke: #17015e;
+        stroke: #041931;
     }
     
     .bottom-nav-item span {

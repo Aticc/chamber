@@ -8,7 +8,7 @@
 <div class="plans-hero-section">
   <div class="plans-hero-content">
     <div class="breadcrumb fade-up revealed">Home / Access Plans</div>
-    <h1 class="headline fade-up revealed">Choose Your <span style="color: #17015e;">Membership Path</span></h1>
+    <h1 class="headline fade-up revealed">Choose Your <span style="color: #031B4E;">Membership Path</span></h1>
     <div class="body-text fade-up delay-2 revealed">Select the membership tier that aligns with your institutional goals and market entry strategy. All plans include our Trust & Verification Protocol.</div>
   </div>
 </div>
@@ -127,7 +127,7 @@
     <!-- Accession Protocol Info -->
     <div class="accession-info fade-up">
       <div class="accession-icon">
-        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#17015e" stroke-width="1.5">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
           <path d="M12 2L3 7l9 5 9-5-9-5z"/>
           <path d="M3 12l9 5 9-5"/>
           <path d="M3 17l9 5 9-5"/>
@@ -208,7 +208,7 @@
 }
 
 .plan-card.featured {
-  border: 2px solid #17015e;
+  border: 2px solid #041931;
   background: white;
   transform: scale(1.02);
 }
@@ -222,7 +222,7 @@
   top: -12px;
   left: 50%;
   transform: translateX(-50%);
-  background: #17015e;
+  background: #041931;
   color: white;
   padding: 5px 15px;
   border-radius: 20px;
@@ -241,7 +241,7 @@
 .plan-name {
   font-size: 22px;
   font-weight: 400;
-  color: #17015e;
+  color: #031B4E;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -263,7 +263,7 @@
 .price-range {
   font-size: 32px;
   font-weight: 400;
-  color: #17015e;
+  color: #031B4E;
 }
 
 .price-period {
@@ -293,7 +293,7 @@
 
 .plan-btn {
   width: 100%;
-  background: #17015e;
+  background: #041931;
   color: white;
   border: none;
   padding: 14px;
@@ -305,7 +305,7 @@
 }
 
 .plan-btn:hover {
-  background: #2a0280;
+  background: #031B4E;
   transform: translateY(-2px);
 }
 
@@ -320,7 +320,7 @@
 .comparison-title {
   font-size: 28px;
   font-weight: 400;
-  color: #17015e;
+  color: #031B4E;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -349,7 +349,7 @@
 }
 
 .comparison-table th {
-  background: #17015e;
+  background: #041931;
   color: white;
   font-weight: 600;
 }
@@ -383,7 +383,7 @@
 .accession-info h4 {
   font-size: 18px;
   font-weight: 400;
-  color: #17015e;
+  color: #031B4E;
   margin-bottom: 10px;
 }
 

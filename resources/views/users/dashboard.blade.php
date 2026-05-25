@@ -248,14 +248,14 @@
                     <div class="payment-method-title">Select Payment Method</div>
                     <div class="payment-options">
                         <div class="payment-option" data-method="card">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#17015e" stroke-width="1.5">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
                                 <path d="M21 4H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"/>
                                 <line x1="1" y1="10" x2="23" y2="10"/>
                             </svg>
                             <span>Credit/Debit Card</span>
                         </div>
                         <div class="payment-option" data-method="bank">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#17015e" stroke-width="1.5">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
                                 <rect x="2" y="6" width="20" height="16" rx="2"/>
                                 <line x1="2" y1="10" x2="22" y2="10"/>
                                 <line x1="6" y1="14" x2="8" y2="14"/>
@@ -264,7 +264,7 @@
                             <span>Bank Transfer</span>
                         </div>
                         <div class="payment-option" data-method="wallet">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#17015e" stroke-width="1.5">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
                                 <path d="M20 12V8H4v4M12 4v4M4 4h16v16H4z"/>
                                 <path d="M8 20v-8h8v8"/>
                             </svg>
@@ -338,21 +338,21 @@
                         <h4>Digital Wallet Options</h4>
                         <div class="wallet-options">
                             <div class="wallet-item">
-                                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#17015e" stroke-width="1.5">
+                                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
                                     <circle cx="12" cy="12" r="10"/>
                                     <path d="M8 12h8M12 8v8"/>
                                 </svg>
                                 <span>PayPal</span>
                             </div>
                             <div class="wallet-item">
-                                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#17015e" stroke-width="1.5">
+                                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
                                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                                     <circle cx="12" cy="10" r="3"/>
                                 </svg>
                                 <span>Paystack</span>
                             </div>
                             <div class="wallet-item">
-                                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#17015e" stroke-width="1.5">
+                                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
                                     <path d="M3 9l9-6 9 6-9 6-9-6z"/>
                                     <path d="M3 15l9 6 9-6"/>
                                 </svg>
@@ -506,7 +506,7 @@
 
     /* Welcome Section */
     .welcome-section {
-        background: linear-gradient(135deg, #17015e 0%, #17015e 100%);
+        background: linear-gradient(135deg, #041931 0%, #041931 100%);
         border-radius: 24px;
         padding: 40px;
         margin-bottom: 40px;
@@ -837,7 +837,7 @@
     .fee-price {
         font-size: 28px;
         font-weight: 700;
-        color: #17015e;
+        color: #031B4E;
     }
     .fee-period {
         font-size: 11px;
@@ -888,13 +888,13 @@
         background: white;
     }
     .payment-option:hover, .payment-option.active {
-        border-color: #17015e;
+        border-color: #031B4E;
         background: rgba(23, 1, 94, 0.05);
     }
     .payment-option span {
         font-size: 13px;
         font-weight: 500;
-        color: #17015e;
+        color: #031B4E;
     }
 
     .bank-details, .card-details, .wallet-details {
@@ -906,7 +906,7 @@
     .bank-info h4, .card-form h4, .wallet-info h4 {
         font-size: 14px;
         margin-bottom: 12px;
-        color: #17015e;
+        color: #031B4E;
     }
     .bank-row {
         display: flex;
@@ -965,7 +965,7 @@
         transition: all 0.2s ease;
     }
     .wallet-item:hover {
-        border-color: #17015e;
+        border-color: #031B4E;
     }
     .wallet-item span {
         font-size: 12px;
@@ -990,7 +990,7 @@
         margin-top: 8px;
         padding-top: 12px;
         font-weight: 700;
-        color: #17015e;
+        color: #031B4E;
         font-size: 16px;
     }
     .summary-amount {
@@ -999,7 +999,7 @@
 
     .pay-btn {
         width: 100%;
-        background: #17015e;
+        background: #041931;
         color: white;
         padding: 14px;
         border: none;
@@ -1014,7 +1014,7 @@
         gap: 10px;
     }
     .pay-btn:hover {
-        background: #2a0280;
+        background: #031B4E;
         transform: translateY(-2px);
     }
 
@@ -1143,20 +1143,20 @@
     }
     
     .bottom-nav-item:hover {
-        color: #17015e;
+        color: #031B4E;
         background: #F5F6F8;
     }
     
     .bottom-nav-item:hover svg {
-        stroke: #17015e;
+        stroke: #041931;
     }
     
     .bottom-nav-item.active {
-        color: #17015e;
+        color: #031B4E;
     }
     
     .bottom-nav-item.active svg {
-        stroke: #17015e;
+        stroke: #041931;
     }
     
     .bottom-nav-item span {

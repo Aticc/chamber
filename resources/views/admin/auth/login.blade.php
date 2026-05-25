@@ -12,7 +12,7 @@
         .form-group { margin-bottom: 20px; }
         .form-group label { display: block; margin-bottom: 8px; font-weight: 600; }
         .form-group input { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; }
-        .login-btn { width: 100%; background: #17015e; color: white; padding: 12px; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; }
+        .login-btn { width: 100%; background: #041931; color: white; padding: 12px; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; }
         .alert { background: #f8d7da; color: #721c24; padding: 12px; border-radius: 8px; margin-bottom: 20px; }
     </style>
 </head>

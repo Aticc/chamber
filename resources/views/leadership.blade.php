@@ -164,17 +164,17 @@
     <div class="large-statement fade-up delay-1" style="text-align: center; font-size: 32px;">Performance & Oversight</div>
     <div class="grid-5" style="display: flex; gap: 32px; flex-wrap: wrap; justify-content: center; margin-top: 50px;">
       <div class="grid-card glide-in delay-1" style="flex: 1; min-width: 250px; text-align: center;">
-        <div style="font-size: 42px; font-weight: 400; color: #17015e; margin-bottom: 15px;">✓</div>
+        <div style="font-size: 42px; font-weight: 400; color: #031B4E; margin-bottom: 15px;">✓</div>
         <h4>Quarterly Performance Reviews</h4>
         <p>Systematic evaluation of leadership execution against institutional targets.</p>
       </div>
       <div class="grid-card glide-in delay-2" style="flex: 1; min-width: 250px; text-align: center;">
-        <div style="font-size: 42px; font-weight: 400; color: #17015e; margin-bottom: 15px;">✓</div>
+        <div style="font-size: 42px; font-weight: 400; color: #031B4E; margin-bottom: 15px;">✓</div>
         <h4>Annual Institutional Audit</h4>
         <p>Independent review of governance, compliance, and operational integrity.</p>
       </div>
       <div class="grid-card glide-in delay-3" style="flex: 1; min-width: 250px; text-align: center;">
-        <div style="font-size: 42px; font-weight: 400; color: #17015e; margin-bottom: 15px;">✓</div>
+        <div style="font-size: 42px; font-weight: 400; color: #031B4E; margin-bottom: 15px;">✓</div>
         <h4>Continuous Compliance Monitoring</h4>
         <p>Ongoing validation of leadership alignment with institutional standards.</p>
       </div>
@@ -281,7 +281,7 @@
   .large-statement {
     font-size: 48px;
     font-weight: 400;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 20px;
   }
   
@@ -303,13 +303,13 @@
   .bullet-list li {
     padding: 8px 28px;
     font-size: 15px;
-    color: #2E4156;
+    color: #1A1A1A;
     border-bottom: 1px solid #E8EBED;
   }
   
   .bullet-list li::before {
     content: "✓";
-    color: #17015e;
+    color: #031B4E;
     margin-right: 12px;
     font-weight: bold;
   }
@@ -335,7 +335,7 @@
   
   .framework-right p {
     font-size: 15px;
-    color: #2E4156;
+    color: #1A1A1A;
     line-height: 1.6;
   }
   

@@ -187,7 +187,7 @@
                 <div class="form-group @error('featured_image') has-error @enderror">
                     <label>Featured Image</label>
                     <input type="file" name="featured_image" class="form-file" accept="image/jpeg,image/png,image/jpg">
-                    <small class="help-text">Recommended size: 1200x800px, Max 2MB</small>
+                    <small class="help-text">Recommended size: 1200x800px, Max 5MB</small>
                     @error('featured_image')
                         <span class="error-text">{{ $message }}</span>
                     @enderror
@@ -232,7 +232,7 @@
 .page-header h1 {
     font-size: 28px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 6px;
 }
 
@@ -283,7 +283,7 @@
 .form-card h3 {
     font-size: 16px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 20px;
     padding-bottom: 12px;
     border-bottom: 1px solid #E8ECEF;
@@ -317,7 +317,7 @@
 
 .form-input:focus, .form-select:focus, .form-textarea:focus {
     outline: none;
-    border-color: #17015e;
+    border-color: #031B4E;
 }
 
 .form-group.has-error .form-input,
@@ -392,7 +392,7 @@
 
 .btn-primary {
     padding: 12px 24px;
-    background: #17015e;
+    background: #041931;
     color: white;
     border: none;
     border-radius: 10px;
@@ -403,7 +403,7 @@
 }
 
 .btn-primary:hover {
-    background: #2a0280;
+    background: #031B4E;
 }
 
 @media (max-width: 768px) {

@@ -15,7 +15,7 @@
   <!-- Text content - consistent padding -->
   <div class="hero-content" style="position: relative; z-index: 2; max-width: 1400px; margin: 0 auto; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / About Us</div>
-    <h1 class="headline fade-up revealed" style="max-width: 65%;">About <span style="color: #17015e;">ATICC</span></h1>
+    <h1 class="headline fade-up revealed" style="max-width: 65%;">About <span style="color: #031B4E;">ATICC</span></h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 50%; line-height: 1.5;">
       ATICC is established to promote, protect, and scale the commercial interests of entities engaged with African markets. Moving beyond traditional networking, the mandate focuses on:
     </div>
@@ -23,31 +23,31 @@
     <!-- Styled List -->
     <div class="styled-list fade-up delay-2 revealed" style="margin-top: 25px; max-width: 50%;">
       <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px;">
-        <div style="min-width: 24px; height: 24px; background: #17015e; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-top: 2px;">
+        <div style="min-width: 24px; height: 24px; background: #041931; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-top: 2px;">
           <span style="color: white; font-size: 12px; font-weight: 400;">✓</span>
         </div>
         <div>
-          <span style="color: #17015e; font-weight: 400; letter-spacing: 0.08em; font-size: 13px;">STRUCTURED MARKET ENTRY:</span>
+          <span style="color: #031B4E; font-weight: 400; letter-spacing: 0.08em; font-size: 13px;">STRUCTURED MARKET ENTRY:</span>
           <span style="color: #3a4c5e;"> Providing a roadmap for localized expansion.</span>
         </div>
       </div>
       
       <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px;">
-        <div style="min-width: 24px; height: 24px; background: #17015e; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-top: 2px;">
+        <div style="min-width: 24px; height: 24px; background: #041931; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-top: 2px;">
           <span style="color: white; font-size: 12px; font-weight: 400;">✓</span>
         </div>
         <div>
-          <span style="color: #17015e; font-weight: 400; letter-spacing: 0.08em; font-size: 13px;">CAPITAL FACILITATION:</span>
+          <span style="color: #031B4E; font-weight: 400; letter-spacing: 0.08em; font-size: 13px;">CAPITAL FACILITATION:</span>
           <span style="color: #3a4c5e;"> Linking bankable projects with appropriate funding tiers.</span>
         </div>
       </div>
       
       <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px;">
-        <div style="min-width: 24px; height: 24px; background: #17015e; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-top: 2px;">
+        <div style="min-width: 24px; height: 24px; background: #041931; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-top: 2px;">
           <span style="color: white; font-size: 12px; font-weight: 400;">✓</span>
         </div>
         <div>
-          <span style="color: #17015e; font-weight: 400; letter-spacing: 0.08em; font-size: 13px;">TRANSACTION EXECUTION SUPPORT:</span>
+          <span style="color: #031B4E; font-weight: 400; letter-spacing: 0.08em; font-size: 13px;">TRANSACTION EXECUTION SUPPORT:</span>
           <span style="color: #3a4c5e;"> Ensuring the technical and regulatory "last mile" of business deals.</span>
         </div>
       </div>

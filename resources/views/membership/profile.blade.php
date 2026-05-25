@@ -110,7 +110,7 @@
 .page-header h1 {
     font-size: 28px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 6px;
 }
 
@@ -141,7 +141,7 @@
 .card-header h3 {
     font-size: 16px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin: 0;
 }
 
@@ -194,12 +194,12 @@
 
 .form-input:focus {
     outline: none;
-    border-color: #17015e;
+    border-color: #031B4E;
 }
 
 .btn-update {
     width: 100%;
-    background: #17015e;
+    background: #041931;
     color: white;
     border: none;
     padding: 12px;
@@ -211,7 +211,7 @@
 }
 
 .btn-update:hover {
-    background: #2a0280;
+    background: #031B4E;
 }
 
 .btn-logout {

@@ -388,7 +388,7 @@
 
 /* Welcome Banner */
 .welcome-banner {
-    background: linear-gradient(135deg, #17015e 0%, #2a0280 100%);
+    background: linear-gradient(135deg, #041931 0%, #031B4E 100%);
     border-radius: 20px;
     padding: 28px 32px;
     margin-bottom: 28px;
@@ -448,7 +448,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #17015e;
+    color: #031B4E;
 }
 
 .status-info {
@@ -471,7 +471,7 @@
 }
 
 .status-value.active { color: #2E7D32; }
-.status-value.verified { color: #17015e; }
+.status-value.verified { color: #031B4E; }
 
 /* Section Cards */
 .section-card {
@@ -494,7 +494,7 @@
 .section-header h3 {
     font-size: 15px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin: 0;
     display: flex;
     align-items: center;
@@ -504,7 +504,7 @@
 .badge {
     font-size: 10px;
     padding: 3px 10px;
-    background: #17015e;
+    background: #041931;
     color: white;
     border-radius: 30px;
 }
@@ -581,7 +581,7 @@
 }
 
 .document-link:hover {
-    background: #17015e;
+    background: #041931;
     color: white;
 }
 
@@ -612,7 +612,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #17015e;
+    color: #031B4E;
 }
 
 .comm-content {
@@ -622,7 +622,7 @@
 .comm-content h4 {
     font-size: 14px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 4px;
 }
 
@@ -673,7 +673,7 @@
 .opp-details h4 {
     font-size: 14px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 4px;
 }
 
@@ -724,7 +724,7 @@
     gap: 8px;
     padding: 8px 0;
     font-size: 13px;
-    color: #17015e;
+    color: #031B4E;
     text-decoration: none;
     border-bottom: 1px solid #E8ECEF;
     transition: color 0.2s;
@@ -755,12 +755,12 @@
 }
 
 .btn-primary {
-    background: #17015e;
+    background: #041931;
     color: white;
 }
 
 .btn-primary:hover {
-    background: #2a0280;
+    background: #031B4E;
 }
 
 .btn-secondary {
@@ -791,7 +791,7 @@
 .portal-footer .footer-quote {
     font-size: 12px;
     font-weight: 500;
-    color: #17015e;
+    color: #031B4E;
 }
 
 /* Responsive */

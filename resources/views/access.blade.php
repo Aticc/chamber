@@ -15,7 +15,7 @@
   <!-- Text content - consistent padding -->
   <div class="hero-content" style="position: relative; z-index: 2; max-width: 1400px; margin: 0 auto; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Membership</div>
-    <h1 class="headline fade-up revealed" style="max-width: 55%;">Membership <span style="color: #17015e;">Tiers & Accession</span></h1>
+    <h1 class="headline fade-up revealed" style="max-width: 55%;">Membership <span style="color: #031B4E;">Tiers & Accession</span></h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 50%; line-height: 1.5;">Membership in ATICC is not an automatic right but a strategic designation. Access is granted through a curated accession process reserved for verified stakeholders who demonstrate a commitment to institutional transparency and market growth.</div>
   </div>
 </div>
@@ -60,17 +60,17 @@
   <div class="large-statement fade-up delay-1">The Funnel</div>
   <div class="grid-5" style="grid-template-columns: repeat(3, 1fr); margin-top: 50px;">
     <div class="grid-card glide-in delay-1" style="text-align: center;">
-      <div style="font-size: 42px; font-weight: 500; color: #17015e; margin-bottom: 15px;">01</div>
+      <div style="font-size: 42px; font-weight: 500; color: #031B4E; margin-bottom: 15px;">01</div>
       <h4>Expression of Interest (EOI)</h4>
       <p>Initial alignment check</p>
     </div>
     <div class="grid-card glide-in delay-2" style="text-align: center;">
-      <div style="font-size: 42px; font-weight: 500; color: #17015e; margin-bottom: 15px;">02</div>
+      <div style="font-size: 42px; font-weight: 500; color: #031B4E; margin-bottom: 15px;">02</div>
       <h4>Trust & Verification (T&V) Review</h4>
       <p>Deep-dive institutional vetting</p>
     </div>
     <div class="grid-card glide-in delay-3" style="text-align: center;">
-      <div style="font-size: 42px; font-weight: 500; color: #17015e; margin-bottom: 15px;">03</div>
+      <div style="font-size: 42px; font-weight: 500; color: #031B4E; margin-bottom: 15px;">03</div>
       <h4>Ratification</h4>
       <p>Final approval and strategic onboarding into the ATICC ecosystem</p>
     </div>
@@ -142,17 +142,17 @@
   <div class="grid-5" style="grid-template-columns: repeat(3, 1fr); margin-top: 50px;">
     <div class="grid-card glide-in delay-1" style="text-align: center;">
       <h4>Tier I</h4>
-      <p style="font-size: 28px; font-weight: 400; color: #17015e; margin: 15px 0;">$50,000</p>
+      <p style="font-size: 28px; font-weight: 400; color: #031B4E; margin: 15px 0;">$50,000</p>
       <p>Institutional & Institutional Partners</p>
     </div>
     <div class="grid-card glide-in delay-2" style="text-align: center;">
       <h4>Tier II</h4>
-      <p style="font-size: 28px; font-weight: 400; color: #17015e; margin: 15px 0;">$2,500</p>
+      <p style="font-size: 28px; font-weight: 400; color: #031B4E; margin: 15px 0;">$2,500</p>
       <p>Strategic Corporate Partners</p>
     </div>
     <div class="grid-card glide-in delay-3" style="text-align: center;">
       <h4>Tier III</h4>
-      <p style="font-size: 28px; font-weight: 400; color: #17015e; margin: 15px 0;">$400</p>
+      <p style="font-size: 28px; font-weight: 400; color: #031B4E; margin: 15px 0;">$400</p>
       <p>Institutional Members/SMEs</p>
     </div>
   </div>
@@ -226,7 +226,7 @@
 .large-statement {
   font-size: 48px;
   font-weight: 400;
-  color: #17015e;
+  color: #031B4E;
   margin-bottom: 20px;
 }
 
@@ -304,7 +304,7 @@
 
 .bullet-list li::before {
   content: "✓";
-  color: #17015e;
+  color: #031B4E;
   margin-right: 12px;
   font-weight: bold;
 }

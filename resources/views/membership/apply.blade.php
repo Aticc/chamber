@@ -36,7 +36,7 @@
             <!-- Selected Plan Summary -->
             <div class="selected-plan-card" id="selectedPlanCard">
                 <div class="selected-plan-icon">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#17015e" stroke-width="1.5">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
                         <path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/>
                         <path d="M9 3v18M15 3v18M3 9h18M3 15h18"/>
                     </svg>
@@ -474,9 +474,9 @@
 
 <style>
 :root {
-    --primary: #17015e;
+    --primary: #041931;
     --primary-dark: #0e0145;
-    --primary-light: #2a0280;
+    --primary-light: #031B4E;
     --gold: #C49A6C;
     --gray-bg: #F8F9FA;
     --gray-border: #E8EBED;

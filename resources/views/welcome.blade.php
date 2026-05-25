@@ -36,7 +36,7 @@
   
   <!-- Image as a soft background element on the right -->
   <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
-    <div style="position: absolute;top: 0;right: 0;width: 87%;height: 134%;background: url('http://127.0.0.1:8000/assets/images/ATICC web image .png') no-repeat right center;background-size: cover;mask-image: linear-gradient(to left, black 71%, transparent 100%);-webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
+    <div style="position: absolute;top: 0;right: 0;width: 87%;height: 134%;background: url('{{ asset('/assets/images/ATICC web image .png') }}') no-repeat right center;background-size: cover;mask-image: linear-gradient(to left, black 71%, transparent 100%);-webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
   </div>
   
   <!-- Text content - consistent padding -->

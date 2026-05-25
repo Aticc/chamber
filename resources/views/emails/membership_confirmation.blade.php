@@ -9,14 +9,14 @@
         <div style="text-align: center; margin-bottom: 30px;">
             <img src="{{ asset('assets/images/logo.png') }}" alt="ATICC Logo" style="max-width: 180px;">
         </div>
-        <h2 style="color: #17015e;">Application Received</h2>
+        <h2 style="color: #031B4E;">Application Received</h2>
         <p>Dear {{ $application->contact_name }},</p>
         <p>Thank you for submitting your membership accession application to the Africa Trade & Investment Chamber of Commerce (ATICC).</p>
         <p><span>Application Reference #:</span> {{ $application->id }}</p>
         <p><span>Selected Tier:</span> {{ $application->tier_name }}</p>
         <p><span>Submission Date:</span> {{ $application->created_at->format('F j, Y') }}</p>
         
-        <h3 style="color: #17015e; margin-top: 25px;">Next Steps</h3>
+        <h3 style="color: #031B4E; margin-top: 25px;">Next Steps</h3>
         <ol>
             <li>Our Secretariat-General will review your application</li>
             <li>You will receive an update within 5-7 business days</li>

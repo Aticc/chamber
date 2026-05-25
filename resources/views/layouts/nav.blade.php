@@ -148,7 +148,7 @@
 }
 
 .nav-menu a:hover {
-  color: #17015e;
+  color: #031B4E;
 }
 
 /* Navigation Button */
@@ -160,7 +160,7 @@
   letter-spacing: 0.05em;
   text-decoration: none;
   transition: all 0.2s ease;
-  background: #17015e;
+  background: #041931;
   color: #FFFFFF;
   border: none;
   cursor: pointer;
@@ -169,7 +169,7 @@
 }
 
 .nav-btn:hover {
-  background: #2a0a8a;
+  background: #031B4E;
   transform: translateY(-1px);
   color: white;
 }
@@ -200,11 +200,11 @@
 
 .user-dropdown-btn:hover {
   background: #EDEFF2;
-  border-color: #17015e;
+  border-color: #031B4E;
 }
 
 .user-dropdown-btn:hover svg {
-  stroke: #17015e;
+  stroke: #041931;
 }
 
 .dropdown-arrow {
@@ -250,7 +250,7 @@
 
 .user-dropdown-menu a:hover {
   background: #F5F6F7;
-  color: #17015e;
+  color: #031B4E;
 }
 
 .user-dropdown-menu a svg {
@@ -258,7 +258,7 @@
 }
 
 .user-dropdown-menu a:hover svg {
-  stroke: #17015e;
+  stroke: #041931;
 }
 
 .user-dropdown-menu hr {

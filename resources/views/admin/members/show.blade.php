@@ -152,7 +152,7 @@
 
 .admin-header h1 {
     font-size: 28px;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 5px;
 }
 
@@ -171,7 +171,7 @@
 }
 
 .btn-primary {
-    background: #17015e;
+    background: #041931;
     color: white;
     padding: 8px 20px;
     border-radius: 8px;
@@ -183,7 +183,7 @@
 }
 
 .btn-primary:hover {
-    background: #2a0280;
+    background: #031B4E;
 }
 
 .btn-danger {
@@ -226,7 +226,7 @@
 .card-header h3 {
     font-size: 16px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin: 0;
 }
 
@@ -262,7 +262,7 @@
 
 .status-approved { background: #E8F5E9; color: #28a745; }
 .status-pending { background: #FFF3CD; color: #856404; }
-.status-under_review { background: #E8F0FE; color: #17015e; }
+.status-under_review { background: #E8F0FE; color: #031B4E; }
 .status-rejected { background: #FEF2E8; color: #dc3545; }
 .status-deferred { background: #E8EBED; color: #6c757d; }
 

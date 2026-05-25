@@ -9,7 +9,7 @@
             <img src="{{ asset('assets/images/logo.png') }}" alt="ATICC Logo" style="max-width: 180px;">
         </div>
         
-        <h2 style="color: #17015e;">Application Under Review</h2>
+        <h2 style="color: #031B4E;">Application Under Review</h2>
         
         <p>Dear {{ $application->contact_name }},</p>
         
@@ -22,7 +22,7 @@
             <p><span>Review Start Date:</span> {{ now()->format('F j, Y') }}</p>
         </div>
         
-        <h3 style="color: #17015e;">What happens next?</h3>
+        <h3 style="color: #031B4E;">What happens next?</h3>
         <ol>
             <li>Our team will conduct a thorough review of your application</li>
             <li>We may contact you for additional information if needed</li>

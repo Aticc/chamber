@@ -9,7 +9,7 @@
             <img src="{{ asset('assets/images/logo.png') }}" alt="ATICC Logo" style="max-width: 180px;">
         </div>
         
-        <h2 style="color: #17015e;">Welcome to ATICC</h2>
+        <h2 style="color: #031B4E;">Welcome to ATICC</h2>
         
         <p>Dear {{ $application->contact_name }},</p>
         

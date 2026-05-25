@@ -17,7 +17,7 @@
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: #F0F2F5;
-            color: #1A2C3E;
+            color: #031B4E;
         }
         
         /* Admin Wrapper */
@@ -161,7 +161,7 @@
         .admin-user-name {
             font-size: 14px;
             font-weight: 600;
-            color: #1A2C3E;
+            color: #031B4E;
         }
         
         .admin-user-role {
@@ -260,8 +260,7 @@
         <aside class="admin-sidebar">
             <div class="sidebar-header">
                 <a href="{{ route('admin.dashboard') }}" class="sidebar-logo">
-                    <div class="sidebar-logo-icon">A</div>
-                    <div class="sidebar-logo-text">ATICC<span>Admin</span></div>
+                    <img width="100" height="90" src="{{ asset('assets/images/IMG_0964.PNG') }}" alt="">
                 </a>
             </div>
             <nav class="sidebar-nav">

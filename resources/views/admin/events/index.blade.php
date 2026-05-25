@@ -133,7 +133,7 @@
 .page-header h1 {
     font-size: 28px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 6px;
 }
 
@@ -143,7 +143,7 @@
 }
 
 .btn-primary {
-    background: #17015e;
+    background: #041931;
     color: white;
     padding: 10px 20px;
     border-radius: 8px;
@@ -154,7 +154,7 @@
 }
 
 .btn-primary:hover {
-    background: #2a0280;
+    background: #031B4E;
 }
 
 .stats-grid {
@@ -175,7 +175,7 @@
 .stat-value {
     font-size: 32px;
     font-weight: 700;
-    color: #17015e;
+    color: #031B4E;
 }
 
 .stat-label {
@@ -204,8 +204,8 @@
 }
 
 .filter-tab:hover, .filter-tab.active {
-    background: #17015e;
-    border-color: #17015e;
+    background: #041931;
+    border-color: #031B4E;
     color: white;
 }
 

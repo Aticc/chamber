@@ -190,7 +190,7 @@
 .events-header h1 {
     font-size: 28px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 8px;
 }
 
@@ -219,7 +219,7 @@
 .card-header h3 {
     font-size: 16px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin: 0;
     display: flex;
     align-items: center;
@@ -229,7 +229,7 @@
 .badge {
     font-size: 11px;
     padding: 4px 12px;
-    background: #17015e;
+    background: #041931;
     color: white;
     border-radius: 30px;
 }
@@ -278,7 +278,7 @@
 .date-day {
     font-size: 28px;
     font-weight: 700;
-    color: #17015e;
+    color: #031B4E;
 }
 
 .date-month {
@@ -300,7 +300,7 @@
 .event-details h3 {
     font-size: 18px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 8px;
 }
 
@@ -354,7 +354,7 @@
 
 .btn-register {
     padding: 8px 20px;
-    background: #17015e;
+    background: #041931;
     color: white;
     text-decoration: none;
     border-radius: 30px;
@@ -365,7 +365,7 @@
 }
 
 .btn-register:hover {
-    background: #2a0280;
+    background: #031B4E;
 }
 
 /* Past Events Grid */
@@ -404,7 +404,7 @@
 .past-event h4 {
     font-size: 15px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 6px;
 }
 
@@ -455,7 +455,7 @@
 .mission-card h4 {
     font-size: 16px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 8px;
 }
 
@@ -472,7 +472,7 @@
     border-radius: 20px;
     font-size: 10px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 16px;
 }
 
@@ -480,7 +480,7 @@
     display: inline-block;
     padding: 8px 20px;
     background: white;
-    color: #17015e;
+    color: #031B4E;
     text-decoration: none;
     border-radius: 30px;
     font-size: 12px;
@@ -490,7 +490,7 @@
 }
 
 .btn-sm:hover {
-    background: #17015e;
+    background: #041931;
     color: white;
 }
 

@@ -38,27 +38,27 @@
         
         <div class="contact-details" style="margin-bottom: 40px;">
           <div class="contact-item" style="display: flex; align-items: flex-start; gap: 16px; margin-bottom: 28px;">
-            <div class="contact-icon" style="width: 24px; height: 24px; color: #17015e; flex-shrink: 0;">
+            <div class="contact-icon" style="width: 24px; height: 24px; color: #031B4E; flex-shrink: 0;">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                 <polyline points="22,6 12,13 2,6"/>
               </svg>
             </div>
             <div class="contact-text">
-              <h4 style="font-size: 14px; font-weight: 500; color: #17015e; margin-bottom: 6px; letter-spacing: 0.08em;">EMAIL</h4>
+              <h4 style="font-size: 14px; font-weight: 500; color: #031B4E; margin-bottom: 6px; letter-spacing: 0.08em;">EMAIL</h4>
               <a href="mailto:support@aticchamber.org" style="font-size: 16px; color: #3a4c5e; text-decoration: none; line-height: 1.5;">support@aticchamber.org</a>
             </div>
           </div>
           
           <div class="contact-item" style="display: flex; align-items: flex-start; gap: 16px; margin-bottom: 28px;">
-            <div class="contact-icon" style="width: 24px; height: 24px; color: #17015e; flex-shrink: 0;">
+            <div class="contact-icon" style="width: 24px; height: 24px; color: #031B4E; flex-shrink: 0;">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                 <circle cx="12" cy="10" r="3"/>
               </svg>
             </div>
             <div class="contact-text">
-              <h4 style="font-size: 14px; font-weight: 500; color: #17015e; margin-bottom: 6px; letter-spacing: 0.08em;">ADDRESS</h4>
+              <h4 style="font-size: 14px; font-weight: 500; color: #031B4E; margin-bottom: 6px; letter-spacing: 0.08em;">ADDRESS</h4>
               <p style="font-size: 16px; color: #3a4c5e; line-height: 1.5;">6th Floor, Focus,<br>London E14 8HU,<br>United Kingdom</p>
             </div>
           </div>
@@ -102,7 +102,7 @@
               <textarea name="message" rows="5" required style="width: 100%; padding: 12px 16px; border: 1px solid #DADFE5; border-radius: 12px; font-size: 14px; font-family: inherit; resize: vertical;">{{ old('message') }}</textarea>
               @error('message') <span class="field-error">{{ $message }}</span> @enderror
             </div>
-            <button type="submit" style="width: 100%; background: #17015e; color: white; border: none; padding: 14px 32px; font-size: 14px; font-weight: 500; letter-spacing: 0.05em; border-radius: 40px; cursor: pointer; transition: all 0.3s ease;">Send Message →</button>
+            <button type="submit" style="width: 100%; background: #041931; color: white; border: none; padding: 14px 32px; font-size: 14px; font-weight: 500; letter-spacing: 0.05em; border-radius: 40px; cursor: pointer; transition: all 0.3s ease;">Send Message →</button>
           </form>
         </div>
       </div>
@@ -153,7 +153,7 @@
             <textarea name="opp_description" rows="6" placeholder="Please provide detailed information about the opportunity, including sector, geography, value, and any relevant documentation..." required style="width: 100%; padding: 12px 16px; border: 1px solid #DADFE5; border-radius: 12px; font-size: 14px; font-family: inherit; resize: vertical;">{{ old('opp_description') }}</textarea>
             @error('opp_description') <span class="field-error">{{ $message }}</span> @enderror
           </div>
-          <button type="submit" style="width: 100%; background: #17015e; color: white; border: none; padding: 14px 32px; font-size: 14px; font-weight: 500; letter-spacing: 0.05em; border-radius: 40px; cursor: pointer; transition: all 0.3s ease;">Submit for Review →</button>
+          <button type="submit" style="width: 100%; background: #041931; color: white; border: none; padding: 14px 32px; font-size: 14px; font-weight: 500; letter-spacing: 0.05em; border-radius: 40px; cursor: pointer; transition: all 0.3s ease;">Submit for Review →</button>
           <p style="font-size: 12px; color: #7A8B9B; margin-top: 20px; text-align: center;">All submissions are confidential and will be reviewed by the ATICC Secretariat.</p>
         </form>
       </div>
@@ -274,12 +274,12 @@
   .form-group select:focus,
   .form-group textarea:focus {
     outline: none;
-    border-color: #17015e !important;
+    border-color: #031B4E !important;
     box-shadow: 0 0 0 3px rgba(23, 1, 94, 0.1);
   }
 
   button[type="submit"]:hover {
-    background: #2a0280 !important;
+    background: #031B4E !important;
     transform: translateY(-2px);
   }
 
@@ -290,7 +290,7 @@
   }
 
   .contact-text a:hover {
-    color: #17015e !important;
+    color: #031B4E !important;
   }
 
   /* Animations */

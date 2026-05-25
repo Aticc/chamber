@@ -9,7 +9,7 @@
             <img src="{{ asset('assets/images/logo.png') }}" alt="ATICC Logo" style="max-width: 180px;">
         </div>
         
-        <h2 style="color: #17015e;">New Opportunity Submission</h2>
+        <h2 style="color: #031B4E;">New Opportunity Submission</h2>
         
         <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
             <p><strong>Submitted By:</strong> {{ $name }}</p>

@@ -155,7 +155,7 @@
 }
 
 .tier-header {
-    background: linear-gradient(135deg, #17015e 0%, #2a0280 100%);
+    background: linear-gradient(135deg, #041931 0%, #031B4E 100%);
     border-radius: 20px;
     padding: 28px 32px;
     margin-bottom: 28px;
@@ -211,7 +211,7 @@
 .card-header h3 {
     font-size: 15px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin: 0;
     display: flex;
     align-items: center;
@@ -249,7 +249,7 @@
 .opportunity-item h4, .event-item h4, .policy-item h4 {
     font-size: 14px;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 4px;
 }
 
@@ -269,7 +269,7 @@
 .btn-sm {
     display: inline-block;
     padding: 5px 12px;
-    background: #17015e;
+    background: #041931;
     color: white;
     text-decoration: none;
     border-radius: 20px;
@@ -278,7 +278,7 @@
 }
 
 .btn-sm:hover {
-    background: #2a0280;
+    background: #031B4E;
 }
 
 .pipeline-table {
@@ -296,7 +296,7 @@
 .pipeline-table th {
     background: #F8F9FA;
     font-weight: 600;
-    color: #17015e;
+    color: #031B4E;
 }
 
 @media (max-width: 768px) {

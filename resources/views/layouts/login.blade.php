@@ -63,7 +63,7 @@
 
 .login-header h1 {
     font-size: 28px;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 8px;
 }
 
@@ -94,13 +94,13 @@
 
 .form-group input:focus {
     outline: none;
-    border-color: #17015e;
+    border-color: #031B4E;
     box-shadow: 0 0 0 3px rgba(23,1,94,0.1);
 }
 
 .login-btn {
     width: 100%;
-    background: #17015e;
+    background: #041931;
     color: white;
     border: none;
     padding: 14px;
@@ -112,7 +112,7 @@
 }
 
 .login-btn:hover {
-    background: #2a0280;
+    background: #031B4E;
     transform: translateY(-2px);
 }
 
@@ -133,7 +133,7 @@
 }
 
 .login-footer a {
-    color: #17015e;
+    color: #031B4E;
     text-decoration: none;
 }
 </style>

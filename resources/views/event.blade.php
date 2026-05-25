@@ -39,7 +39,7 @@
         <h3 style="font-size: 28px; font-weight: 400; color: #0e0e0e; margin-bottom: 15px;">{{ $event->title }}</h3>
         <p style="font-size: 16px; color: #3a4c5e; line-height: 1.6; margin-bottom: 20px;">{{ $event->description }}</p>
         <div style="display: flex; gap: 15px; flex-wrap: wrap;">
-          <span style="background: #17015e; color: white; padding: 5px 15px; border-radius: 20px; font-size: 12px;">{{ ucfirst($event->event_type) }}</span>
+          <span style="background: #041931; color: white; padding: 5px 15px; border-radius: 20px; font-size: 12px;">{{ ucfirst($event->event_type) }}</span>
           @if($event->is_invitation_only)
             <span style="background: #E8EBED; color: #2E4156; padding: 5px 15px; border-radius: 20px; font-size: 12px;">By Invitation Only</span>
           @else
@@ -51,7 +51,7 @@
       @if($event->featured_image)
       <div style="flex: 0.5; min-width: 200px; height: 250px; background: url('{{ Storage::url($event->featured_image) }}') no-repeat center center; background-size: cover; margin: 20px 40px 20px 0; border-radius: 16px;"></div>
       @else
-      <div style="flex: 0.5; min-width: 200px; height: 250px; background: linear-gradient(135deg, #17015e, #2a0280); margin: 20px 40px 20px 0; border-radius: 16px; display: flex; align-items: center; justify-content: center; color: white; font-size: 14px;">Event Image</div>
+      <div style="flex: 0.5; min-width: 200px; height: 250px; background: linear-gradient(135deg, #041931, #031B4E); margin: 20px 40px 20px 0; border-radius: 16px; display: flex; align-items: center; justify-content: center; color: white; font-size: 14px;">Event Image</div>
       @endif
     </div>
     @empty
@@ -94,13 +94,13 @@
       @foreach($missions as $mission)
       <div class="mission-item" style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background: #F8F9FA; border-radius: 16px; margin-bottom: 15px; flex-wrap: wrap; gap: 15px;">
         <div>
-          <h4 style="font-size: 18px; font-weight: 600; color: #17015e; margin-bottom: 5px;">{{ $mission->title }}</h4>
+          <h4 style="font-size: 18px; font-weight: 600; color: #031B4E; margin-bottom: 5px;">{{ $mission->title }}</h4>
           <p style="font-size: 14px; color: #5D6F7F;">{{ $mission->location }} • {{ $mission->start_date->format('M Y') }}</p>
         </div>
         <div>
           <span style="display: inline-block; padding: 4px 12px; background: #E8EBED; border-radius: 20px; font-size: 11px; margin-right: 15px;">{{ $mission->getAccessBadgeAttribute() }}</span>
           @if($mission->registration_link)
-          <a href="{{ $mission->registration_link }}" target="_blank" style="background: #17015e; color: white; padding: 8px 20px; border-radius: 30px; text-decoration: none; font-size: 13px;">Register Interest →</a>
+          <a href="{{ $mission->registration_link }}" target="_blank" style="background: #041931; color: white; padding: 8px 20px; border-radius: 30px; text-decoration: none; font-size: 13px;">Register Interest →</a>
           @endif
         </div>
       </div>
@@ -146,7 +146,7 @@
         <p>{{ Str::limit($event->description, 100) }}</p>
         <p style="margin-top: 10px; color: #C49A6C; font-size: 12px;">{{ $event->start_date->format('F Y') }} | {{ $event->location }}</p>
         @if($event->highlights_link)
-        <a href="{{ $event->highlights_link }}" target="_blank" style="color: #17015e; font-size: 12px; text-decoration: none; margin-top: 10px; display: inline-block;">View Highlights →</a>
+        <a href="{{ $event->highlights_link }}" target="_blank" style="color: #031B4E; font-size: 12px; text-decoration: none; margin-top: 10px; display: inline-block;">View Highlights →</a>
         @endif
       </div>
       @empty
@@ -248,7 +248,7 @@
   .large-statement {
     font-size: 48px;
     font-weight: 400;
-    color: #17015e;
+    color: #031B4E;
     margin-bottom: 20px;
   }
   
@@ -270,13 +270,13 @@
   .bullet-list li {
     padding: 8px 28px;
     font-size: 15px;
-    color: #2E4156;
+    color: #1A1A1A;
     border-bottom: 1px solid #E8EBED;
   }
   
   .bullet-list li::before {
     content: "✓";
-    color: #17015e;
+    color: #031B4E;
     margin-right: 12px;
     font-weight: bold;
   }

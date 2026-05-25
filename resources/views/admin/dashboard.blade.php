@@ -333,7 +333,7 @@
 .activity-title {
     font-size: 14px;
     font-weight: 500;
-    color: #1A2C3E;
+    color: #031B4E;
     margin-bottom: 4px;
 }
 

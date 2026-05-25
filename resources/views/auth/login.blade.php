@@ -129,7 +129,7 @@
     /* Left Side - Image */
     .login-image {
         flex: 1;
-        background: linear-gradient(135deg, #17015e 0%, #2a0280 100%);
+        background: linear-gradient(135deg, #041931 0%, #041931 100%);
         position: relative;
         background-size: cover;
         background-position: center;
@@ -144,7 +144,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(23, 1, 94, 0.85);
+        background: #041931;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -228,7 +228,7 @@
     }
     .login-header h2 {
         font-size: 32px;
-        color: #17015e;
+        color: #031B4E;
         margin-bottom: 8px;
         font-weight: 400;
     }
@@ -246,7 +246,7 @@
         margin-bottom: 8px;
         font-weight: 600;
         font-size: 14px;
-        color: #2E4156;
+        color: #031B4E;
     }
     .input-icon {
         display: flex;
@@ -259,7 +259,7 @@
         background: white;
     }
     .input-icon:focus-within {
-        border-color: #17015e;
+        border-color: #031B4E;
         box-shadow: 0 0 0 3px rgba(23, 1, 94, 0.1);
     }
     .input-icon svg {
@@ -314,8 +314,8 @@
         transition: all 0.2s ease;
     }
     .custom-checkbox input:checked + label {
-        background: #17015e;
-        border-color: #17015e;
+        background: #041931;
+        border-color: #031B4E;
     }
     .custom-checkbox input:checked + label::after {
         content: '';
@@ -334,7 +334,7 @@
     }
     .forgot-link {
         font-size: 13px;
-        color: #17015e;
+        color: #031B4E;
         text-decoration: none;
         font-weight: 500;
     }
@@ -344,7 +344,7 @@
 
     .login-btn {
         width: 100%;
-        background: #17015e;
+        background: #041931;
         color: white;
         padding: 14px;
         border: none;
@@ -359,7 +359,7 @@
         gap: 10px;
     }
     .login-btn:hover {
-        background: #2a0280;
+        background: #1c154e;
         transform: translateY(-2px);
     }
 
@@ -373,7 +373,7 @@
         color: #4A5E72;
     }
     .register-link a {
-        color: #17015e;
+        color: #031B4E;
         text-decoration: none;
         font-weight: 600;
     }
