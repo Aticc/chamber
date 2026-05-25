@@ -10,10 +10,7 @@
       </div>
       <div class="footer-col">
         <h4>CONTACT</h4>
-        <p>investors@aticchamber.org</p>
-        <p>partnerships@aticchamber.org</p>
-        <p>transactions@aticchamber.org</p>
-        <p>+44 20 7164 3600</p>
+        <p>support@aticchamber.org</p>
         <p>6th Floor, Focus, London E14 8HU</p>
       </div>
       <div class="footer-col">
@@ -51,7 +48,7 @@
       </div>
     </div>
     <div class="bottom-bar">
-      <span>© 2025 ATICC. All Rights Reserved.</span>
+      <span>© {{ date('Y') }} ATICC. All Rights Reserved.</span>
       <span>Privacy Policy | Terms of Use</span>
     </div>
   </div>

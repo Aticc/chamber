@@ -1038,3 +1038,244 @@ footer {
         height: 35px;
     }
 }
+
+/* Make text full width on mobile screens */
+@media (max-width: 768px) {
+    /* Headline text - full width */
+    .hero-section .headline {
+        max-width: 100% !important;
+        width: 100% !important;
+        font-size: 32px !important;
+    }
+
+    /* Body text - full width */
+    .hero-section .body-text,
+    .hero-content .body-text {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    /* Breadcrumb - full width */
+    .hero-section .breadcrumb {
+        max-width: 100% !important;
+    }
+
+    /* Any other text elements that need full width */
+    .hero-content h1,
+    .hero-content .headline,
+    .hero-content .body-text {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    /* For bg-content sections as well */
+    .bg-content .section-title,
+    .bg-content .section-subhead,
+    .bg-content .section-text {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+}
+
+/* For extra small screens (phones) */
+@media (max-width: 480px) {
+    .hero-section .headline {
+        font-size: 28px !important;
+    }
+
+    .hero-section .body-text {
+        font-size: 14px !important;
+    }
+}
+
+/* Specifically for headline, headline2, and body-text */
+@media (max-width: 768px) {
+    .headline.fade-up.revealed,
+    .headline2 {
+        max-width: 100% !important;
+        width: 100% !important;
+        font-size: 28px !important;
+    }
+
+    .body-text.fade-up.delay-2.revealed {
+        max-width: 100% !important;
+        width: 100% !important;
+        font-size: 14px !important;
+        line-height: 1.5 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .headline.fade-up.revealed,
+    .headline2 {
+        font-size: 22px !important;
+    }
+
+    .body-text.fade-up.delay-2.revealed {
+        font-size: 13px !important;
+    }
+}
+
+/* Make image fuller on mobile screens */
+@media (max-width: 768px) {
+    /* Hero section image - make it cover more area but not overpower text */
+    .hero-section > div:first-child {
+        width: 100% !important;
+        opacity: 0.3 !important;
+    }
+
+    .hero-section > div:first-child > div {
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    /* Alternative: Adjust gradient mask for better visibility */
+    .hero-section [style*="mask-image"],
+    .hero-section [style*="-webkit-mask-image"] {
+        mask-image: linear-gradient(
+            to left,
+            black 10%,
+            transparent 85%
+        ) !important;
+        -webkit-mask-image: linear-gradient(
+            to left,
+            black 10%,
+            transparent 85%
+        ) !important;
+    }
+}
+
+/* For better image visibility on tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero-section > div:first-child {
+        width: 65% !important;
+        opacity: 0.5 !important;
+    }
+
+    .hero-section [style*="mask-image"],
+    .hero-section [style*="-webkit-mask-image"] {
+        mask-image: linear-gradient(
+            to left,
+            black 30%,
+            transparent 85%
+        ) !important;
+        -webkit-mask-image: linear-gradient(
+            to left,
+            black 30%,
+            transparent 85%
+        ) !important;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+    .hero-section > div:first-child {
+        width: 100% !important;
+        opacity: 0.25 !important;
+    }
+
+    .hero-section [style*="mask-image"],
+    .hero-section [style*="-webkit-mask-image"] {
+        mask-image: linear-gradient(
+            to left,
+            black 5%,
+            transparent 90%
+        ) !important;
+        -webkit-mask-image: linear-gradient(
+            to left,
+            black 5%,
+            transparent 90%
+        ) !important;
+    }
+}
+@media (max-width: 768px) {
+    /* Make image container full width */
+    .hero-section > div[style*="position: absolute"],
+    .bg-section > div[style*="position: absolute"] {
+        width: 100% !important;
+        right: 0 !important;
+        left: 0 !important;
+    }
+
+    /* Center the image to show faces - use 50% for center */
+    .hero-section > div[style*="position: absolute"] > div,
+    .bg-section > div[style*="position: absolute"] > div {
+        width: 100% !important;
+        right: 0 !important;
+        left: 0 !important;
+        background-size: cover !important;
+        background-position: 50% center !important; /* This centers the image horizontally */
+        mask-image: none !important;
+        -webkit-mask-image: none !important;
+    }
+
+    /* Soft white overlay */
+    .hero-section::before,
+    .bg-section::before {
+        content: "" !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.85) 0%,
+            rgba(255, 255, 255, 0.7) 60%,
+            rgba(255, 255, 255, 0.4) 100%
+        ) !important;
+        z-index: 1 !important;
+        pointer-events: none !important;
+    }
+
+    /* Text styling */
+    .hero-content .headline,
+    .bg-content .section-title {
+        color: #1a2c3e !important;
+    }
+
+    .hero-content .body-text,
+    .bg-content .section-text {
+        color: #2e4156 !important;
+    }
+
+    .breadcrumb {
+        color: #c49a6c !important;
+    }
+
+    .hero-content .headline span,
+    .bg-content .section-title span {
+        color: #17015e !important;
+    }
+
+    .cta-button {
+        background: #17015e !important;
+        color: white !important;
+    }
+}
+
+/* For tablets - adjust position slightly */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero-section > div[style*="position: absolute"] > div,
+    .bg-section > div[style*="position: absolute"] > div {
+        background-position: 60% center !important;
+    }
+}
+
+/* For very small screens - ensure faces are visible */
+@media (max-width: 480px) {
+    .hero-section > div[style*="position: absolute"] > div,
+    .bg-section > div[style*="position: absolute"] > div {
+        background-position: 45% center !important;
+    }
+
+    .hero-section::before,
+    .bg-section::before {
+        background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.9) 0%,
+            rgba(255, 255, 255, 0.75) 60%,
+            rgba(255, 255, 255, 0.5) 100%
+        ) !important;
+    }
+}
