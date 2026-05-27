@@ -46,10 +46,17 @@ class ContactController extends Controller
                 'user_message' => $request->message,
             ];
 
+            // Send email to admin
             Mail::send('emails.contact', $data, function ($message) use ($data) {
                 $message->to('support@aticchamber.org', 'ATICC Secretariat')
                         ->subject('Contact Form: ' . $data['classification'])
                         ->replyTo($data['email'], $data['representative']);
+            });
+
+            // Send confirmation email to the user
+            Mail::send('emails.contact_confirmation', $data, function ($message) use ($data) {
+                $message->to($data['email'], $data['representative'])
+                        ->subject('ATICC: We Have Received Your Submission');
             });
 
             return redirect()->back()->with('success', 'Thank you for your submission. Our team will review and respond within 2-3 business days.');
@@ -78,13 +85,14 @@ class ContactController extends Controller
                 'description' => $request->opp_description,
             ];
 
+            // Send email to admin
             Mail::send('emails.opportunity', $data, function ($message) use ($data) {
                 $message->to('tugahustle@gmail.com', 'ATICC Investment Team')
                         ->subject('Opportunity Submission: ' . $data['opportunity_type'])
                         ->replyTo($data['email'], $data['name']);
             });
 
-            // Also send confirmation to the submitter
+            // Send confirmation to the submitter
             Mail::send('emails.opportunity_confirmation', $data, function ($message) use ($data) {
                 $message->to($data['email'], $data['name'])
                         ->subject('ATICC Opportunity Submission Received');

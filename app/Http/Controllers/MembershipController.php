@@ -194,12 +194,14 @@ class MembershipController extends Controller
         // Create member account when status changes to approved
         if ($request->status === 'approved' && $oldStatus !== 'approved') {
             Log::info('Creating member account for application: ' . $application->id);
-            $member = $this->createMemberAccount($application);
+            $result = $this->createMemberAccount($application);
             
-            if ($member) {
+            if ($result) {
+                $member = $result['member'];
+                $tempPassword = $result['password'];
                 Log::info('Member account created successfully with ID: ' . $member->id);
                 $this->sendApprovedEmail($application);
-                $this->sendWelcomeEmail($application, $member);
+                $this->sendWelcomeEmail($application, $member, $tempPassword);
             } else {
                 Log::error('Failed to create member account for application: ' . $application->id);
             }
@@ -255,7 +257,8 @@ class MembershipController extends Controller
                 'password' => bcrypt($tempPassword),
             ]);
             
-            return $member;
+            // Return both the member and the plain text password
+            return ['member' => $member, 'password' => $tempPassword];
             
         } catch (\Exception $e) {
             Log::error('Error creating member account: ' . $e->getMessage());
@@ -264,12 +267,13 @@ class MembershipController extends Controller
     }
     
     // Send welcome email with credentials
-    private function sendWelcomeEmail($application, $member)
+    private function sendWelcomeEmail($application, $member, $tempPassword)
     {
         try {
             Mail::send('emails.member_welcome', [
                 'application' => $application,
                 'member' => $member,
+                'tempPassword' => $tempPassword,
                 'loginUrl' => route('member.login')
             ], function ($message) use ($application) {
                 $message->to($application->contact_email, $application->contact_name)

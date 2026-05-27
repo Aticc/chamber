@@ -16,7 +16,7 @@ class MemberAuthController extends Controller
     // Show member login form
     public function showLoginForm()
     {
-        return view('member.login');
+        return view('auth.login');
     }
     
 
