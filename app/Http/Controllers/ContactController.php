@@ -12,27 +12,47 @@ class ContactController extends Controller
     public function sendContact(Request $request)
     {
         $request->validate([
-            'name' => 'required|string|max:255',
+            'representative' => 'required|string|max:255',
+            'institution' => 'nullable|string|max:255',
             'email' => 'required|email|max:255',
-            'subject' => 'required|string|max:255',
+            'phone' => 'nullable|string|max:255',
+            'classification' => 'required|string|max:255',
             'message' => 'required|string|min:10',
         ]);
 
         try {
+            // Map classification codes to readable names
+            $classificationMap = [
+                '101-G' => 'General Institutional & Secretariat Coordination',
+                '202-S' => 'Strategic Partnerships & Bilateral Engagements',
+                '303-I' => 'Capital Deployment & Investment Engagement',
+                '404-T' => 'Trade Corridor & Cross-Border Coordination',
+                '505-M' => 'Membership & Institutional Access',
+                '606-V' => 'Verification & Compliance Services',
+                '707-E' => 'Events & Institutional Engagements',
+                '808-C' => 'Media Relations & Public Communications',
+                '909-X' => 'Technical Support & Systems Coordination',
+            ];
+
+            $classificationName = $classificationMap[$request->classification] ?? $request->classification;
+
             $data = [
-                'name' => $request->name,
+                'representative' => $request->representative,
+                'institution' => $request->institution,
                 'email' => $request->email,
-                'subject' => $request->subject,
+                'phone' => $request->phone,
+                'classification' => $classificationName,
+                'classification_code' => $request->classification,
                 'user_message' => $request->message,
             ];
 
             Mail::send('emails.contact', $data, function ($message) use ($data) {
                 $message->to('support@aticchamber.org', 'ATICC Secretariat')
-                        ->subject('Contact Form: ' . $data['subject'])
-                        ->replyTo($data['email'], $data['name']);
+                        ->subject('Contact Form: ' . $data['classification'])
+                        ->replyTo($data['email'], $data['representative']);
             });
 
-            return redirect()->back()->with('success', 'Thank you for your message. Our team will respond within 2-3 business days.');
+            return redirect()->back()->with('success', 'Thank you for your submission. Our team will review and respond within 2-3 business days.');
 
         } catch (\Exception $e) {
             Log::error('Contact form error: ' . $e->getMessage());

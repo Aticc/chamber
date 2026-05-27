@@ -11,7 +11,7 @@
       <div class="footer-col">
         <h4>CONTACT</h4>
         <p>support@aticchamber.org</p>
-        <p>6th Floor, Focus, London E14 8HU</p>
+        <p>HQ: Lagos, Nigeria</p>
       </div>
       <div class="footer-col">
         <h4>QUICK LINKS</h4>
@@ -64,7 +64,7 @@ footer {
 }
 
 .footer-container {
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -105,15 +105,19 @@ footer {
 }
 
 .footer-logo-img img {
-  max-width: 160px;
-  margin-bottom: 15px;
+    max-width: 100% !important;
+    width: 281px !important;
+    margin-bottom: -58px !important;
+    margin-top: -58px !important;
+    height: 100% !important;
+       margin-left: -13px !important;
 }
 
 .footer-desc {
   font-size: 13px;
   line-height: 1.5;
   color: #a0a8b2;
-  max-width: 250px;
+  max-width: 300px;
 }
 
 .social-icons {
@@ -167,6 +171,9 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
+  .footer-logo-img img {
+    width: 220px;
+  }
   .social-icons {
     flex-direction: row;
     flex-wrap: wrap;
@@ -177,6 +184,9 @@ footer {
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+  .footer-logo-img img {
+    width: 200px;
   }
   .bottom-bar {
     flex-direction: column;
