@@ -1,7 +1,7 @@
 <!-- TOP NAVIGATION - FULLY RESPONSIVE WITH AUTH (8 PRIMARY MENU ITEMS) -->
 <div class="top-nav" id="stickyNav">
   <div class="nav-logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-    <img src="{{ asset('assets/images/ATICC FINAL LOGO  (2).png') }}" width="100" height="86" alt="ATICC Logo">
+    <img src="{{ asset('assets/images/ATICC FINAL LOGO (2).png') }}" width="100" height="86" alt="ATICC Logo">
   </div>
   
   <!-- Mobile Hamburger Button -->
@@ -16,51 +16,9 @@
       @guest
         <!-- 8 PRIMARY NAVIGATION MENU ITEMS FOR GUESTS -->
         
-        <!-- 1. HOME with Dropdown -->
+        <!-- 1. HOME -->
         <div class="nav-dropdown">
           <a href="{{ route('home') }}">Home</a>
-          <div class="dropdown-menu">
-            <div class="dropdown-header mobile-only">
-              <button class="back-btn" onclick="closeSubMenu(this)">← Back</button>
-              <span class="dropdown-title">Home</span>
-            </div>
-            <div class="dropdown-group">
-              <div class="group-link">Hero Section <span class="group-arrow">›</span></div>
-              <div class="sub-dropdown">
-                <a href="{{ route('home') }}#hero">Hero Section</a>
-              </div>
-            </div>
-            <div class="dropdown-group">
-              <div class="group-link">Institutional Overview <span class="group-arrow">›</span></div>
-              <div class="sub-dropdown">
-                <a href="{{ route('home') }}#institutional-overview">Institutional Overview</a>
-              </div>
-            </div>
-            <div class="dropdown-group">
-              <div class="group-link">Trade & Investment Overview <span class="group-arrow">›</span></div>
-              <div class="sub-dropdown">
-                <a href="{{ route('home') }}#trade-overview">Trade & Investment Overview</a>
-              </div>
-            </div>
-            <div class="dropdown-group">
-              <div class="group-link">Verification & Intelligence <span class="group-arrow">›</span></div>
-              <div class="sub-dropdown">
-                <a href="{{ route('home') }}#verification-intelligence">Verification & Intelligence Overview</a>
-              </div>
-            </div>
-            <div class="dropdown-group">
-              <div class="group-link">Events & Missions <span class="group-arrow">›</span></div>
-              <div class="sub-dropdown">
-                <a href="{{ route('home') }}#events-preview">Events & Missions Preview</a>
-              </div>
-            </div>
-            <div class="dropdown-group">
-              <div class="group-link">Executive CTA <span class="group-arrow">›</span></div>
-              <div class="sub-dropdown">
-                <a href="{{ route('home') }}#executive-cta">Executive CTA Section</a>
-              </div>
-            </div>
-          </div>
         </div>
         
         <!-- 2. ABOUT with Dropdown -->
@@ -74,29 +32,29 @@
             <div class="dropdown-group">
               <div class="group-link">Institutional Overview <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('about') }}#institutional-overview">Institutional Overview</a>
-                <a href="{{ route('about') }}#mission-purpose">Mission & Strategic Purpose</a>
+                <a href="{{ route('about.overview') }}">Institutional Overview</a>
+                <a href="{{ route('about.mission') }}">Mission & Strategic Purpose</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Governance & Leadership <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('about') }}#governance">Governance Framework</a>
-                <a href="{{ route('leadership') }}">Leadership & Advisory Board</a>
+                <a href="{{ route('about.governance') }}">Governance Framework</a>
+                <a href="{{ route('about.leadership') }}">Leadership & Advisory Board</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Standards & Compliance <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('about') }}#regional">Regional Coordination Network</a>
-                <a href="{{ route('about') }}#standards">Institutional Standards</a>
-                <a href="{{ route('about') }}#legal">Legal & Compliance</a>
+                <a href="{{ route('about.regional') }}">Regional Coordination Network</a>
+                <a href="{{ route('about.standards') }}">Institutional Standards</a>
+                <a href="{{ route('about.legal') }}">Legal & Compliance</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Strategic Sectors <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('about') }}#sectors">Strategic Sectors</a>
+                <a href="{{ route('about.sectors') }}">Strategic Sectors</a>
               </div>
             </div>
           </div>
@@ -104,7 +62,7 @@
         
         <!-- 3. MEMBERSHIP with Dropdown -->
         <div class="nav-dropdown">
-          <a href="{{ route('access') }}">Membership</a>
+          <a href="{{ route('membership') }}">Membership</a>
           <div class="dropdown-menu">
             <div class="dropdown-header mobile-only">
               <button class="back-btn" onclick="closeSubMenu(this)">← Back</button>
@@ -113,17 +71,17 @@
             <div class="dropdown-group">
               <div class="group-link">Membership Types <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('access') }}#institutional-membership">Institutional Membership</a>
-                <a href="{{ route('access') }}#corporate-membership">Corporate Membership</a>
-                <a href="{{ route('access') }}#investor-access">Investor Access</a>
-                <a href="{{ route('access') }}#verified-partner">Verified Partner Access</a>
+                <a href="{{ route('membership.institutional') }}">Institutional Membership</a>
+                <a href="{{ route('membership.corporate') }}">Corporate Membership</a>
+                <a href="{{ route('membership.investor') }}">Investor Access</a>
+                <a href="{{ route('membership.verified') }}">Verified Partner Access</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Benefits & Standards <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('access') }}#membership-benefits">Membership Benefits</a>
-                <a href="{{ route('access') }}#verification-standards">Verification Standards</a>
+                <a href="{{ route('membership.benefits') }}">Membership Benefits</a>
+                <a href="{{ route('membership.verification-standards') }}">Verification Standards</a>
               </div>
             </div>
             <div class="dropdown-group">
@@ -137,7 +95,7 @@
         
         <!-- 4. TRADE & INVESTMENT with Dropdown -->
         <div class="nav-dropdown">
-          <a href="{{ route('home') }}#trade-overview">Trade & Investment</a>
+          <a href="{{ route('trade.index') }}">Trade & Investment</a>
           <div class="dropdown-menu">
             <div class="dropdown-header mobile-only">
               <button class="back-btn" onclick="closeSubMenu(this)">← Back</button>
@@ -146,25 +104,25 @@
             <div class="dropdown-group">
               <div class="group-link">Trade Services <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('home') }}#trade-facilitation">Trade Facilitation</a>
-                <a href="{{ route('home') }}#market-access">Cross-Border Market Access</a>
-                <a href="{{ route('home') }}#sector-programs">Strategic Sector Programs</a>
+                <a href="{{ route('trade.facilitation') }}">Trade Facilitation</a>
+                <a href="{{ route('trade.market-access') }}">Cross-Border Market Access</a>
+                <a href="{{ route('trade.sector-programs') }}">Strategic Sector Programs</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Investment Services <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('home') }}#investment-coordination">Investment Coordination</a>
-                <a href="{{ route('home') }}#capital-matching">Capital Matching</a>
-                <a href="{{ route('home') }}#project-validation">Project Validation</a>
+                <a href="{{ route('trade.investment-coordination') }}">Investment Coordination</a>
+                <a href="{{ route('trade.capital-matching') }}">Capital Matching</a>
+                <a href="{{ route('trade.project-validation') }}">Project Validation</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Partnerships <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('home') }}#partnerships">Institutional Partnerships</a>
-                <a href="{{ route('home') }}#infrastructure">Infrastructure & Energy</a>
-                <a href="{{ route('home') }}#digital-trade">Digital Trade & Innovation</a>
+                <a href="{{ route('trade.partnerships') }}">Institutional Partnerships</a>
+                <a href="{{ route('trade.infrastructure') }}">Infrastructure & Energy</a>
+                <a href="{{ route('trade.digital') }}">Digital Trade & Innovation</a>
               </div>
             </div>
           </div>
@@ -172,7 +130,7 @@
         
         <!-- 5. INTELLIGENCE with Dropdown -->
         <div class="nav-dropdown">
-          <a href="{{ route('verification') }}">Intelligence</a>
+          <a href="{{ route('intelligence.index') }}">Intelligence</a>
           <div class="dropdown-menu">
             <div class="dropdown-header mobile-only">
               <button class="back-btn" onclick="closeSubMenu(this)">← Back</button>
@@ -181,18 +139,18 @@
             <div class="dropdown-group">
               <div class="group-link">Market Intelligence <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('verification') }}#market-intelligence">Market Intelligence</a>
-                <a href="{{ route('verification') }}#sector-reports">Sector Reports</a>
-                <a href="{{ route('verification') }}#briefings">Investment Briefings</a>
+                <a href="{{ route('intelligence.market') }}">Market Intelligence</a>
+                <a href="{{ route('intelligence.sector-reports') }}">Sector Reports</a>
+                <a href="{{ route('intelligence.briefings') }}">Investment Briefings</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Insights & Research <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('verification') }}#trade-insights">Trade Insights</a>
-                <a href="{{ route('verification') }}#research">Research Publications</a>
-                <a href="{{ route('verification') }}#economic-outlooks">Economic Outlooks</a>
-                <a href="{{ route('verification') }}#strategic-reports">Strategic Reports</a>
+                <a href="{{ route('intelligence.trade-insights') }}">Trade Insights</a>
+                <a href="{{ route('intelligence.research') }}">Research Publications</a>
+                <a href="{{ route('intelligence.economic-outlooks') }}">Economic Outlooks</a>
+                <a href="{{ route('intelligence.strategic-reports') }}">Strategic Reports</a>
               </div>
             </div>
           </div>
@@ -200,7 +158,7 @@
         
         <!-- 6. EVENTS & MISSIONS with Dropdown -->
         <div class="nav-dropdown">
-          <a href="{{ route('event') }}">Events & Missions</a>
+          <a href="{{ route('events.index') }}">Events & Missions</a>
           <div class="dropdown-menu">
             <div class="dropdown-header mobile-only">
               <button class="back-btn" onclick="closeSubMenu(this)">← Back</button>
@@ -209,23 +167,23 @@
             <div class="dropdown-group">
               <div class="group-link">Events <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('event') }}#summits">Institutional Summits</a>
-                <a href="{{ route('event') }}#investment-forums">Investment Forums</a>
-                <a href="{{ route('event') }}#roundtables">Executive Roundtables</a>
-                <a href="{{ route('event') }}#policy-dialogues">Policy Dialogues</a>
+                <a href="{{ route('events.summits') }}">Institutional Summits</a>
+                <a href="{{ route('events.investment-forums') }}">Investment Forums</a>
+                <a href="{{ route('events.roundtables') }}">Executive Roundtables</a>
+                <a href="{{ route('events.policy-dialogues') }}">Policy Dialogues</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Missions <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('event') }}#trade-missions">Trade Missions</a>
+                <a href="{{ route('events.trade-missions') }}">Trade Missions</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Registration <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('event') }}">Upcoming Events</a>
-                <a href="{{ route('event') }}#event-registration">Event Registration</a>
+                <a href="{{ route('events.upcoming') }}">Upcoming Events</a>
+                <a href="{{ route('events.register') }}">Event Registration</a>
               </div>
             </div>
           </div>
@@ -233,7 +191,7 @@
         
         <!-- 7. VERIFICATION with Dropdown -->
         <div class="nav-dropdown">
-          <a href="{{ route('verification') }}">Verification</a>
+          <a href="{{ route('verification.index') }}">Verification</a>
           <div class="dropdown-menu">
             <div class="dropdown-header mobile-only">
               <button class="back-btn" onclick="closeSubMenu(this)">← Back</button>
@@ -242,23 +200,23 @@
             <div class="dropdown-group">
               <div class="group-link">Framework & Standards <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('verification') }}#verification-framework">Verification Framework</a>
-                <a href="{{ route('verification') }}#due-diligence">Due Diligence Standards</a>
-                <a href="{{ route('verification') }}#validation">Institutional Validation</a>
+                <a href="{{ route('verification.framework') }}">Verification Framework</a>
+                <a href="{{ route('verification.due-diligence') }}">Due Diligence Standards</a>
+                <a href="{{ route('verification.validation') }}">Institutional Validation</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Compliance & Risk <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('verification') }}#compliance">Compliance Protocols</a>
-                <a href="{{ route('verification') }}#risk-assessment">Risk Assessment</a>
+                <a href="{{ route('verification.compliance') }}">Compliance Protocols</a>
+                <a href="{{ route('verification.risk-assessment') }}">Risk Assessment</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Access <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('verification') }}#verification-access">Verification Access</a>
-                <a href="{{ route('verification') }}#verification-submit">Verification Submission</a>
+                <a href="{{ route('verification.access') }}">Verification Access</a>
+                <a href="{{ route('verification.submit') }}">Verification Submission</a>
               </div>
             </div>
           </div>
@@ -266,7 +224,7 @@
         
         <!-- 8. CONTACT with Dropdown -->
         <div class="nav-dropdown">
-          <a href="{{ route('contact') }}">Contact</a>
+          <a href="{{ route('contact.index') }}">Contact</a>
           <div class="dropdown-menu">
             <div class="dropdown-header mobile-only">
               <button class="back-btn" onclick="closeSubMenu(this)">← Back</button>
@@ -275,22 +233,22 @@
             <div class="dropdown-group">
               <div class="group-link">General Inquiries <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('contact') }}#institutional-inquiry">Institutional Inquiry</a>
-                <a href="{{ route('contact') }}#partnership-request">Partnership Request</a>
-                <a href="{{ route('contact') }}#media">Media & Communications</a>
+                <a href="{{ route('contact.inquiry') }}">Institutional Inquiry</a>
+                <a href="{{ route('contact.partnership') }}">Partnership Request</a>
+                <a href="{{ route('contact.media') }}">Media & Communications</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Support <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('contact') }}#verification-support">Verification Support</a>
-                <a href="{{ route('contact') }}#transaction-submission">Transaction Submission</a>
+                <a href="{{ route('contact.verification-support') }}">Verification Support</a>
+                <a href="{{ route('contact.transaction') }}">Transaction Submission</a>
               </div>
             </div>
             <div class="dropdown-group">
               <div class="group-link">Locations <span class="group-arrow">›</span></div>
               <div class="sub-dropdown">
-                <a href="{{ route('contact') }}#offices">Office Locations</a>
+                <a href="{{ route('contact.offices') }}">Office Locations</a>
               </div>
             </div>
           </div>
@@ -341,7 +299,7 @@
         </div>
         
         <div class="nav-dropdown">
-          <a href="{{ route('event') }}">Events</a>
+          <a href="{{ route('events.index') }}">Events</a>
         </div>
         
         <div class="nav-dropdown">
@@ -384,6 +342,8 @@
 </div>
 
 <div class="nav-overlay" id="navOverlay"></div>
+
+<!-- The rest of your CSS and JavaScript remains exactly the same -->
 
 <style>
 /* ===== NAVIGATION DROPDOWN STYLES ===== */
