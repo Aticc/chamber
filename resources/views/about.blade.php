@@ -55,8 +55,8 @@
   </div>
 </div>
 
-<!-- ========= INSTITUTIONAL IDENTITY ========= -->
-<div class="full-width-white">
+<!-- ========= INSTITUTIONAL OVERVIEW ========= -->
+<div id="institutional-overview" class="full-width-white">
   <div class="wide-container">
     <div class="breadcrumb-light fade-up" style="text-align: center;">INSTITUTIONAL IDENTITY</div>
     <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Official Designation</h2>
@@ -64,8 +64,8 @@
   </div>
 </div>
 
-<!-- ========= INSTITUTIONAL POSITIONING ========= -->
-<div class="full-width-gray">
+<!-- ========= MISSION & STRATEGIC PURPOSE ========= -->
+<div id="mission-purpose" class="full-width-gray">
   <div class="wide-container">
     <div class="breadcrumb-light fade-up" style="text-align: center;">POSITIONING</div>
     <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">The Gateway</h2>
@@ -95,8 +95,8 @@
 
 <div class="section-spacer"></div>
 
-<!-- ========= GOVERNANCE & LEADERSHIP ========= -->
-<div class="full-width-white">
+<!-- ========= GOVERNANCE FRAMEWORK ========= -->
+<div id="governance" class="full-width-white">
   <div class="wide-container">
     <div class="centered-eyebrow fade-up" style="text-align: center;">GOVERNANCE & LEADERSHIP</div>
     <div class="products-grid" style="display: flex; gap: 32px; margin-top: 60px; flex-wrap: wrap;">
@@ -170,8 +170,8 @@
 
 <div class="section-spacer"></div>
 
-<!-- ========= GLOBAL TRADE CORRIDORS ========= -->
-<div class="full-width-white">
+<!-- ========= REGIONAL COORDINATION NETWORK ========= -->
+<div id="regional" class="full-width-white">
   <div class="wide-container">
     <div class="centered-eyebrow fade-up" style="text-align: center;">GLOBAL TRADE CORRIDORS & MARKET ACCESS</div>
     <div class="products-grid" style="display: flex; gap: 32px; margin-top: 60px; flex-wrap: wrap;">
@@ -197,8 +197,8 @@
 
 <div class="section-spacer"></div>
 
-<!-- ========= STRATEGIC COMPARISON ========= -->
-<div class="full-width-gray">
+<!-- ========= STRATEGIC SECTORS ========= -->
+<div id="sectors" class="full-width-gray">
   <div class="wide-container">
     <div class="framework-split" style="flex-direction: column; gap: 30px;">
       <div class="framework-left fade-left" style="text-align: center;">
@@ -210,6 +210,54 @@
         <p style="font-size: 15px;"><span>Gatekeeper Logic:</span> ATICC uses a "Kill Switch" system to remove non-compliant entities, ensuring a trustworthy environment.</p>
         <p style="font-size: 15px;"><span>Trade Corridor Focus:</span> ATICC approaches Africa as interconnected economic corridors rather than fragmented states.</p>
         <p style="font-size: 15px;"><span>Technical Institutionality:</span> A Secretariat-General and Advisory Board of global experts building trust with institutional investors.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= INSTITUTIONAL STANDARDS ========= -->
+<div id="standards" class="full-width-white">
+  <div class="wide-container">
+    <div class="centered-eyebrow fade-up" style="text-align: center;">STANDARDS & COMPLIANCE</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Institutional Standards</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">ATICC maintains rigorous institutional standards across all operations, ensuring alignment with global best practices and regulatory frameworks.</p>
+    <div class="products-grid" style="display: flex; gap: 32px; margin-top: 50px; flex-wrap: wrap;">
+      <div class="product-card glide-in delay-1" style="flex: 1;">
+        <h4>Operational Standards</h4>
+        <p>Defined protocols for verification, onboarding, and transaction execution.</p>
+      </div>
+      <div class="product-card glide-in delay-2" style="flex: 1;">
+        <h4>Compliance Framework</h4>
+        <p>Alignment with international regulatory and AML/KYC requirements.</p>
+      </div>
+      <div class="product-card glide-in delay-3" style="flex: 1;">
+        <h4>Reporting & Accountability</h4>
+        <p>Structured reporting and institutional oversight mechanisms.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= LEGAL & COMPLIANCE ========= -->
+<div id="legal" class="full-width-gray">
+  <div class="wide-container">
+    <div class="centered-eyebrow fade-up" style="text-align: center;">LEGAL & COMPLIANCE</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Legal Framework</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">ATICC operates within a defined legal and compliance framework designed to protect institutional integrity and transaction credibility.</p>
+    <div class="framework-split" style="margin-top: 40px;">
+      <div class="split-left fade-left">
+        <ul class="bullet-list">
+          <li><span>ATICC Model Clause:</span> 30-day cooling-off period for dispute resolution</li>
+          <li><span>Integrity Blacklist:</span> De-accession and ecosystem blacklisting for non-compliance</li>
+          <li><span>Indemnity:</span> Final fiduciary responsibility rests with principals</li>
+        </ul>
+      </div>
+      <div class="split-right fade-right">
+        <ul class="bullet-list">
+          <li><span>Jurisdictional Alignment:</span> International arbitration hubs (Mauritius, London, Dubai)</li>
+          <li><span>Dispute Facilitation:</span> High-level mediation through the Secretariat-General</li>
+          <li><span>Institutional Shield:</span> Standardized legal environment for member interactions</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -227,6 +275,12 @@
   .full-width-white {
     width: 100%;
     background: white;
+    padding: 80px 0;
+  }
+  
+  .full-width-gray {
+    width: 100%;
+    background: #F5F6F8;
     padding: 80px 0;
   }
   
@@ -294,6 +348,60 @@
     font-size: 13px;
   }
   
+  .policy-split, .framework-split {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+  }
+  
+  .split-left, .split-right {
+    flex: 1;
+  }
+  
+  .bullet-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bullet-list li {
+    padding: 8px 28px;
+    font-size: 15px;
+    color: #1A1A1A;
+    border-bottom: 1px solid #E8EBED;
+  }
+  
+  .bullet-list li::before {
+    content: "✓";
+    color: #031B4E;
+    margin-right: 12px;
+    font-weight: bold;
+  }
+  
+  .final-quote {
+    background: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .final-quote p {
+    font-size: 28px;
+    color: #0e0e0e;
+    line-height: 1.4;
+  }
+  
+  .section-spacer {
+    height: 1px;
+    background: transparent;
+  }
+  
+  .breadcrumb {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #C49A6C;
+    margin-bottom: 15px;
+  }
+  
   @media (max-width: 1100px) {
     .section-title-dark {
       font-size: 38px;
@@ -303,6 +411,10 @@
     }
     .large-statement {
       font-size: 32px !important;
+    }
+    .policy-split, .framework-split {
+      flex-direction: column;
+      gap: 30px;
     }
   }
   

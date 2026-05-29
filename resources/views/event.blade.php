@@ -4,6 +4,7 @@
 
 @include('layouts.nav')
 
+<!-- ========= EVENTS HERO SECTION ========= -->
 <div id="hero" class="hero-section" style="position: relative; background-color: white; overflow: hidden; min-height: 100vh;">
   
   <!-- Image as a soft background element on the right -->
@@ -20,7 +21,7 @@
 </div>
 
 <!-- ========= UPCOMING EVENTS SECTION ========= -->
-<div class="full-width-white">
+<div id="summits" class="full-width-white">
   <div class="wide-container">
     <div class="centered-eyebrow fade-up" style="text-align: center;">UPCOMING EVENTS</div>
     <div class="large-statement fade-up delay-1" style="text-align: center; font-size: 36px;">Institutional Summits & Conferences</div>
@@ -63,7 +64,7 @@
 </div>
 
 <!-- ========= SUMMITS SECTION ========= -->
-<div class="full-width-gray">
+<div id="investment-forums" class="full-width-gray">
   <div class="wide-container">
     <div class="breadcrumb-light fade-up" style="text-align: center;">STRATEGIC CONVENINGS</div>
     <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Summits</h2>
@@ -83,7 +84,7 @@
 <div class="section-spacer"></div>
 
 <!-- ========= MISSIONS SECTION ========= -->
-<div class="full-width-white">
+<div id="trade-missions" class="full-width-white">
   <div class="wide-container">
     <div class="breadcrumb-light fade-up" style="text-align: center;">STRATEGIC DEPLOYMENTS</div>
     <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Missions</h2>
@@ -134,8 +135,60 @@
 
 <div class="section-spacer"></div>
 
+<!-- ========= ROUNDTABLES SECTION ========= -->
+<div id="roundtables" class="full-width-gray">
+  <div class="wide-container">
+    <div class="breadcrumb-light fade-up" style="text-align: center;">EXECUTIVE ENGAGEMENTS</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Executive Roundtables</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">ATICC hosts executive roundtables for institutional partners to address strategic market developments and transaction environments.</p>
+    <div class="products-grid" style="display: flex; gap: 32px; margin-top: 50px; flex-wrap: wrap;">
+      <div class="product-card glide-in delay-1" style="flex: 1;">
+        <h4>Capital Allocation Roundtables</h4>
+        <p>Strategic discussions on capital deployment into African markets and priority sectors.</p>
+      </div>
+      <div class="product-card glide-in delay-2" style="flex: 1;">
+        <h4>Trade Policy Dialogues</h4>
+        <p>Engagements with policy makers and institutional stakeholders on trade frameworks.</p>
+      </div>
+      <div class="product-card glide-in delay-3" style="flex: 1;">
+        <h4>Sector Investment Forums</h4>
+        <p>Focused roundtables on infrastructure, energy, agro-processing, and digital trade.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-spacer"></div>
+
+<!-- ========= POLICY DIALOGUES SECTION ========= -->
+<div id="policy-dialogues" class="full-width-white">
+  <div class="wide-container">
+    <div class="breadcrumb-light fade-up" style="text-align: center;">INSTITUTIONAL ENGAGEMENTS</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Policy Dialogues</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">ATICC facilitates structured policy dialogues between institutional stakeholders, governments, and regulatory bodies.</p>
+    <div class="framework-split">
+      <div class="split-left fade-left">
+        <ul class="bullet-list">
+          <li><span>AfCFTA Implementation Dialogues:</span> Strategic engagements on corridor development and trade facilitation</li>
+          <li><span>Regulatory Alignment Forums:</span> Discussions on cross-border compliance and investment frameworks</li>
+          <li><span>Capital Market Policy Roundtables:</span> Engagements with institutional investors and policy makers</li>
+        </ul>
+      </div>
+      <div class="split-right fade-right">
+        <ul class="bullet-list">
+          <li><span>Sector Policy Dialogues:</span> Focused discussions on energy, infrastructure, and digital trade policy</li>
+          <li><span>Bilateral Investment Frameworks:</span> Structured engagements between African markets and international partners</li>
+          <li><span>Institutional Governance Forums:</span> Policy discussions on verification and compliance standards</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-spacer"></div>
+
 <!-- ========= PAST EVENTS HIGHLIGHTS ========= -->
-<div class="full-width-gray">
+<div id="event-registration" class="full-width-gray">
   <div class="wide-container">
     <div class="centered-eyebrow fade-up" style="text-align: center;">INSTITUTIONAL MILESTONES</div>
     <div class="large-statement fade-up delay-1" style="text-align: center; font-size: 32px;">Past Events</div>

@@ -20,12 +20,12 @@
   </div>
 </div>
 
-<!-- ========= POLICY & INTELLIGENCE ========= -->
-<div class="full-width-white">
+<!-- ========= MARKET INTELLIGENCE SECTION ========= -->
+<div id="market-intelligence" class="full-width-white">
   <div class="wide-container">
     <div class="breadcrumb-light fade-up" style="text-align: center;">STRATEGIC INTELLIGENCE</div>
-    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Policy & Intelligence</h2>
-    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">ATICC provides structured policy insight and economic intelligence aligned with African and global market dynamics.</p>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Market Intelligence</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">ATICC provides structured market intelligence aligned with African and global market dynamics.</p>
     <div class="grid-5" style="display: flex; gap: 32px; flex-wrap: wrap; justify-content: center; margin-top: 50px;">
       <div class="grid-card glide-in delay-1" style="flex: 1; min-width: 250px;">
         <h4>Trade & Investment Policy Analysis</h4>
@@ -44,11 +44,158 @@
         <p>Data-driven guidance for institutional capital entering African markets.</p>
       </div>
     </div>
-    <p class="section-text-dark fade-up delay-3" style="text-align: center; max-width: 700px; margin: 40px auto 0; font-size: 15px;">All intelligence supports informed decision-making and institutional execution.</p>
   </div>
 </div>
 
-<!-- ========= NEWSROOM ========= -->
+<!-- ========= SECTOR REPORTS SECTION ========= -->
+<div id="sector-reports" class="full-width-gray">
+  <div class="wide-container">
+    <div class="breadcrumb-light fade-up" style="text-align: center;">SECTOR REPORTS</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Industry Sector Analysis</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">Comprehensive sector reports covering Africa's priority industries and emerging markets.</p>
+    <div class="products-grid" style="display: flex; gap: 32px; margin-top: 50px; flex-wrap: wrap;">
+      <div class="product-card glide-in delay-1" style="flex: 1;">
+        <h4>Energy Sector Reports</h4>
+        <p>Analysis of oil, gas, renewable energy, and power infrastructure across African markets.</p>
+      </div>
+      <div class="product-card glide-in delay-2" style="flex: 1;">
+        <h4>Infrastructure Reports</h4>
+        <p>Strategic insights on transportation, logistics, and urban development projects.</p>
+      </div>
+      <div class="product-card glide-in delay-3" style="flex: 1;">
+        <h4>Agro-Processing Reports</h4>
+        <p>Value chain analysis and investment opportunities in agricultural processing.</p>
+      </div>
+      <div class="product-card glide-in delay-4" style="flex: 1;">
+        <h4>Digital Trade Reports</h4>
+        <p>Fintech, e-commerce, and digital infrastructure intelligence.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= INVESTMENT BRIEFINGS SECTION ========= -->
+<div id="briefings" class="full-width-white">
+  <div class="wide-container">
+    <div class="breadcrumb-light fade-up" style="text-align: center;">INVESTMENT BRIEFINGS</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Capital Deployment Insights</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">Timely investment briefings for institutional capital deployment across African markets.</p>
+    <div class="grid-5" style="display: flex; gap: 32px; flex-wrap: wrap; justify-content: center; margin-top: 50px;">
+      <div class="grid-card glide-in delay-1" style="flex: 1; min-width: 250px;">
+        <h4>Opportunity Briefings</h4>
+        <p>Curated investment opportunities across priority sectors.</p>
+      </div>
+      <div class="grid-card glide-in delay-2" style="flex: 1; min-width: 250px;">
+        <h4>Market Entry Briefings</h4>
+        <p>Strategic guidance for institutional capital entering new markets.</p>
+      </div>
+      <div class="grid-card glide-in delay-3" style="flex: 1; min-width: 250px;">
+        <h4>Risk Assessment Briefings</h4>
+        <p>Regulatory, political, and operational risk analysis.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= TRADE INSIGHTS SECTION ========= -->
+<div id="trade-insights" class="full-width-gray">
+  <div class="wide-container">
+    <div class="breadcrumb-light fade-up" style="text-align: center;">TRADE INSIGHTS</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Cross-Border Trade Intelligence</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">Actionable intelligence for cross-border trade facilitation and corridor development.</p>
+    <div class="policy-split">
+      <div class="split-left fade-left">
+        <ul class="bullet-list">
+          <li><span>Corridor Trade Flows:</span> Analysis of trade volumes and corridor performance</li>
+          <li><span>Tariff & Trade Policy:</span> Updates on AfCFTA implementation and trade agreements</li>
+          <li><span>Trade Finance Intelligence:</span> Insights on trade finance availability and structures</li>
+        </ul>
+      </div>
+      <div class="split-right fade-right">
+        <ul class="bullet-list">
+          <li><span>Supply Chain Intelligence:</span> Logistics and supply chain optimization insights</li>
+          <li><span>Trade Facilitation Metrics:</span> Border efficiency and trade process analysis</li>
+          <li><span>Market Access Intelligence:</span> Regulatory and compliance requirements</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= RESEARCH PUBLICATIONS SECTION ========= -->
+<div id="research" class="full-width-white">
+  <div class="wide-container">
+    <div class="breadcrumb-light fade-up" style="text-align: center;">RESEARCH PUBLICATIONS</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Institutional Research</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">Authoritative research on African trade, investment, and economic development.</p>
+    <div class="products-grid" style="display: flex; gap: 32px; margin-top: 50px; flex-wrap: wrap;">
+      <div class="product-card glide-in delay-1" style="flex: 1;">
+        <h4>Working Papers</h4>
+        <p>Academic and policy-focused research on African markets.</p>
+      </div>
+      <div class="product-card glide-in delay-2" style="flex: 1;">
+        <h4>Case Studies</h4>
+        <p>Analysis of successful trade and investment transactions.</p>
+      </div>
+      <div class="product-card glide-in delay-3" style="flex: 1;">
+        <h4>Policy Briefs</h4>
+        <p>Strategic recommendations for institutional stakeholders.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= ECONOMIC OUTLOOKS SECTION ========= -->
+<div id="economic-outlooks" class="full-width-gray">
+  <div class="wide-container">
+    <div class="breadcrumb-light fade-up" style="text-align: center;">ECONOMIC OUTLOOKS</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Macroeconomic Intelligence</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">Quarterly and annual economic outlooks for African markets and key economies.</p>
+    <div class="products-grid" style="display: flex; gap: 32px; margin-top: 50px; flex-wrap: wrap;">
+      <div class="product-card glide-in delay-1" style="flex: 1;">
+        <h4>Quarterly Outlooks</h4>
+        <p>Short-term macroeconomic projections and market analysis.</p>
+      </div>
+      <div class="product-card glide-in delay-2" style="flex: 1;">
+        <h4>Annual Reports</h4>
+        <p>Comprehensive annual economic and investment reviews.</p>
+      </div>
+      <div class="product-card glide-in delay-3" style="flex: 1;">
+        <h4>Regional Forecasts</h4>
+        <p>Economic outlooks for East, West, Southern, and North Africa.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= STRATEGIC REPORTS SECTION ========= -->
+<div id="strategic-reports" class="full-width-white">
+  <div class="wide-container">
+    <div class="breadcrumb-light fade-up" style="text-align: center;">STRATEGIC REPORTS</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Institutional Strategy Intelligence</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">Strategic reports for institutional decision-making and long-term planning.</p>
+    <div class="framework-split">
+      <div class="split-left fade-left">
+        <ul class="bullet-list">
+          <li><span>Strategic Sector Outlooks:</span> Long-term projections for priority industries</li>
+          <li><span>Investment Strategy Reports:</span> Capital deployment frameworks and strategies</li>
+          <li><span>Corridor Development Strategies:</span> Trade corridor optimization insights</li>
+        </ul>
+      </div>
+      <div class="split-right fade-right">
+        <ul class="bullet-list">
+          <li><span>Policy Impact Assessments:</span> Analysis of regulatory and policy changes</li>
+          <li><span>Competitive Intelligence:</span> Market positioning and competitor analysis</li>
+          <li><span>Scenario Planning Reports:</span> Strategic foresight for institutional planning</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-spacer"></div>
+
+<!-- ========= NEWSROOM SECTION ========= -->
 <div class="full-width-gray">
   <div class="wide-container">
     <div class="breadcrumb-light fade-up" style="text-align: center;">INSTITUTIONAL COMMUNICATIONS</div>
@@ -71,37 +218,6 @@
     <p class="section-text-dark fade-up delay-3" style="text-align: center; max-width: 700px; margin: 40px auto 0; font-size: 15px;">All communications reflect ATICC's institutional position and operational activity.</p>
   </div>
 </div>
-
-<!-- ========= TRUST & VERIFICATION PROTOCOL ========= -->
-<div class="full-width-white">
-  <div class="wide-container">
-    <div class="centered-eyebrow fade-up" style="text-align: center;">TRUST & VERIFICATION PROTOCOL</div>
-    <div class="large-statement fade-up delay-1" style="text-align: center; font-size: 32px;">Zero Verification → Zero Access → Zero Transaction Visibility</div>
-    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 700px; margin: 20px auto 0; font-size: 16px;">ATICC operates on strict gatekeeper logic with tiered vetting framework, continuous market monitoring, and integrity enforcement through zero-tolerance policy.</p>
-  </div>
-</div>
-
-<!-- ========= TIERED VETTING FRAMEWORK ========= -->
-<div class="full-width-gray">
-  <div class="wide-container">
-    <div class="policy-split">
-      <div class="split-left fade-left">
-        <h3 style="font-size: 28px; font-weight: 400; margin-bottom: 20px; color: #0e0e0e;">Tiered Vetting Framework</h3>
-        <p style="font-size: 16px; color: #3a4c5e; line-height: 1.6;">Every project or trade opportunity listed on the platform must pass a triple-filter test: Commercial Viability, Regulatory Alignment, and Economic Contribution.</p>
-      </div>
-      <div class="split-right fade-right">
-        <ul class="bullet-list">
-          <li style="font-size: 15px;"><span>Identity & Statutory Audit:</span> Legal and beneficial-ownership verification</li>
-          <li style="font-size: 15px;"><span>Compliance & AML Screening:</span> Anti-money laundering filtering</li>
-          <li style="font-size: 15px;"><span>Execution Capability Assessment:</span> Technical and financial capacity audit</li>
-          <li style="font-size: 15px;"><span>Integrity Enforcement:</span> Zero-tolerance policy with expulsion and blacklisting</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="section-spacer"></div>
 
 <!-- ========= DATA & INTELLIGENCE GOVERNANCE ========= -->
 <div class="full-width-white">

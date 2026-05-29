@@ -31,8 +31,8 @@
   <p> STRUCTURE DEFINES AUTHORITY. INTEGRITY ANCHORS CAPITAL. EXECUTION DRIVES SCALE. </p>
 </div>
 
-<!-- ========= ACCESS SECTION ========= -->
-<div id="access" class="bg-section" style="position: relative; background-color: white; overflow: hidden; min-height: 100vh;">
+<!-- ========= INSTITUTIONAL OVERVIEW SECTION ========= -->
+<div id="institutional-overview" class="bg-section" style="position: relative; background-color: white; overflow: hidden; min-height: 100vh;">
   
   <!-- Image as a soft background element on the right -->
   <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
@@ -41,15 +41,15 @@
   
   <!-- Text content - consistent padding -->
   <div class="bg-content" style="position: relative; z-index: 2; max-width: 1400px; margin: 0 ; padding: 60px 40px;">
-    <div class="breadcrumb fade-up">Home / Access</div>
-    <h2 class="section-title fade-up delay-1" style="font-size: 42px; max-width: 55%;">MEMBERSHIP TIERS & ACCESSION MODEL</h2>
-    <div class="section-subhead fade-up delay-2" style="font-size: 20px; max-width: 50%;">Curated accession. Verified stakeholders. Institutional integrity.</div>
-    <div class="section-text fade-up delay-3" style="font-size: 16px; max-width: 45%; line-height: 1.5;">Membership in ATICC is not an automatic right but a strategic designation. Access is granted through a curated accession process reserved for verified stakeholders who demonstrate a commitment to institutional transparency and market growth. Zero Verification → Zero Access → Zero Transaction Visibility.</div>
+    <div class="breadcrumb fade-up">Home / Institutional Overview</div>
+    <h2 class="section-title fade-up delay-1" style="font-size: 42px; max-width: 55%;">INSTITUTIONAL IDENTITY & MANDATE</h2>
+    <div class="section-subhead fade-up delay-2" style="font-size: 20px; max-width: 50%;">Official Designation</div>
+    <div class="section-text fade-up delay-3" style="font-size: 16px; max-width: 45%; line-height: 1.5;">ATICC is a private, member-governed clearing house and institutional platform engineered to serve as a transaction-driven interface, bridging the gap between global institutional capital and vetted African market opportunities.</div>
   </div>
 </div>
 
 <!-- ========= MEMBERSHIP TIERS SECTION ========= -->
-<div id="partner" class="partner-section section-anchor">
+<div id="trade-overview" class="partner-section section-anchor">
   <div class="centered-eyebrow fade-up" style="font-size: 13px;">MEMBERSHIP TIERS</div>
   <div class="large-statement fade-up delay-1" style="font-size: 48px;">Aligned. Verified. Committed.</div>
   <div class="supporting-text fade-up delay-2" style="font-size: 16px; max-width: 550px;">ATICC operates a curated accession model reserved for verified stakeholders who demonstrate commitment to institutional transparency and market growth.</div>
@@ -77,8 +77,8 @@
   </div>
 </div>
 
-<!-- ========= VERIFICATION SECTION ========= -->
-<div id="intelligence" class="bg-section" style="position: relative; background-color: white; overflow: hidden; min-height: 100vh;">
+<!-- ========= TRADE & INVESTMENT OVERVIEW SECTION ========= -->
+<div id="verification-intelligence" class="bg-section" style="position: relative; background-color: white; overflow: hidden; min-height: 100vh;">
   
   <!-- Image as a soft background element on the right -->
   <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
@@ -87,7 +87,7 @@
   
   <!-- Text content - consistent padding -->
   <div class="bg-content" style="position: relative; z-index: 2; max-width: 1400px; margin: 0; padding: 60px 40px;">
-    <div class="breadcrumb fade-right">Home / Verification</div>
+    <div class="breadcrumb fade-right">Home / Trade & Investment</div>
     <h2 class="section-title fade-right delay-1" style="font-size: 42px; max-width: 55%;">TRUST & VERIFICATION (T&V) PROTOCOL</h2>
     <div class="section-subhead fade-right delay-2" style="font-size: 20px; max-width: 50%;">Strategic intelligence gateway to African markets.</div>
     <div class="section-text fade-right delay-3" style="font-size: 16px; max-width: 45%; line-height: 1.5;">ATICC operates on strict gatekeeper logic: Zero Verification → Zero Access → Zero Transaction Visibility. The T&V Protocol maintains ongoing validation to ensure institutional integrity.</div>
@@ -143,8 +143,188 @@
 
 <div class="section-spacer"></div>
 
+<!-- ========= TRADE SERVICES SUB-SECTIONS ========= -->
+<div id="trade-facilitation" class="full-width-gray">
+  <div class="wide-container">
+    <div class="framework-split">
+      <div class="framework-left fade-left">
+        <h3 style="font-size: 28px;">Trade Facilitation</h3>
+        <p style="font-size: 15px;">Technical "soft infrastructure" for trade: regulatory navigation, documentation optimization, and market entry intelligence.</p>
+      </div>
+      <div class="framework-right fade-right">
+        <p style="font-size: 14px;"><span>Regulatory Navigation:</span> Direct guidance on localized trade laws.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Documentation Optimization:</span> Support for standardized export/import protocols.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Market Entry Intelligence:</span> Specialized strategies for entering high-barrier jurisdictions.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="market-access" class="full-width-white">
+  <div class="wide-container">
+    <div class="framework-split">
+      <div class="framework-left fade-left">
+        <h3 style="font-size: 28px;">Cross-Border Market Access</h3>
+        <p style="font-size: 15px;">ATICC provides structured market access solutions for institutional partners entering African markets.</p>
+      </div>
+      <div class="framework-right fade-right">
+        <p style="font-size: 14px;"><span>Market Entry Frameworks:</span> Structured pathways for institutional capital deployment.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Regulatory Alignment:</span> Compliance with cross-border trade and investment frameworks.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Institutional Coordination:</span> Engagement with local and regional stakeholders.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sector-programs" class="full-width-gray">
+  <div class="wide-container">
+    <div class="framework-split">
+      <div class="framework-left fade-left">
+        <h3 style="font-size: 28px;">Strategic Sector Programs</h3>
+        <p style="font-size: 15px;">ATICC prioritizes high-impact sectors that drive systemic growth across African markets.</p>
+      </div>
+      <div class="framework-right fade-right">
+        <p style="font-size: 14px;"><span>Agro-Industrial Value Chains:</span> Moving from raw exports to localized processing.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Energy & Critical Infrastructure:</span> Powering the industrial base.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Digital Trade & Fintech:</span> Enabling frictionless movement of value.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= INVESTMENT SERVICES SUB-SECTIONS ========= -->
+<div id="investment-coordination" class="full-width-white">
+  <div class="wide-container">
+    <div class="framework-split">
+      <div class="framework-left fade-left">
+        <h3 style="font-size: 28px;">Investment Coordination</h3>
+        <p style="font-size: 15px;">ATICC coordinates institutional investment across priority sectors and markets.</p>
+      </div>
+      <div class="framework-right fade-right">
+        <p style="font-size: 14px;"><span>Capital Alignment:</span> Matching institutional capital with vetted opportunities.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Transaction Structuring:</span> Financial and legal frameworks for investment execution.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Portfolio Coordination:</span> Ongoing oversight of institutional investments.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="capital-matching" class="full-width-gray">
+  <div class="wide-container">
+    <div class="framework-split">
+      <div class="framework-left fade-left">
+        <h3 style="font-size: 28px;">Capital Matching</h3>
+        <p style="font-size: 15px;">ATICC facilitates capital deployment by connecting institutional investors with verified, execution-ready opportunities.</p>
+      </div>
+      <div class="framework-right fade-right">
+        <p style="font-size: 14px;"><span>Investor Alignment:</span> Matching institutional mandates with appropriate opportunities.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Due Diligence Support:</span> Verification and validation of investment opportunities.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Capital Deployment:</span> Structured pathways for institutional capital entry.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="project-validation" class="full-width-white">
+  <div class="wide-container">
+    <div class="framework-split">
+      <div class="framework-left fade-left">
+        <h3 style="font-size: 28px;">Project Validation</h3>
+        <p style="font-size: 15px;">Every project or trade opportunity listed on the platform must pass a triple-filter test.</p>
+      </div>
+      <div class="framework-right fade-right">
+        <p style="font-size: 14px;"><span>Commercial Viability:</span> Can it generate returns?</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Regulatory Alignment:</span> Is it legally sound?</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Economic Contribution:</span> Does it deliver measurable impact?</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= PARTNERSHIPS SUB-SECTIONS ========= -->
+<div id="partnerships" class="full-width-gray">
+  <div class="wide-container">
+    <div class="framework-split">
+      <div class="framework-left fade-left">
+        <h3 style="font-size: 28px;">Institutional Partnerships</h3>
+        <p style="font-size: 15px;">ATICC engages strategic partners across capital, trade, and institutional ecosystems.</p>
+      </div>
+      <div class="framework-right fade-right">
+        <p style="font-size: 14px;"><span>Capital Partners:</span> Institutional investors and wealth funds.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Trade Partners:</span> Corporates, industry operators, and trade bodies.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Institutional Partners:</span> Governments, multilaterals, and development institutions.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="infrastructure" class="full-width-white">
+  <div class="wide-container">
+    <div class="framework-split">
+      <div class="framework-left fade-left">
+        <h3 style="font-size: 28px;">Infrastructure & Energy</h3>
+        <p style="font-size: 15px;">ATICC facilitates infrastructure and energy investment across African markets.</p>
+      </div>
+      <div class="framework-right fade-right">
+        <p style="font-size: 14px;"><span>Project Pipeline:</span> Verified infrastructure and energy opportunities.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Capital Coordination:</span> Connecting projects with institutional capital.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Execution Support:</span> Technical and regulatory assistance for project delivery.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="digital-trade" class="full-width-gray">
+  <div class="wide-container">
+    <div class="framework-split">
+      <div class="framework-left fade-left">
+        <h3 style="font-size: 28px;">Digital Trade & Innovation</h3>
+        <p style="font-size: 15px;">ATICC enables digital trade and innovation across African markets.</p>
+      </div>
+      <div class="framework-right fade-right">
+        <p style="font-size: 14px;"><span>Digital Trade Facilitation:</span> Enabling frictionless movement of value.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Fintech Integration:</span> Connecting institutional capital with digital finance opportunities.</p>
+        <p style="font-size: 14px; margin-top: 15px;"><span>Innovation Coordination:</span> Structured engagement with technology partners.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= EVENTS & MISSIONS PREVIEW ========= -->
+<div id="events-preview" class="full-width-white">
+  <div class="wide-container">
+    <div class="centered-eyebrow fade-up" style="text-align: center;">EVENTS & MISSIONS</div>
+    <div class="large-statement fade-up delay-1" style="font-size: 32px; text-align: center;">Institutional Summits & Missions</div>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 700px; margin: 0 auto;">ATICC convenes institutional summits and executes targeted trade missions across priority markets.</p>
+    <div class="products-grid" style="display: flex; gap: 32px; margin-top: 50px; flex-wrap: wrap;">
+      <div class="product-card glide-in delay-1" style="flex: 1;">
+        <h4>Institutional Summits</h4>
+        <p>High-level convenings aligning capital, policy, and market participants.</p>
+      </div>
+      <div class="product-card glide-in delay-2" style="flex: 1;">
+        <h4>Trade Missions</h4>
+        <p>Targeted deployments across priority markets and sectors.</p>
+      </div>
+      <div class="product-card glide-in delay-3" style="flex: 1;">
+        <h4>Investment Forums</h4>
+        <p>Structured engagements connecting capital with opportunities.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= EXECUTIVE CTA SECTION ========= -->
+<div id="executive-cta" class="full-width-gray">
+  <div class="wide-container" style="text-align: center;">
+    <div class="centered-eyebrow fade-up" style="text-align: center;">EXECUTIVE ENGAGEMENT</div>
+    <div class="large-statement fade-up delay-1" style="font-size: 32px; text-align: center;">Access Institutional Capital</div>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 600px; margin: 0 auto 30px auto;">ATICC provides structured access to institutional capital, verified opportunities, and execution-ready platforms.</p>
+    <a href="{{ route('access.plans') }}" class="cta-button" style="display: inline-block; background-color: #041931; color: white; border: none; padding: 16px 36px; font-size: 16px; font-weight: 600; letter-spacing: 0.05em; border-radius: 4px; text-decoration: none; text-transform: uppercase;">Access ATICC →</a>
+  </div>
+</div>
+
 <!-- ========= HUMAN CAPITAL SECTION ========= -->
-<div class="full-width-gray">
+<div class="full-width-white">
   <div class="wide-container">
     <div class="framework-split">
       <div class="framework-left fade-left">
