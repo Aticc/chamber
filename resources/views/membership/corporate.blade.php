@@ -265,4 +265,4 @@
     .content-grid, .features-grid { grid-template-columns: 1fr; }
   }
 </style>
-@endsection
+@endsectioninvestor.blade.php

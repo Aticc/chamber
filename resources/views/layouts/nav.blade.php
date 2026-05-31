@@ -1,7 +1,7 @@
 <!-- TOP NAVIGATION - FULLY RESPONSIVE WITH AUTH (8 PRIMARY MENU ITEMS) -->
 <div class="top-nav" id="stickyNav">
   <div class="nav-logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-    <img src="{{ asset('assets/images/ATICC FINAL LOGO (2).png') }}" width="100" height="86" alt="ATICC Logo">
+    <img src="{{ asset('assets/images/ATICC FINAL LOGO  (2).png') }}" width="100" height="86" alt="ATICC Logo">
   </div>
   
   <!-- Mobile Hamburger Button -->
