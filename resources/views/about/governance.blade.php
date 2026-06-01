@@ -5,7 +5,7 @@
 @include('layouts.nav')
 
 <!-- ========= HERO SECTION ========= -->
-<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/IMG_0950.png') }}'); background-position: 70% center;">
+<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/ATICC image .png') }}'); background-position: 70% center;">
   <div class="hero-content">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / About / Governance Framework</div>
     <h1 class="headline fade-up revealed">Governance <span style="color: #17015e;">Framework</span></h1>
@@ -68,7 +68,7 @@
   .centered-eyebrow { font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; color: #C49A6C; margin-bottom: 15px; text-align: center; }
   .products-grid { display: flex; gap: 32px; flex-wrap: wrap; }
   .product-card { flex: 1; background: #f5f6f8; padding: 32px 28px; border-radius: 16px; }
-  .product-card h4 { font-size: 20px; font-weight: 400; margin-bottom: 12px; color: #0e0e0e; }
+  .product-card h4 { font-size: 20px; font-weight: 300; margin-bottom: 12px; color: #0e0e0e; }
   .product-card p { font-size: 14px; color: #4a5e72; line-height: 1.5; }
   .framework-split { display: flex; gap: 60px; align-items: center; }
   .final-quote { background: white; text-align: center; padding: 80px 20px; }

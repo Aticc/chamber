@@ -240,7 +240,7 @@
         text-decoration: none;
         color: #7A8B9B;
         font-size: 11px;
-        font-weight: 500;
+        font-weight: 400;
         transition: all 0.2s ease;
         padding: 8px 12px;
         border-radius: 12px;
@@ -270,7 +270,7 @@
     
     .bottom-nav-item span {
         font-size: 10px;
-        font-weight: 500;
+        font-weight: 400;
     }
 
     /* Responsive */

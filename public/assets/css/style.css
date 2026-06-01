@@ -1,3 +1,79 @@
+:root {
+    /* ========= BRAND COLORS ========= */
+    --color-primary: #041931;
+    --color-primary-dark: #031223;
+    --color-primary-light: #0a2a48;
+    --color-accent: #c49a6c;
+    --color-accent-light: #d4b08c;
+    --color-accent-dark: #a87d4f;
+
+    /* ========= TEXT COLORS ========= */
+    --color-text-dark: #0e0e0e;
+    --color-text-gray: #1a2c3e;
+    --color-text-light: #3a4c5e;
+    --color-text-lighter: #5d6f7f;
+    --color-text-muted: #4a5e72;
+    --color-text-white: #ffffff;
+    --color-text-offwhite: rgba(255, 255, 255, 0.92);
+
+    /* ========= BACKGROUND COLORS ========= */
+    --bg-white: #ffffff;
+    --bg-gray: #f5f6f8;
+    --bg-dark: #0e0e0e;
+    --bg-footer: #0e0e0e;
+    --bg-overlay: rgba(255, 255, 255, 0.96);
+    --bg-overlay-light: rgba(255, 255, 255, 0.85);
+    --bg-overlay-transparent: rgba(255, 255, 255, 0);
+    --bg-table-header: #041931;
+    --bg-table-row: #f8f9fc;
+
+    /* ========= BORDER COLORS ========= */
+    --border-light: #e8eef2;
+    --border-lighter: rgba(11, 31, 58, 0.05);
+    --border-footer: #2a4058;
+
+    --btn-raduis: 1px;
+
+    /* ========= SHADOWS ========= */
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 8px 20px rgba(11, 31, 58, 0.12);
+    --shadow-hover: 0 8px 20px rgba(11, 31, 58, 0.12);
+
+    /* ========= GRADIENT ========= */
+    --gradient-hero: linear-gradient(
+        90deg,
+        var(--bg-overlay) 0%,
+        var(--bg-overlay-light) 50%,
+        var(--bg-overlay-transparent) 100%
+    );
+    --gradient-mobile: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.92) 0%,
+        rgba(255, 255, 255, 0.85) 100%
+    );
+
+    /* ========= SPACING ========= */
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 40px;
+    --spacing-xl: 60px;
+    --spacing-2xl: 80px;
+    --spacing-3xl: 100px;
+
+    /* ========= FONTS ========= */
+    --font-primary:
+        "Optima", "Segoe UI", "Apple SD Gothic Neo", "Lucida Grande",
+        "Lucida Sans Unicode", "Avenir", sans-serif;
+    --font-heading: "Canela", var(--font-primary);
+
+    /* ========= TRANSITIONS ========= */
+    --transition-smooth: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    --transition-fast: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    --transition-bounce: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,14 +81,12 @@
 }
 
 body {
-    background: #ffffff;
-    font-family:
-        "Optima", "Segoe UI", "Apple SD Gothic Neo", "Lucida Grande",
-        "Lucida Sans Unicode", "Avenir", sans-serif;
+    background: var(--bg-white);
+    font-family: var(--font-primary);
     scroll-behavior: smooth;
     padding-top: 86px;
     overflow-x: hidden;
-    font-weight: 400 !important;
+    font-weight: 300 !important;
 }
 
 body.nav-shrunk {
@@ -20,7 +94,7 @@ body.nav-shrunk {
 }
 
 p {
-    font-weight: 400 !important;
+    font-weight: 300 !important;
 }
 
 /* ========= ULTRA SMOOTH SCROLL ANIMATIONS ========= */
@@ -156,24 +230,28 @@ p {
 .product-card,
 .nav-btn,
 .cta-button {
-    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    transition: var(--transition-bounce);
+}
+
+.cta-button {
+    border-radius: 1px !important;
 }
 
 .grid-card:hover,
 .product-card:hover {
     transform: translateY(-8px) scale(1.01);
-    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    transition: var(--transition-bounce);
 }
 
 .cta-button:hover,
 .nav-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(11, 31, 58, 0.12);
-    transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    box-shadow: var(--shadow-lg);
+    transition: var(--transition-fast);
 }
 
 .icon-item {
-    transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    transition: var(--transition-fast);
 }
 .icon-item:hover {
     transform: translateX(5px);
@@ -187,13 +265,13 @@ p {
     width: 100%;
     padding: 0 60px;
     height: 86px;
-    background: #ffffff;
+    background: var(--bg-white);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(11, 31, 58, 0.05);
+    border-bottom: 1px solid var(--border-lighter);
     z-index: 1000;
-    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    transition: var(--transition-smooth);
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
@@ -209,13 +287,13 @@ p {
     display: flex;
     align-items: center;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: var(--transition-fast);
 }
 .nav-logo img {
     height: 90px;
     width: auto;
     display: block;
-    transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    transition: var(--transition-smooth);
 }
 .top-nav.scrolled .nav-logo img {
     height: 100px;
@@ -233,9 +311,9 @@ p {
     display: flex;
     gap: 36px;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.03em;
-    color: #1a2c3e;
+    color: var(--color-text-gray);
     text-transform: uppercase;
 }
 .nav-menu a {
@@ -246,7 +324,7 @@ p {
     position: relative;
 }
 .nav-menu a:hover {
-    color: #0e0e0e;
+    color: var(--color-text-dark);
 }
 .nav-menu a::after {
     content: "";
@@ -255,15 +333,15 @@ p {
     left: 0;
     width: 0;
     height: 2px;
-    background: #041931;
+    background: var(--color-primary);
     transition: width 0.35s cubic-bezier(0.2, 0.9, 0.4, 1.1);
 }
 .nav-menu a:hover::after {
     width: 100%;
 }
 .nav-btn {
-    background-color: #0e0e0e;
-    color: white;
+    background-color: var(--color-text-dark);
+    color: var(--color-text-white);
     border: none;
     padding: 10px 26px;
     font-size: 12px;
@@ -272,10 +350,10 @@ p {
     text-transform: uppercase;
     border-radius: 4px;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    transition: var(--transition-bounce);
 }
 .nav-btn:hover {
-    background-color: #112b48;
+    background-color: var(--color-primary-light);
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(11, 31, 58, 0.2);
 }
@@ -303,12 +381,7 @@ p {
     left: 0;
     width: 55%;
     height: 100%;
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.96) 0%,
-        rgba(255, 255, 255, 0.85) 50%,
-        rgba(255, 255, 255, 0) 100%
-    );
+    background: var(--gradient-hero);
     z-index: 1;
     pointer-events: none;
 }
@@ -318,33 +391,33 @@ p {
     z-index: 2;
     max-width: 700px;
     padding: 100px 80px;
-    color: #0e0e0e;
+    color: var(--color-text-dark);
 }
 
 .hero-section .headline {
     font-size: 58px;
-    font-family: "Canela" !important;
-    font-weight: 400;
+    font-family: var(--font-heading) !important;
+    font-weight: 300;
     line-height: 1.2;
-    color: #0e0e0e;
+    color: var(--color-text-dark);
     margin-bottom: 28px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .hero-section .body-text {
     font-size: 18px;
     line-height: 1.6;
-    color: #1a1a1a;
+    color: var(--color-text-gray);
     margin-bottom: 40px;
 }
 
 .hero-section .cta-button {
-    background-color: #041931;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-text-white);
     border: none;
     padding: 16px 36px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.05em;
     border-radius: 4px;
     width: fit-content;
@@ -368,34 +441,34 @@ p {
 .hero-section .icon-item svg {
     width: 30px;
     height: 30px;
-    stroke: #5c6f82;
+    stroke: var(--color-text-lighter);
     stroke-width: 1.5;
     fill: none;
-    transition: all 0.3s ease;
+    transition: var(--transition-fast);
 }
 .hero-section .icon-item:hover svg {
-    stroke: #041931;
+    stroke: var(--color-primary);
 }
 .hero-section .icon-label {
     font-size: 11px;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 0.1em;
-    color: #1a1a1a;
+    color: var(--color-text-gray);
     text-transform: uppercase;
 }
 
 .gray-spacer {
     width: 100%;
-    background: #f5f6f8;
-    padding: 60px 0;
+    background: var(--bg-gray);
+    padding: var(--spacing-xl) 0;
     text-align: center;
 }
 .gray-spacer p {
     font-size: 16px;
-    color: #5d6f7f;
+    color: var(--color-text-lighter);
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .bg-section {
@@ -416,12 +489,7 @@ p {
     left: 0;
     width: 55%;
     height: 100%;
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.96) 0%,
-        rgba(255, 255, 255, 0.85) 50%,
-        rgba(255, 255, 255, 0) 100%
-    );
+    background: var(--gradient-hero);
     z-index: 1;
     pointer-events: none;
 }
@@ -431,36 +499,36 @@ p {
     z-index: 2;
     max-width: 700px;
     padding: 80px 80px;
-    color: #0e0e0e;
+    color: var(--color-text-dark);
 }
 
 .bg-content .breadcrumb {
     font-size: 14px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #5d6f7f;
+    color: var(--color-text-lighter);
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .bg-content .section-title {
     font-size: 52px;
-    font-weight: 400;
-    color: #0e0e0e;
+    font-weight: 300;
+    color: var(--color-text-dark);
     margin-bottom: 20px;
 }
 
 .bg-content .section-subhead {
     font-size: 30px;
-    font-weight: 500;
-    color: #1a1a1a;
+    font-weight: 400;
+    color: var(--color-text-gray);
     margin-bottom: 28px;
     line-height: 1.3;
 }
 
 .bg-content .section-text {
     font-size: 18px;
-    color: #3a4c5e;
+    color: var(--color-text-light);
     line-height: 1.7;
 }
 
@@ -483,7 +551,7 @@ p {
 
 .full-width-gray {
     width: 100%;
-    background: #f5f6f8;
+    background: var(--bg-gray);
 }
 
 .full-width-gray .wide-container {
@@ -492,7 +560,7 @@ p {
 
 .partner-section {
     width: 100%;
-    background: #f5f6f8;
+    background: var(--bg-gray);
     text-align: center;
     padding: 100px 80px;
 }
@@ -502,7 +570,7 @@ p {
     display: flex;
     gap: 100px;
     padding: 100px 80px;
-    background: white;
+    background: var(--bg-white);
 }
 
 .split-left-white {
@@ -519,7 +587,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f5f6f8;
+    background: var(--bg-gray);
     border-radius: 16px;
     overflow: hidden;
 }
@@ -539,22 +607,22 @@ p {
     font-size: 14px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #5d6f7f;
-    margin-bottom: 24px;
+    color: var(--color-text-lighter);
+    margin-bottom: var(--spacing-md);
     font-weight: 600;
 }
 .large-statement {
     font-size: 52px;
-    font-weight: 400 !important;
-    color: #0e0e0e !important;
-    margin-bottom: 24px;
+    font-weight: 300 !important;
+    color: var(--color-text-dark) !important;
+    margin-bottom: var(--spacing-md);
     line-height: 1.2;
 }
 .supporting-text {
     max-width: 750px;
     margin: 0 auto 70px;
     font-size: 18px;
-    color: #3a4c5e;
+    color: var(--color-text-light);
     line-height: 1.6;
 }
 .grid-5 {
@@ -566,21 +634,21 @@ p {
 .grid-card {
     flex: 1;
     min-width: 220px;
-    background: white;
+    background: var(--bg-white);
     padding: 36px 28px;
     border-radius: 16px;
     text-align: left;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--shadow-sm);
 }
 .grid-card h4 {
     font-size: 20px;
-    font-weight: 400 !important;
+    font-weight: 300 !important;
     margin-bottom: 14px;
-    color: #0e0e0e;
+    color: var(--color-text-dark);
 }
 .grid-card p {
     font-size: 15px;
-    color: #4a5e72;
+    color: var(--color-text-muted);
     line-height: 1.5;
 }
 
@@ -592,19 +660,19 @@ p {
 }
 .product-card {
     flex: 1;
-    background: #f5f6f8;
+    background: var(--bg-gray);
     padding: 36px 32px;
     border-radius: 16px;
 }
 .product-card h4 {
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 14px;
-    color: #0e0e0e;
+    color: var(--color-text-dark);
 }
 .product-card p {
     font-size: 15px;
-    color: #4a5e72;
+    color: var(--color-text-muted);
     line-height: 1.5;
 }
 
@@ -622,7 +690,7 @@ p {
     margin-bottom: 18px;
     padding-left: 32px;
     position: relative;
-    color: #3a4c5e;
+    color: var(--color-text-light);
     line-height: 1.5;
     cursor: pointer;
 }
@@ -633,8 +701,8 @@ p {
     content: "✓";
     position: absolute;
     left: 0;
-    color: #0e0e0e;
-    font-weight: 400;
+    color: var(--color-text-dark);
+    font-weight: 300;
     font-size: 20px;
 }
 
@@ -646,20 +714,20 @@ p {
 }
 .framework-left h3 {
     font-size: 36px;
-    font-weight: 400 !important;
-    margin-bottom: 24px;
-    color: #0e0e0e;
+    font-weight: 300 !important;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text-dark);
 }
 .framework-left p {
     font-size: 18px;
-    color: #3a4c5e;
+    color: var(--color-text-light);
     line-height: 1.6;
 }
 .framework-right p {
     font-size: 38px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.3;
-    color: #0e0e0e;
+    color: var(--color-text-dark);
 }
 
 .execution-steps {
@@ -667,7 +735,7 @@ p {
     gap: 60px;
     padding: 80px 80px;
     flex-wrap: wrap;
-    background: white;
+    background: var(--bg-white);
 }
 .step-item {
     flex: 1;
@@ -675,39 +743,39 @@ p {
 }
 .step-number {
     font-size: 42px;
-    font-weight: 400;
-    color: #0e0e0e;
-    margin-bottom: 16px;
+    font-weight: 300;
+    color: var(--color-text-dark);
+    margin-bottom: var(--spacing-sm);
 }
 .step-title {
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 14px;
 }
 .step-desc {
     font-size: 16px;
-    color: #4a5e72;
+    color: var(--color-text-muted);
     line-height: 1.5;
 }
 
 .centered-content {
     text-align: center;
     padding: 80px 80px;
-    background: white;
+    background: var(--bg-white);
 }
 
 .breadcrumb {
     font-size: 13px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #c49a6c;
+    color: var(--color-accent);
     margin-bottom: 15px;
 }
 
 .final-quote {
     text-align: center;
     padding: 80px 80px;
-    background: white;
+    background: var(--bg-white);
 }
 
 .final-quote {
@@ -717,14 +785,14 @@ p {
 
 .final-quote p {
     font-size: 36px;
-    color: #0e0e0e;
+    color: var(--color-text-dark);
     line-height: 1.5;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 footer {
-    background-color: #0e0e0e;
-    color: white;
+    background-color: var(--bg-footer);
+    color: var(--color-text-white);
     padding: 80px 0 40px;
 }
 .footer-container {
@@ -768,8 +836,8 @@ footer {
 .footer-col h4 {
     font-size: 15px;
     letter-spacing: 0.1em;
-    margin-bottom: 24px;
-    font-weight: 400;
+    margin-bottom: var(--spacing-md);
+    font-weight: 300;
 }
 .footer-col p,
 .footer-col a {
@@ -778,10 +846,10 @@ footer {
     margin-bottom: 14px;
     text-decoration: none;
     display: block;
-    transition: all 0.3s ease;
+    transition: var(--transition-fast);
 }
 .footer-col a:hover {
-    color: white;
+    color: var(--color-text-white);
     transform: translateX(5px);
 }
 .social-icons {
@@ -794,14 +862,14 @@ footer {
     letter-spacing: 0.05em;
     color: #cbd5e1;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: var(--transition-fast);
 }
 .social-icons span:hover {
-    color: white;
+    color: var(--color-text-white);
     transform: translateY(-2px);
 }
 .bottom-bar {
-    border-top: 1px solid #2a4058;
+    border-top: 1px solid var(--border-footer);
     padding-top: 32px;
     display: flex;
     justify-content: space-between;
@@ -867,11 +935,7 @@ footer {
     .hero-section::before,
     .bg-section::before {
         width: 100%;
-        background: linear-gradient(
-            90deg,
-            rgba(255, 255, 255, 0.92) 0%,
-            rgba(255, 255, 255, 0.85) 100%
-        );
+        background: var(--gradient-mobile);
     }
     .hero-content,
     .bg-content {
@@ -1231,16 +1295,16 @@ footer {
     /* Text styling */
     .hero-content .headline,
     .bg-content .section-title {
-        color: #1a2c3e !important;
+        color: var(--color-text-gray) !important;
     }
 
     .hero-content .body-text,
     .bg-content .section-text {
-        color: #2e4156 !important;
+        color: var(--color-text-light) !important;
     }
 
     .breadcrumb {
-        color: #c49a6c !important;
+        color: var(--color-accent) !important;
     }
 
     .hero-content .headline span,
@@ -1249,8 +1313,8 @@ footer {
     }
 
     .cta-button {
-        background: #041931 !important;
-        color: white !important;
+        background: var(--color-primary) !important;
+        color: var(--color-text-white) !important;
     }
 }
 

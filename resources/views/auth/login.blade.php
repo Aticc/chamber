@@ -171,7 +171,7 @@
     .image-content h2 {
         font-size: 32px;
         margin-bottom: 15px;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 1.3;
     }
     .image-content p {
@@ -230,7 +230,7 @@
         font-size: 32px;
         color: #031B4E;
         margin-bottom: 8px;
-        font-weight: 400;
+        font-weight: 300;
     }
     .login-header p {
         font-size: 14px;
@@ -336,7 +336,7 @@
         font-size: 13px;
         color: #031B4E;
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 400;
     }
     .forgot-link:hover {
         text-decoration: underline;

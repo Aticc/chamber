@@ -149,7 +149,7 @@
     border-radius: 8px;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 0.2s;
 }
 
@@ -244,7 +244,7 @@
     color: #1976D2;
     border-radius: 20px;
     font-size: 11px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .access-badge {
@@ -252,7 +252,7 @@
     padding: 4px 12px;
     border-radius: 20px;
     font-size: 11px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .access-badge.open {
@@ -270,7 +270,7 @@
     padding: 4px 12px;
     border-radius: 20px;
     font-size: 11px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .status-published { background: #E8F5E9; color: #2E7D32; }

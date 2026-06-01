@@ -91,7 +91,7 @@
     <!-- Organization Details -->
     <div class="detail-card full-width">
         <div class="card-header">
-            <h3>Section 1 — Organization Profile</h3>
+            <h3>Section 1 -Organization Profile</h3>
         </div>
         <div class="card-body">
             <div class="info-grid">
@@ -110,7 +110,7 @@
     <!-- Contact Details -->
     <div class="detail-card full-width">
         <div class="card-header">
-            <h3>Section 2 — Primary Contact Representative</h3>
+            <h3>Section 2 -Primary Contact Representative</h3>
         </div>
         <div class="card-body">
             <div class="info-grid">
@@ -127,7 +127,7 @@
     <!-- Strategic Alignment -->
     <div class="detail-card full-width">
         <div class="card-header">
-            <h3>Section 3 — Institutional Capacity & Strategic Alignment</h3>
+            <h3>Section 3 -Institutional Capacity & Strategic Alignment</h3>
         </div>
         <div class="card-body">
             <div class="info-grid">
@@ -143,7 +143,7 @@
     <!-- Capital Alignment -->
     <div class="detail-card full-width">
         <div class="card-header">
-            <h3>Section 4 — Capital Alignment & Execution Readiness</h3>
+            <h3>Section 4 -Capital Alignment & Execution Readiness</h3>
         </div>
         <div class="card-body">
             <div class="info-grid">
@@ -157,7 +157,7 @@
     <!-- Verification & Documents -->
     <div class="detail-card full-width">
         <div class="card-header">
-            <h3>Section 5 — Trust & Verification (T&V) Requirements</h3>
+            <h3>Section 5 -Trust & Verification (T&V) Requirements</h3>
         </div>
         <div class="card-body">
             <div class="info-grid">
@@ -171,7 +171,7 @@
     <!-- Uploaded Documents -->
     <div class="detail-card full-width">
         <div class="card-header">
-            <h3>Section 6 — Required Documentation</h3>
+            <h3>Section 6 -Required Documentation</h3>
         </div>
         <div class="card-body">
             <div class="documents-grid">
@@ -265,7 +265,7 @@
     text-decoration: none;
     border-radius: 10px;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 0.2s;
 }
 
@@ -351,7 +351,7 @@
     padding: 5px 12px;
     border-radius: 20px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .status-pending { background: #FFF3E0; color: #F57C00; }
@@ -367,7 +367,7 @@
 .form-group label {
     display: block;
     margin-bottom: 8px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 13px;
     color: #1A2C3E;
 }
@@ -399,7 +399,7 @@
     padding: 12px 24px;
     border-radius: 10px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
     transition: all 0.2s;
 }

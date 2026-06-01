@@ -194,7 +194,7 @@
     border-radius: 30px;
     text-decoration: none;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 400;
     color: #5D6F7F;
     transition: all 0.2s;
 }
@@ -277,7 +277,7 @@
     color: #1976D2;
     border-radius: 20px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .status-badge {
@@ -285,7 +285,7 @@
     padding: 5px 12px;
     border-radius: 20px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .status-pending { background: #FFF3E0; color: #F57C00; }
@@ -304,7 +304,7 @@
     text-decoration: none;
     border-radius: 8px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 0.2s;
 }
 

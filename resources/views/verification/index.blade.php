@@ -88,7 +88,7 @@
   .full-width-white { width: 100%; background: white; padding: 80px 0; }
   .full-width-gray { width: 100%; background: #F5F6F8; padding: 80px 0; }
   .centered-eyebrow { font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; color: #C49A6C; margin-bottom: 15px; text-align: center; }
-  .large-statement { font-size: 48px; font-weight: 400; color: #031B4E; margin-bottom: 20px; text-align: center; }
+  .large-statement { font-size: 48px; font-weight: 300; color: #031B4E; margin-bottom: 20px; text-align: center; }
   .section-text-dark { font-size: 16px; color: #3a4c5e; line-height: 1.7; }
   .products-grid { display: flex; gap: 32px; flex-wrap: wrap; }
   .product-card { flex: 1; background: #f5f6f8; padding: 32px 28px; border-radius: 16px; }

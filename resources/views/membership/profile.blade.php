@@ -157,7 +157,7 @@
 }
 
 .info-label {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 13px;
     color: #5D6F7F;
 }
@@ -178,7 +178,7 @@
 .form-group label {
     display: block;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 400;
     color: #1A2C3E;
     margin-bottom: 8px;
 }
@@ -205,7 +205,7 @@
     padding: 12px;
     border-radius: 10px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
     transition: all 0.2s;
 }
@@ -222,7 +222,7 @@
     padding: 12px;
     border-radius: 10px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
     transition: all 0.2s;
 }

@@ -750,7 +750,7 @@
     border-radius: 30px;
     text-decoration: none;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 0.2s;
 }
 
@@ -790,7 +790,7 @@
 
 .portal-footer .footer-quote {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
     color: #031B4E;
 }
 

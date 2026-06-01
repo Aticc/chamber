@@ -4,7 +4,7 @@
 
 @include('layouts.nav')
 
-<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/IMG_0952.png') }}'); background-position: 60% center;">
+<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/ATICC image .png') }}'); background-position: 60% center;">
   <div class="hero-content">
     <div class="breadcrumb fade-up revealed">Home / Contact / Verification Support</div>
     <h1 class="headline fade-up revealed">Verification Support</h1>
@@ -26,9 +26,9 @@
         <p>Our verification services ensure institutional credibility, regulatory compliance, and operational integrity across all engagements.</p>
       </div>
       <div class="framework-right fade-right">
-        <p><strong>Institutional Verification</strong> — Validate corporate credentials and registration</p>
-        <p style="margin-top: 15px;"><strong>Compliance Validation</strong> — Ensure regulatory alignment</p>
-        <p style="margin-top: 15px;"><strong>Due Diligence</strong> — Comprehensive background verification</p>
+        <p><strong>Institutional Verification</strong> -Validate corporate credentials and registration</p>
+        <p style="margin-top: 15px;"><strong>Compliance Validation</strong> -Ensure regulatory alignment</p>
+        <p style="margin-top: 15px;"><strong>Due Diligence</strong> -Comprehensive background verification</p>
       </div>
     </div>
     

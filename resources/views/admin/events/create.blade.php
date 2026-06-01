@@ -296,7 +296,7 @@
 .form-group label {
     display: block;
     margin-bottom: 8px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 13px;
     color: #1A2C3E;
 }
@@ -382,7 +382,7 @@
     border-radius: 10px;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 0.2s;
 }
 
@@ -397,7 +397,7 @@
     border: none;
     border-radius: 10px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
     transition: all 0.2s;
 }

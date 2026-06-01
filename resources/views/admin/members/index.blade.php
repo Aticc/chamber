@@ -168,7 +168,7 @@
     border-radius: 30px;
     text-decoration: none;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 400;
     color: #5D6F7F;
     transition: all 0.2s;
 }
@@ -246,7 +246,7 @@
     padding: 5px 12px;
     border-radius: 20px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .status-approved { background: #E8F5E9; color: #2E7D32; }
@@ -264,7 +264,7 @@
     padding: 6px 14px;
     border-radius: 8px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: none;
     transition: all 0.2s;
 }

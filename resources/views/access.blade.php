@@ -60,17 +60,17 @@
   <div class="large-statement fade-up delay-1">The Funnel</div>
   <div class="grid-5" style="grid-template-columns: repeat(3, 1fr); margin-top: 50px;">
     <div class="grid-card glide-in delay-1" style="text-align: center;">
-      <div style="font-size: 42px; font-weight: 500; color: #031B4E; margin-bottom: 15px;">01</div>
+      <div style="font-size: 42px; font-weight: 400; color: #031B4E; margin-bottom: 15px;">01</div>
       <h4>Expression of Interest (EOI)</h4>
       <p>Initial alignment check</p>
     </div>
     <div class="grid-card glide-in delay-2" style="text-align: center;">
-      <div style="font-size: 42px; font-weight: 500; color: #031B4E; margin-bottom: 15px;">02</div>
+      <div style="font-size: 42px; font-weight: 400; color: #031B4E; margin-bottom: 15px;">02</div>
       <h4>Trust & Verification (T&V) Review</h4>
       <p>Deep-dive institutional vetting</p>
     </div>
     <div class="grid-card glide-in delay-3" style="text-align: center;">
-      <div style="font-size: 42px; font-weight: 500; color: #031B4E; margin-bottom: 15px;">03</div>
+      <div style="font-size: 42px; font-weight: 400; color: #031B4E; margin-bottom: 15px;">03</div>
       <h4>Ratification</h4>
       <p>Final approval and strategic onboarding into the ATICC ecosystem</p>
     </div>
@@ -87,9 +87,9 @@
       </div>
       <div class="split-right fade-right">
         <ul class="bullet-list">
-          <li><span style="font-weight: 500;">Accession & Annual Dues:</span> Membership lifecycle fees</li>
-          <li><span style="font-weight: 500;">Success-based Facilitation:</span> Fees derived from executed transactions</li>
-          <li><span style="font-weight: 500;">Advisory & Intelligence Mandates:</span> Strategic consulting for market entry</li>
+          <li><span style="font-weight: 400;">Accession & Annual Dues:</span> Membership lifecycle fees</li>
+          <li><span style="font-weight: 400;">Success-based Facilitation:</span> Fees derived from executed transactions</li>
+          <li><span style="font-weight: 400;">Advisory & Intelligence Mandates:</span> Strategic consulting for market entry</li>
         </ul>
       </div>
     </div>
@@ -126,9 +126,9 @@
       </div>
       <div class="split-right fade-right">
         <ul class="bullet-list">
-          <li><span style="font-weight: 500;">Triple-Filter Test:</span> Commercial Viability, Regulatory Alignment, Economic Contribution</li>
-          <li><span style="font-weight: 500;">Independent Third-Party Validation:</span> Integration with global risk agencies</li>
-          <li><span style="font-weight: 500;">Integrity Enforcement:</span> Zero-tolerance policy with expulsion and blacklisting</li>
+          <li><span style="font-weight: 400;">Triple-Filter Test:</span> Commercial Viability, Regulatory Alignment, Economic Contribution</li>
+          <li><span style="font-weight: 400;">Independent Third-Party Validation:</span> Integration with global risk agencies</li>
+          <li><span style="font-weight: 400;">Integrity Enforcement:</span> Zero-tolerance policy with expulsion and blacklisting</li>
         </ul>
       </div>
     </div>

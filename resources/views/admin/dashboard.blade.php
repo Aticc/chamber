@@ -290,7 +290,7 @@
     font-size: 13px;
     color: #C49A6C;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .view-link:hover {
@@ -332,7 +332,7 @@
 
 .activity-title {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     color: #031B4E;
     margin-bottom: 4px;
 }
@@ -351,7 +351,7 @@
     padding: 4px 10px;
     border-radius: 20px;
     font-size: 11px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .status-pending { background: #FFF3CD; color: #856404; }

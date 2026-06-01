@@ -18,11 +18,11 @@ Route::get('/about/governance', function () { return view('about.governance'); }
 Route::get('/about/leadership', function () { return view('about.leadership'); })->name('about.leadership');
 Route::get('/about/regional', function () { return view('about.regional'); })->name('about.regional');
 Route::get('/about/standards', function () { return view('about.standards'); })->name('about.standards');
-Route::get('/about/legal', function () { return view('about.legal'); })->name('about.legal');
-Route::get('/about/sectors', function () { return view('about.sectors'); })->name('about.sectors');
+// Route::get('/about/legal', function () { return view('about.legal'); })->name('about.legal');
+// Route::get('/about/sectors', function () { return view('about.sectors'); })->name('about.sectors');
 
 // ========= MEMBERSHIP SUBPAGES =========
-Route::get('/membership', function () { return view('membership'); })->name('membership');
+Route::get('/membership', function () { return view('membership.index'); })->name('membership');
 Route::get('/membership/institutional', function () { return view('membership.institutional'); })->name('membership.institutional');
 Route::get('/membership/corporate', function () { return view('membership.corporate'); })->name('membership.corporate');
 Route::get('/membership/investor', function () { return view('membership.investor'); })->name('membership.investor');

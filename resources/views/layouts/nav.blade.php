@@ -1,7 +1,7 @@
 <!-- TOP NAVIGATION - FULLY RESPONSIVE WITH AUTH (8 PRIMARY MENU ITEMS) -->
 <div class="top-nav" id="stickyNav">
   <div class="nav-logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-    <img src="{{ asset('assets/images/ATICC FINAL LOGO  (2).png') }}" width="100" height="86" alt="ATICC Logo">
+    <img src="{{ asset('assets/images/ATICC FINAL LOGO  (2).png') }}" alt="ATICC Logo">
   </div>
   
   <!-- Mobile Hamburger Button -->
@@ -30,31 +30,24 @@
               <span class="dropdown-title">About</span>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Institutional Overview <span class="group-arrow">›</span></div>
+              <div class="group-link">Institutional Overview</div>
               <div class="sub-dropdown">
                 <a href="{{ route('about.overview') }}">Institutional Overview</a>
                 <a href="{{ route('about.mission') }}">Mission & Strategic Purpose</a>
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Governance & Leadership <span class="group-arrow">›</span></div>
+              <div class="group-link">Governance & Leadership</div>
               <div class="sub-dropdown">
                 <a href="{{ route('about.governance') }}">Governance Framework</a>
                 <a href="{{ route('about.leadership') }}">Leadership & Advisory Board</a>
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Standards & Compliance <span class="group-arrow">›</span></div>
+              <div class="group-link">Standards & Compliance</div>
               <div class="sub-dropdown">
                 <a href="{{ route('about.regional') }}">Regional Coordination Network</a>
                 <a href="{{ route('about.standards') }}">Institutional Standards</a>
-                <a href="{{ route('about.legal') }}">Legal & Compliance</a>
-              </div>
-            </div>
-            <div class="dropdown-group">
-              <div class="group-link">Strategic Sectors <span class="group-arrow">›</span></div>
-              <div class="sub-dropdown">
-                <a href="{{ route('about.sectors') }}">Strategic Sectors</a>
               </div>
             </div>
           </div>
@@ -69,7 +62,7 @@
               <span class="dropdown-title">Membership</span>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Membership Types <span class="group-arrow">›</span></div>
+              <div class="group-link">Membership Types</div>
               <div class="sub-dropdown">
                 <a href="{{ route('membership.institutional') }}">Institutional Membership</a>
                 <a href="{{ route('membership.corporate') }}">Corporate Membership</a>
@@ -78,14 +71,14 @@
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Benefits & Standards <span class="group-arrow">›</span></div>
+              <div class="group-link">Benefits & Standards</div>
               <div class="sub-dropdown">
                 <a href="{{ route('membership.benefits') }}">Membership Benefits</a>
                 <a href="{{ route('membership.verification-standards') }}">Verification Standards</a>
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Application <span class="group-arrow">›</span></div>
+              <div class="group-link">Application</div>
               <div class="sub-dropdown">
                 <a href="{{ route('membership.apply') }}">Membership Application</a>
               </div>
@@ -102,7 +95,7 @@
               <span class="dropdown-title">Trade & Investment</span>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Trade Services <span class="group-arrow">›</span></div>
+              <div class="group-link">Trade Services</div>
               <div class="sub-dropdown">
                 <a href="{{ route('trade.facilitation') }}">Trade Facilitation</a>
                 <a href="{{ route('trade.market-access') }}">Cross-Border Market Access</a>
@@ -110,7 +103,7 @@
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Investment Services <span class="group-arrow">›</span></div>
+              <div class="group-link">Investment Services</div>
               <div class="sub-dropdown">
                 <a href="{{ route('trade.investment-coordination') }}">Investment Coordination</a>
                 <a href="{{ route('trade.capital-matching') }}">Capital Matching</a>
@@ -118,7 +111,7 @@
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Partnerships <span class="group-arrow">›</span></div>
+              <div class="group-link">Partnerships</div>
               <div class="sub-dropdown">
                 <a href="{{ route('trade.partnerships') }}">Institutional Partnerships</a>
                 <a href="{{ route('trade.infrastructure') }}">Infrastructure & Energy</a>
@@ -137,7 +130,7 @@
               <span class="dropdown-title">Intelligence</span>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Market Intelligence <span class="group-arrow">›</span></div>
+              <div class="group-link">Market Intelligence</div>
               <div class="sub-dropdown">
                 <a href="{{ route('intelligence.market') }}">Market Intelligence</a>
                 <a href="{{ route('intelligence.sector-reports') }}">Sector Reports</a>
@@ -145,7 +138,7 @@
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Insights & Research <span class="group-arrow">›</span></div>
+              <div class="group-link">Insights & Research</div>
               <div class="sub-dropdown">
                 <a href="{{ route('intelligence.trade-insights') }}">Trade Insights</a>
                 <a href="{{ route('intelligence.research') }}">Research Publications</a>
@@ -165,7 +158,7 @@
               <span class="dropdown-title">Events & Missions</span>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Events <span class="group-arrow">›</span></div>
+              <div class="group-link">Events</div>
               <div class="sub-dropdown">
                 <a href="{{ route('events.summits') }}">Institutional Summits</a>
                 <a href="{{ route('events.investment-forums') }}">Investment Forums</a>
@@ -174,13 +167,13 @@
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Missions <span class="group-arrow">›</span></div>
+              <div class="group-link">Missions</div>
               <div class="sub-dropdown">
                 <a href="{{ route('events.trade-missions') }}">Trade Missions</a>
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Registration <span class="group-arrow">›</span></div>
+              <div class="group-link">Registration</div>
               <div class="sub-dropdown">
                 <a href="{{ route('events.upcoming') }}">Upcoming Events</a>
                 <a href="{{ route('events.register') }}">Event Registration</a>
@@ -198,7 +191,7 @@
               <span class="dropdown-title">Verification</span>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Framework & Standards <span class="group-arrow">›</span></div>
+              <div class="group-link">Framework & Standards</div>
               <div class="sub-dropdown">
                 <a href="{{ route('verification.framework') }}">Verification Framework</a>
                 <a href="{{ route('verification.due-diligence') }}">Due Diligence Standards</a>
@@ -206,14 +199,14 @@
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Compliance & Risk <span class="group-arrow">›</span></div>
+              <div class="group-link">Compliance & Risk</div>
               <div class="sub-dropdown">
                 <a href="{{ route('verification.compliance') }}">Compliance Protocols</a>
                 <a href="{{ route('verification.risk-assessment') }}">Risk Assessment</a>
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Access <span class="group-arrow">›</span></div>
+              <div class="group-link">Access</div>
               <div class="sub-dropdown">
                 <a href="{{ route('verification.access') }}">Verification Access</a>
                 <a href="{{ route('verification.submit') }}">Verification Submission</a>
@@ -231,7 +224,7 @@
               <span class="dropdown-title">Contact</span>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">General Inquiries <span class="group-arrow">›</span></div>
+              <div class="group-link">General Inquiries</div>
               <div class="sub-dropdown">
                 <a href="{{ route('contact.inquiry') }}">Institutional Inquiry</a>
                 <a href="{{ route('contact.partnership') }}">Partnership Request</a>
@@ -239,14 +232,14 @@
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Support <span class="group-arrow">›</span></div>
+              <div class="group-link">Support</div>
               <div class="sub-dropdown">
                 <a href="{{ route('contact.verification-support') }}">Verification Support</a>
                 <a href="{{ route('contact.transaction') }}">Transaction Submission</a>
               </div>
             </div>
             <div class="dropdown-group">
-              <div class="group-link">Locations <span class="group-arrow">›</span></div>
+              <div class="group-link">Locations</div>
               <div class="sub-dropdown">
                 <a href="{{ route('contact.offices') }}">Office Locations</a>
               </div>
@@ -343,10 +336,112 @@
 
 <div class="nav-overlay" id="navOverlay"></div>
 
-<!-- The rest of your CSS and JavaScript remains exactly the same -->
-
 <style>
-/* ===== NAVIGATION DROPDOWN STYLES ===== */
+/* ===== VARIABLES - BLUE THEME ===== */
+:root {
+  --nav-bg: #FFFFFF;
+  --nav-text: #1a1a2e;
+  --nav-text-light: #4a5568;
+  --nav-accent: #041931;
+  --nav-accent-light: #0a3a5c;
+  --nav-primary: #041931;
+  --nav-border: #E8EBED;
+  --nav-hover-bg: #F0F4F8;
+  --nav-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== BASE NAVIGATION STYLES ===== */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--nav-border);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.top-nav.scrolled {
+  padding: 6px 40px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+}
+
+/* Logo Styles - CORRECT SIZE */
+.nav-logo {
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.nav-logo:hover {
+  transform: scale(1.02);
+}
+
+.nav-logo img {
+  width: auto;
+  height: 177px;
+  transition: height 0.3s ease;
+  object-fit: contain;
+}
+
+.top-nav.scrolled .nav-logo img {
+  height: 177px;
+}
+
+/* Navigation Right Container */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+/* Menu Items Container */
+.nav-menu {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-menu > .nav-dropdown > a {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--nav-text);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  position: relative;
+  padding: 8px 0;
+}
+
+.nav-menu > .nav-dropdown > a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--nav-accent);
+  transition: width 0.25s ease;
+}
+
+.nav-menu > .nav-dropdown > a:hover::after {
+  width: 100%;
+}
+
+.nav-menu > .nav-dropdown > a:hover {
+  color: var(--nav-accent);
+}
+
+/* ===== DROPDOWN MENU STYLES ===== */
 .nav-dropdown {
   position: relative;
   display: inline-block;
@@ -358,33 +453,42 @@
   cursor: pointer;
 }
 
+.nav-dropdown::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: transparent;
+  z-index: 1000;
+}
+
 .dropdown-menu {
   position: absolute;
   top: 100%;
   left: 0;
   min-width: 280px;
-  background: #FFFFFF;
-  border: 1px solid #E8EBED;
+  background: var(--nav-bg);
+  border: 1px solid var(--nav-border);
   border-radius: 16px;
-  box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--nav-shadow);
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-8px);
-  transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease;
+  transition: opacity 0.15s ease, visibility 0.15s ease;
   z-index: 1001;
-  padding: 16px 20px;
-  text-transform: capitalize;
+  padding: 12px 0;
   pointer-events: none;
 }
 
-.nav-dropdown:hover .dropdown-menu {
+.nav-dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
   pointer-events: auto;
+  transition-delay: 0.05s;
 }
 
-/* Right-aligned dropdown for last items */
 .nav-dropdown:last-child .dropdown-menu,
 .nav-dropdown:nth-last-child(2) .dropdown-menu {
   left: auto;
@@ -393,115 +497,350 @@
 
 /* Dropdown Group Styles */
 .dropdown-group {
-  margin-bottom: 8px;
   position: relative;
 }
 
-.group-link {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
+.dropdown-group > .group-link {
+  display: block;
+  padding: 10px 20px;
   font-size: 13px;
-  font-weight: 600;
-  color: #17015e;
-  border-bottom: 1px solid #F5F6F8;
+  font-weight: 400;
+  color: var(--nav-text);
+  text-decoration: none;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 
-.group-link:hover {
-  color: #031B4E;
+.dropdown-group > .group-link:hover {
+  background: var(--nav-hover-bg);
+  color: var(--nav-accent);
 }
 
-.group-arrow {
-  font-size: 16px;
-  color: #C49A6C;
-}
-
-/* SUB-DROPDOWN - EXACTLY LIKE THE FIRST DROPDOWN */
+/* ===== SUB-DROPDOWN - CLEAN STYLE ===== */
 .sub-dropdown {
   position: absolute;
-  top: -10px;
+  top: -8px;
   left: 100%;
   min-width: 260px;
-  background: #FFFFFF;
-  border: 1px solid #E8EBED;
+  background: var(--nav-bg);
+  border: 1px solid var(--nav-border);
   border-radius: 16px;
-  box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.15);
-  padding: 12px 0;
+  box-shadow: var(--nav-shadow);
+  padding: 8px 0;
   opacity: 0;
   visibility: hidden;
-  transform: translateX(-10px);
-  transition: all 0.25s ease;
+  transition: opacity 0.15s ease, visibility 0.15s ease;
   z-index: 1002;
   pointer-events: none;
 }
 
-/* Hover on group-link shows sub-dropdown */
-.dropdown-group:hover .sub-dropdown {
+.dropdown-group:hover .sub-dropdown,
+.sub-dropdown:hover {
   opacity: 1;
   visibility: visible;
-  transform: translateX(0);
   pointer-events: auto;
+  transition-delay: 0.05s;
 }
 
-/* Sub-dropdown links - same style as main dropdown links */
 .sub-dropdown a {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 24px;
   font-size: 13px;
-  color: #4A5E72;
+  color: var(--nav-text-light);
   text-decoration: none;
   transition: all 0.2s ease;
   white-space: nowrap;
-  text-transform: capitalize;
 }
 
 .sub-dropdown a:hover {
-  background: #F5F6F8;
-  color: #031B4E;
+  background: var(--nav-hover-bg);
+  color: var(--nav-accent);
 }
 
-/* Right-aligned sub-dropdown for groups near the edge */
+/* Right-aligned sub-dropdown */
 .nav-dropdown:last-child .dropdown-group .sub-dropdown,
 .nav-dropdown:nth-last-child(2) .dropdown-group .sub-dropdown {
   left: auto;
   right: 100%;
 }
 
-/* Direct links in dropdown */
+/* Direct links in dropdown (no sub-dropdown) */
 .dropdown-menu > a {
   display: block;
-  padding: 10px 0;
+  padding: 10px 20px;
   font-size: 13px;
-  color: #4A5E72;
+  color: var(--nav-text-light);
   text-decoration: none;
-  border-bottom: 1px solid #F5F6F8;
+  transition: all 0.2s ease;
 }
 
 .dropdown-menu > a:hover {
-  color: #031B4E;
-  transform: translateX(4px);
+  background: var(--nav-hover-bg);
+  color: var(--nav-accent);
 }
 
-.dropdown-header {
+/* ===== CTA BUTTON - BLUE HOVER ===== */
+.nav-btn {
+  padding: 10px 28px;
+  border-radius: 1px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background: var(--nav-primary);
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(4, 25, 49, 0.1);
+}
+
+.nav-btn:hover {
+  background: var(--nav-accent-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(4, 25, 49, 0.2);
+  color: #FFFFFF;
+}
+
+/* ===== USER DROPDOWN ===== */
+.nav-user {
+  position: relative;
+}
+
+.user-dropdown {
+  position: relative;
+}
+
+.user-dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 18px;
+  background: var(--nav-hover-bg);
+  border: 1px solid var(--nav-border);
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--nav-text);
+  transition: all 0.2s ease;
+}
+
+.user-dropdown-btn:hover {
+  background: #EDEFF2;
+  border-color: var(--nav-accent);
+}
+
+.user-dropdown-btn svg {
+  transition: stroke 0.2s ease;
+}
+
+.user-dropdown-btn:hover svg {
+  stroke: var(--nav-accent);
+}
+
+.dropdown-arrow {
+  transition: transform 0.2s ease;
+}
+
+.user-dropdown.open .dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.user-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  min-width: 220px;
+  background: var(--nav-bg);
+  border: 1px solid var(--nav-border);
+  border-radius: 16px;
+  box-shadow: var(--nav-shadow);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.2s ease;
+  z-index: 1001;
+  overflow: hidden;
+}
+
+.user-dropdown.open .user-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.user-dropdown-menu a {
+  display: block;
+  padding: 12px 20px;
+  font-size: 13px;
+  color: var(--nav-text-light);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.user-dropdown-menu a:hover {
+  background: var(--nav-hover-bg);
+  color: var(--nav-accent);
+}
+
+.user-dropdown-menu hr {
+  margin: 8px 0;
+  border: none;
+  border-top: 1px solid var(--nav-border);
+}
+
+/* ===== MOBILE STYLES ===== */
+.mobile-toggle {
   display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+  z-index: 1002;
 }
 
-/* Mobile only class */
+.mobile-toggle span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--nav-text);
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+
+.mobile-toggle.open span:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+
+.mobile-toggle.open span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+.mobile-toggle.open span:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}
+
+.nav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 999;
+  backdrop-filter: blur(4px);
+}
+
+.nav-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
 .mobile-only {
   display: none;
 }
 
-/* ===== RESPONSIVE MOBILE STYLES ===== */
+@media (max-width: 1200px) {
+  .top-nav { padding: 8px 30px; }
+  .nav-right { gap: 30px; }
+  .nav-menu { gap: 24px; }
+}
+
+@media (max-width: 1100px) {
+  .top-nav { padding: 8px 24px; }
+  .nav-menu { gap: 20px; }
+  .nav-btn { padding: 8px 20px; font-size: 12px; }
+}
+
 @media (max-width: 950px) {
+  .mobile-toggle {
+    display: flex;
+  }
+  
   .mobile-only {
     display: flex !important;
   }
   
-  .nav-dropdown {
+  .nav-dropdown::after {
+    display: none;
+  }
+  
+  .nav-dropdown:hover .dropdown-menu,
+  .dropdown-menu:hover,
+  .dropdown-group:hover .sub-dropdown,
+  .sub-dropdown:hover {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  .top-nav {
+    padding: 8px 20px;
+  }
+  
+  .top-nav.scrolled {
+    padding: 6px 20px;
+  }
+  
+  .nav-logo img {
+    height: 177px;
+  }
+  
+  .top-nav.scrolled .nav-logo img {
+    height: 60px;
+  }
+  
+  .nav-right {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 320px;
+    height: 100vh;
+    background: var(--nav-bg);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 80px 24px 40px;
+    gap: 30px;
+    box-shadow: -8px 0 32px rgba(0, 0, 0, 0.1);
+    transition: right 0.35s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    z-index: 1001;
+    overflow-y: auto;
+  }
+  
+  .nav-right.open {
+    right: 0;
+  }
+  
+  .nav-menu {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+  
+  .nav-menu > .nav-dropdown {
     width: 100%;
     position: static;
+  }
+  
+  .nav-menu > .nav-dropdown > a {
+    font-size: 16px;
+    padding: 12px 0;
+    width: 100%;
+    white-space: normal;
+    display: block;
+  }
+  
+  .nav-menu > .nav-dropdown > a::after {
+    display: none;
   }
   
   .dropdown-menu {
@@ -517,14 +856,14 @@
     border-radius: 0;
     border: none;
     box-shadow: none;
-    padding: 70px 24px 30px;
+    padding: 70px 24px 40px;
     margin: 0;
     overflow-y: auto;
-    background: #FFFFFF;
+    background: var(--nav-bg);
     opacity: 0;
     visibility: hidden;
     transform: translateX(100%);
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 0.35s ease, opacity 0.3s ease;
     pointer-events: none;
     z-index: 1002;
   }
@@ -539,13 +878,13 @@
   .dropdown-header {
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-bottom: 25px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #E8EBED;
+    gap: 16px;
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--nav-border);
     position: sticky;
     top: 0;
-    background: white;
+    background: var(--nav-bg);
     z-index: 10;
   }
   
@@ -553,36 +892,38 @@
     background: none;
     border: none;
     font-size: 16px;
-    font-weight: 500;
-    color: #031B4E;
+    font-weight: 400;
+    color: var(--nav-primary);
     cursor: pointer;
     padding: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
   }
   
   .dropdown-title {
     font-size: 18px;
     font-weight: 600;
-    color: #031B4E;
+    color: var(--nav-primary);
   }
   
-  .group-link {
-    font-size: 16px;
+  .dropdown-group > .group-link {
     padding: 14px 0;
+    font-size: 15px;
   }
   
-  /* Mobile: sub-dropdown becomes click-to-expand */
   .sub-dropdown {
     position: static;
     width: 100%;
     box-shadow: none;
     border: none;
-    padding-left: 20px;
-    margin-top: 5px;
+    padding: 0 0 0 20px;
+    margin-top: 8px;
     opacity: 1;
     visibility: visible;
-    transform: none;
     display: none;
     background: transparent;
+    pointer-events: auto;
   }
   
   .dropdown-group.open .sub-dropdown {
@@ -595,25 +936,67 @@
     white-space: normal;
   }
   
-  .group-link {
+  .sub-dropdown a:hover {
+    background: transparent;
+    color: var(--nav-accent);
+    padding-left: 0;
+  }
+  
+  .dropdown-group > .group-link {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .group-link::after {
+  .dropdown-group > .group-link::after {
     content: "▼";
     font-size: 10px;
-    color: #C49A6C;
+    color: var(--nav-accent);
     transition: transform 0.2s ease;
   }
   
-  .dropdown-group.open .group-link::after {
+  .dropdown-group.open > .group-link::after {
     transform: rotate(180deg);
   }
   
-  .nav-dropdown.mobile-open {
-    overflow: hidden;
+  .nav-btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 24px;
+    font-size: 14px;
+  }
+  
+  .nav-user {
+    width: 100%;
+  }
+  
+  .user-dropdown {
+    width: 100%;
+  }
+  
+  .user-dropdown-btn {
+    width: 100%;
+    justify-content: space-between;
+    padding: 12px 16px;
+  }
+  
+  .user-dropdown-menu {
+    position: static;
+    width: 100%;
+    margin-top: 12px;
+    box-shadow: none;
+    border: 1px solid var(--nav-border);
+  }
+  
+  .user-dropdown:not(.open) .user-dropdown-menu {
+    display: none;
+  }
+  
+  .user-dropdown.open .user-dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
   }
   
   body.menu-open {
@@ -621,314 +1004,31 @@
   }
 }
 
-/* Desktop styles */
-@media (min-width: 951px) {
-  .dropdown-menu {
-    min-width: 320px;
+@media (max-width: 480px) {
+  .top-nav {
+    padding: 6px 16px;
   }
   
-  .dropdown-group {
-    position: relative;
+  .top-nav.scrolled {
+    padding: 4px 16px;
   }
-}
-
-/* ===== EXISTING NAVIGATION STYLES (PRESERVED) ===== */
-.top-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 8px;
-  background: #FFFFFF;
-  border-bottom: 1px solid #E8EBED;
-  z-index: 1000;
-  transition: all 0.3s ease;
-  box-sizing: border-box;
-}
-
-.top-nav.scrolled {
-  padding: 10px 19px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-}
-
-.nav-logo {
-  cursor: pointer;
-  flex-shrink: 0;
-}
-
-.nav-logo img {
-  width: auto;
-  height: 177px;
-  transition: height 0.3s ease;
-  background: transparent;
-  mix-blend-mode: multiply;
-}
-
-.top-nav.scrolled .nav-logo img {
-  height: 100px;
-}
-
-.nav-right {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.nav-menu {
-  display: flex;
-  gap: 32px;
-}
-
-.nav-menu a {
-  font-size: 12px;
-  font-weight: 500;
-  color: #0e0e0e;
-  text-decoration: none;
-  letter-spacing: 0.03em;
-  transition: color 0.2s ease;
-  white-space: nowrap;
-}
-
-.nav-menu a:hover {
-  color: #031B4E;
-}
-
-.nav-btn {
-  padding: 10px 28px;
-  border-radius: 1px;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  background: #041931;
-  color: #FFFFFF;
-  border: none;
-  cursor: pointer;
-  white-space: nowrap;
-  display: inline-block;
-}
-
-.nav-btn:hover {
-  background: #031B4E;
-  transform: translateY(-1px);
-  color: white;
-}
-
-.nav-user {
-  position: relative;
-}
-
-.user-dropdown {
-  position: relative;
-}
-
-.user-dropdown-btn {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  background: #F5F6F7;
-  border: 1px solid #E8EBED;
-  border-radius: 40px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  color: #0e0e0e;
-  transition: all 0.2s ease;
-}
-
-.user-dropdown-btn:hover {
-  background: #EDEFF2;
-  border-color: #031B4E;
-}
-
-.user-dropdown-btn:hover svg {
-  stroke: #041931;
-}
-
-.dropdown-arrow {
-  transition: transform 0.2s ease;
-}
-
-.user-dropdown.open .dropdown-arrow {
-  transform: rotate(180deg);
-}
-
-.user-dropdown-menu {
-  position: absolute;
-  top: calc(100% + 10px);
-  right: 0;
-  min-width: 220px;
-  background: #FFFFFF;
-  border: 1px solid #E8EBED;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-10px);
-  transition: all 0.2s ease;
-  z-index: 1001;
-}
-
-.user-dropdown.open .user-dropdown-menu {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-.user-dropdown-menu a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px 16px;
-  font-size: 13px;
-  color: #0e0e0e;
-  text-decoration: none;
-  transition: background 0.2s ease;
-}
-
-.user-dropdown-menu a:hover {
-  background: #F5F6F7;
-  color: #031B4E;
-}
-
-.user-dropdown-menu a svg {
-  stroke: #7A8B9B;
-}
-
-.user-dropdown-menu a:hover svg {
-  stroke: #041931;
-}
-
-.user-dropdown-menu hr {
-  margin: 8px 0;
-  border: none;
-  border-top: 1px solid #E8EBED;
-}
-
-.mobile-toggle {
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-  cursor: pointer;
-  z-index: 1002;
-}
-
-.mobile-toggle span {
-  display: block;
-  height: 2px;
-  width: 100%;
-  background: #0e0e0e;
-  transition: all 0.3s ease;
-  border-radius: 2px;
-}
-
-.mobile-toggle.open span:nth-child(1) {
-  transform: translateY(9px) rotate(45deg);
-}
-
-.mobile-toggle.open span:nth-child(2) {
-  opacity: 0;
-}
-
-.mobile-toggle.open span:nth-child(3) {
-  transform: translateY(-9px) rotate(-45deg);
-}
-
-.nav-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease;
-  z-index: 999;
-}
-
-.nav-overlay.open {
-  opacity: 1;
-  visibility: visible;
-}
-
-@media (max-width: 1100px) {
-  .top-nav { padding: 16px 40px; }
-  .top-nav.scrolled { padding: 10px 40px; }
-  .nav-menu { gap: 24px; }
-}
-
-@media (max-width: 950px) {
-  .top-nav { padding: 12px 24px; }
-  .top-nav.scrolled { padding: 8px 24px; }
-  .mobile-toggle { display: flex; }
+  
+  .nav-logo img {
+    height: 177px;
+  }
+  
+  .top-nav.scrolled .nav-logo img {
+    height: 45px;
+  }
   
   .nav-right {
-    position: fixed;
-    top: 0;
+    width: 100%;
     right: -100%;
-    width: 280px;
-    height: 100vh;
-    background: #FFFFFF;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 80px 24px 40px;
-    gap: 30px;
-    box-shadow: -5px 0 30px rgba(0, 0, 0, 0.1);
-    transition: right 0.3s ease;
-    z-index: 1001;
   }
   
-  .nav-right.open { right: 0; }
-  
-  .nav-menu {
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
+  .dropdown-menu {
+    padding: 60px 20px 30px;
   }
-  
-  .nav-menu > .nav-dropdown > a {
-    font-size: 16px;
-    padding: 10px 0;
-    width: 100%;
-    white-space: normal;
-  }
-  
-  .nav-btn {
-    width: 100%;
-    text-align: center;
-    padding: 12px 24px;
-  }
-  
-  .nav-user { width: 100%; }
-  .user-dropdown { width: 100%; }
-  .user-dropdown-btn { width: 100%; justify-content: space-between; padding: 12px 16px; }
-  
-  .user-dropdown-menu {
-    position: static;
-    width: 100%;
-    margin-top: 10px;
-    box-shadow: none;
-    border: 1px solid #E8EBED;
-  }
-  
-  .user-dropdown:not(.open) .user-dropdown-menu { display: none; }
-  .user-dropdown.open .user-dropdown-menu { display: block; opacity: 1; visibility: visible; transform: none; }
-}
-
-@media (max-width: 480px) {
-  .top-nav { padding: 8px 16px; }
-  .nav-logo img { height: 100px; }
-  .top-nav.scrolled .nav-logo img { height: 100px; }
-  .nav-right { width: 100%; right: -100%; }
 }
 </style>
 
@@ -979,7 +1079,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
   
-  // Mobile dropdown toggle - open submenu
   const navDropdowns = document.querySelectorAll('.nav-dropdown');
   navDropdowns.forEach(dropdown => {
     const dropdownLink = dropdown.querySelector(':scope > a');
@@ -999,8 +1098,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
-  // Mobile: toggle sub-dropdown when clicking group-link
-  const groupLinks = document.querySelectorAll('.dropdown-group .group-link');
+  const groupLinks = document.querySelectorAll('.dropdown-group > .group-link');
   groupLinks.forEach(link => {
     link.addEventListener('click', function(e) {
       if (window.innerWidth <= 950) {
@@ -1011,8 +1109,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
-  // Close menu when clicking a link
-  const navLinks = document.querySelectorAll('.dropdown-menu a, .sub-dropdown a, .nav-menu > .nav-dropdown > a[href^="#"], .nav-menu > .nav-dropdown > a[href^="/"]');
+  const navLinks = document.querySelectorAll('.dropdown-menu a, .sub-dropdown a, .nav-menu > .nav-dropdown > a');
   navLinks.forEach(link => {
     link.addEventListener('click', function() {
       if (window.innerWidth <= 950) {
@@ -1063,30 +1160,6 @@ function closeSubMenu(btn) {
   const dropdown = btn.closest('.nav-dropdown');
   if (dropdown) {
     dropdown.classList.remove('mobile-open');
-  }
-}
-
-function scrollToSection(sectionId) {
-  const element = document.getElementById(sectionId);
-  if (element) {
-    const navHeight = document.getElementById('stickyNav').offsetHeight;
-    const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-    const offsetPosition = elementPosition - navHeight - 20;
-    
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: 'smooth'
-    });
-  }
-  // Close mobile menu if open
-  const mobileToggle = document.getElementById('mobileToggle');
-  const navMenu = document.getElementById('navMenu');
-  const navOverlay = document.getElementById('navOverlay');
-  if (mobileToggle && mobileToggle.classList.contains('open')) {
-    mobileToggle.classList.remove('open');
-    if (navMenu) navMenu.classList.remove('open');
-    if (navOverlay) navOverlay.classList.remove('open');
-    document.body.style.overflow = '';
   }
 }
 </script>

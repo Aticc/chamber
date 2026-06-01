@@ -54,7 +54,7 @@
 <style>
   .full-width-white { width: 100%; background: white; padding: 80px 0; }
   .centered-eyebrow { font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; color: #C49A6C; margin-bottom: 15px; text-align: center; }
-  .large-statement { font-size: 48px; font-weight: 400; color: #031B4E; margin-bottom: 20px; text-align: center; }
+  .large-statement { font-size: 48px; font-weight: 300; color: #031B4E; margin-bottom: 20px; text-align: center; }
   .final-quote { background: white; text-align: center; padding: 80px 20px; }
   .final-quote p { font-size: 28px; color: #0e0e0e; line-height: 1.4; }
   @media (max-width: 768px) { .full-width-white { padding: 40px 0; } .large-statement { font-size: 28px !important; } .final-quote p { font-size: 22px !important; } }

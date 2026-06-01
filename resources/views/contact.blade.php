@@ -33,7 +33,7 @@
           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
           <circle cx="12" cy="10" r="3"/>
         </svg>
-        <span style="font-size: 14px; color: #041931; font-weight: 500;">HQ: Lagos, Nigeria</span>
+        <span style="font-size: 14px; color: #041931; font-weight: 400;">HQ: Lagos, Nigeria</span>
       </div> --}}
     </div>
 
@@ -236,7 +236,7 @@
 
   /* Hero Section Overrides */
   .hero-section .headline {
-    font-weight: 400;
+    font-weight: 300;
   }
 
   /* Responsive */

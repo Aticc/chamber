@@ -60,7 +60,7 @@
             display: flex;
             gap: 36px;
             font-size: 13px;
-            font-weight: 500;
+            font-weight: 400;
             letter-spacing: 0.03em;
             color: #1A2C3E;
             text-transform: uppercase;
@@ -119,7 +119,7 @@
 
         .error-code {
             font-size: 140px;
-            font-weight: 400;
+            font-weight: 300;
             color: #17015e;
             line-height: 1;
             margin-bottom: 24px;
@@ -128,7 +128,7 @@
 
         .error-title {
             font-size: 36px;
-            font-weight: 400;
+            font-weight: 300;
             color: #0e0e0e;
             margin-bottom: 16px;
         }
@@ -243,7 +243,7 @@
             font-size: 14px;
             letter-spacing: 0.1em;
             margin-bottom: 20px;
-            font-weight: 400;
+            font-weight: 300;
         }
         .footer-col p, .footer-col a {
             font-size: 13px;

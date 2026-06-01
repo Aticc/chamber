@@ -4,7 +4,7 @@
 
 @include('layouts.nav')
 
-<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/IMG_0952.png') }}'); background-position: 60% center;">
+<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/ATICC image .png') }}'); background-position: 60% center;">
   <div class="hero-content">
     <div class="breadcrumb fade-up revealed">Home / Contact / Transaction Submission</div>
     <h1 class="headline fade-up revealed">Transaction Submission</h1>

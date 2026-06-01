@@ -5,7 +5,7 @@
 @include('layouts.nav')
 
 <!-- ========= HERO SECTION ========= -->
-<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/IMG_0950.png') }}'); background-position: 70% center;">
+<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/ATICC image .png') }}'); background-position: 70% center;">
   <div class="hero-content">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / About / Mission & Strategic Purpose</div>
     <h1 class="headline fade-up revealed">Mission & <span style="color: #17015e;">Strategic Purpose</span></h1>
@@ -41,7 +41,7 @@
   <div class="wide-container">
     <div class="policy-split">
       <div class="split-left fade-left">
-        <h3 style="font-size: 28px; font-weight: 400; margin-bottom: 20px; color: #0e0e0e;">Primary Objective</h3>
+        <h3 style="font-size: 28px; font-weight: 300; margin-bottom: 20px; color: #0e0e0e;">Primary Objective</h3>
         <p style="font-size: 16px; color: #3a4c5e; line-height: 1.6;">To catalyze high-value trade and investment flows that deliver measurable outcomes and sustain value creation.</p>
       </div>
       <div class="split-right fade-right">
@@ -67,10 +67,10 @@
   .full-width-white { width: 100%; background: white; padding: 80px 0; }
   .full-width-gray { width: 100%; background: #F5F6F8; padding: 80px 0; }
   .centered-eyebrow { font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; color: #C49A6C; margin-bottom: 15px; text-align: center; }
-  .large-statement { font-size: 48px; font-weight: 400; color: #031B4E; margin-bottom: 20px; text-align: center; }
+  .large-statement { font-size: 48px; font-weight: 300; color: #031B4E; margin-bottom: 20px; text-align: center; }
   .supporting-text { font-size: 16px; color: #4A5E72; max-width: 700px; margin: 0 auto; line-height: 1.6; text-align: center; }
   .grid-card { background: #F8F9FA; padding: 32px 28px; border-radius: 16px; text-align: left; }
-  .grid-card h4 { font-size: 18px; font-weight: 400; color: #0e0e0e; margin-bottom: 12px; }
+  .grid-card h4 { font-size: 18px; font-weight: 300; color: #0e0e0e; margin-bottom: 12px; }
   .grid-card p { font-size: 14px; color: #4A5E72; line-height: 1.5; }
   .policy-split { display: flex; gap: 60px; align-items: flex-start; }
   .split-left, .split-right { flex: 1; }

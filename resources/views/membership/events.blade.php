@@ -359,7 +359,7 @@
     text-decoration: none;
     border-radius: 30px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 0.2s;
     display: inline-block;
 }
@@ -484,7 +484,7 @@
     text-decoration: none;
     border-radius: 30px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
     border: 1px solid #E8ECEF;
     transition: all 0.2s;
 }

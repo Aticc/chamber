@@ -1,165 +1,131 @@
-@extends('layouts.app')
+@extends("layouts.app")
 
 @section('content')
+
 @include('layouts.nav')
 
 <!-- ========= HERO SECTION ========= -->
-<div class="subpage-hero">
-  <div class="subpage-hero-content">
-    <div class="breadcrumb">Home / Membership / Membership Benefits</div>
-    <h1>Membership Benefits</h1>
-    <p>What you gain as an ATICC member</p>
+<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/ATICC image .png') }}'); background-position: 70% center; background-size: cover; background-repeat: no-repeat; min-height: 600px;">
+  <div class="hero-content">
+    <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Membership / Membership Benefits</div>
+    <h1 class="headline fade-up revealed">Membership <span style="color: #17015e;">Benefits</span></h1>
+    <div class="body-text fade-up delay-2 revealed">What you gain as an ATICC member</div>
   </div>
 </div>
 
-<!-- ========= BENEFITS BY TIER ========= -->
-<div class="subpage-section">
+<!-- ========= TIER I ========= -->
+<div class="full-width-white">
   <div class="wide-container">
-    <div class="centered-eyebrow">BENEFITS BY TIER</div>
-    <h2 class="section-title">Benefits Across All Membership Tiers</h2>
-    
-    <div class="benefits-table-wrapper">
-      <table class="benefits-table">
-        <thead>
-          <tr>
-            <th>Benefit</th>
-            <th>Tier I</th>
-            <th>Tier II</th>
-            <th>Tier III</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>Access to Verified Trade Opportunities</td><td>✓</td><td>✓</td><td>✓</td></tr>
-          <tr><td>Market Intelligence Reports</td><td>Premium</td><td>Standard</td><td>Basic</td></tr>
-          <tr><td>Networking Events Access</td><td>All Access</td><td>All Events</td><td>Selected Events</td></tr>
-          <tr><td>Trust & Verification Protocol</td><td>✓</td><td>✓</td><td>✓</td></tr>
-          <tr><td>Capital Facilitation</td><td>✓</td><td>✓</td><td>—</td></tr>
-          <tr><td>Transaction Execution Support</td><td>✓</td><td>✓</td><td>—</td></tr>
-          <tr><td>Dedicated Relationship Manager</td><td>✓</td><td>—</td><td>—</td></tr>
-          <tr><td>Custom Intelligence Reports</td><td>✓</td><td>—</td><td>—</td></tr>
-          <tr><td>Policy & G2G Framework Access</td><td>✓</td><td>—</td><td>—</td></tr>
-        </tbody>
-      </table>
-    </div>
+    <div class="breadcrumb-light fade-up" style="text-align: center;">TIER I</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Institutional & Institutional Partners</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">Designated for institutional wealth funds, national governments, and multilateral financial institutions focusing on policy alignment, G2G frameworks, and large-scale capital deployment.</p>
+  </div>
+</div>
+
+<!-- ========= TIER II ========= -->
+<div class="full-width-gray">
+  <div class="wide-container">
+    <div class="breadcrumb-light fade-up" style="text-align: center;">TIER II</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Strategic & Corporate Membership</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">For corporations, private equity firms, and family offices seeking direct investment opportunities and strategic market entry across Africa.</p>
+  </div>
+</div>
+
+<!-- ========= TIER III ========= -->
+<div class="full-width-white">
+  <div class="wide-container">
+    <div class="breadcrumb-light fade-up" style="text-align: center;">TIER III</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">Individual & Professional Membership</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">For professionals, consultants, and individual investors looking to connect, learn, and participate in Africa's growing trade ecosystem.</p>
+  </div>
+</div>
+
+<!-- ========= KEY BENEFITS ========= -->
+<div class="full-width-gray">
+  <div class="wide-container">
+    <div class="breadcrumb-light fade-up" style="text-align: center;">KEY BENEFITS</div>
+    <h2 class="section-title-dark fade-up delay-1" style="text-align: center;">What All Members Receive</h2>
+    <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 800px; margin: 0 auto;">Access to verified trade opportunities, market intelligence reports, networking events, and the Trust & Verification Protocol.</p>
   </div>
 </div>
 
 <!-- ========= CTA ========= -->
-<div class="subpage-cta">
-  <div class="wide-container">
-    <h3>Ready to unlock these benefits?</h3>
-    <a href="{{ route('access.plans') }}" class="cta-button">View Membership Plans →</a>
-  </div>
+<div class="final-quote">
+  <p class="scale-in" style="font-size: 18px;">Ready to unlock these benefits?</p>
+  <a href="{{ route('access.plans') }}" style="display: inline-block; background: #041931; color: white; padding: 14px 42px; border-radius: 40px; text-decoration: none; font-weight: 400; margin-top: 20px;">View Membership Plans →</a>
 </div>
 
 @include('layouts.footer')
 
 <style>
-  /* Same styles with table addition */
-  .subpage-hero {
-    background: linear-gradient(135deg, #F5F6F8 0%, #EDEFF2 100%);
-    text-align: center;
-    padding: 80px 20px;
-    border-bottom: 1px solid #E8EBED;
+  .full-width-white { width: 100%; background: white; padding: 80px 0; }
+  .full-width-gray { width: 100%; background: #F5F6F8; padding: 80px 0; }
+  .breadcrumb-light { font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #5d6f7f; margin-bottom: 20px; font-weight: 400; }
+  .section-title-dark { font-size: 48px; font-weight: 400; color: #0e0e0e; margin-bottom: 20px; }
+  .section-text-dark { font-size: 16px; color: #3a4c5e; line-height: 1.7; }
+  .final-quote { background: white; text-align: center; padding: 80px 20px; }
+  .final-quote p { font-size: 28px; color: #0e0e0e; line-height: 1.4; margin-bottom: 30px; }
+
+  .hero-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% center;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
   }
-  .subpage-hero .breadcrumb {
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin-left: 8%;
+    padding: 40px 20px;
+  }
+  .hero-content .breadcrumb {
     font-size: 13px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #C49A6C;
-    margin-bottom: 20px;
+    font-weight: 300;
   }
-  .subpage-hero h1 {
-    font-size: 48px;
-    color: #17015e;
-    margin-bottom: 10px;
-    font-weight: 700;
+  .hero-content .headline {
+    font-size: 58px;
+    font-weight: 400;
+    color: white;
+    margin: 20px 0 20px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
   }
-  .subpage-hero p {
+  .hero-content .headline span {
+    color: #C49A6C;
+  }
+  .hero-content .body-text {
     font-size: 18px;
-    color: #5D6F7F;
-  }
-  .subpage-section {
-    padding: 80px 0;
-  }
-  .wide-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  .centered-eyebrow {
-    font-size: 12px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: #C49A6C;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  .section-title {
-    font-size: 36px;
-    font-weight: 700;
-    color: #17015e;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .benefits-table-wrapper {
-    overflow-x: auto;
-    margin-top: 40px;
-  }
-  .benefits-table {
-    width: 100%;
-    border-collapse: collapse;
-    background: white;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-  }
-  .benefits-table th {
-    background: #17015e;
     color: white;
-    padding: 15px 20px;
-    text-align: center;
-    font-weight: 600;
+    max-width: 620px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
   }
-  .benefits-table td {
-    padding: 12px 20px;
-    border-bottom: 1px solid #E8EBED;
-    text-align: center;
-    color: #2E4156;
-  }
-  .benefits-table td:first-child {
-    text-align: left;
-    font-weight: 600;
-    background: #F8F9FA;
-  }
-  .subpage-cta {
-    background: #17015e;
-    padding: 60px 20px;
-    text-align: center;
-  }
-  .subpage-cta h3 {
-    font-size: 28px;
-    color: white;
-    margin-bottom: 20px;
-  }
-  .cta-button {
-    display: inline-block;
-    background: white;
-    color: #17015e;
-    padding: 14px 36px;
-    border-radius: 40px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s ease;
-  }
-  .cta-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  }
+
   @media (max-width: 768px) {
-    .subpage-hero h1 { font-size: 32px; }
-    .section-title { font-size: 28px; }
-    .benefits-table th, .benefits-table td { padding: 10px; font-size: 12px; }
+    .section-title-dark { font-size: 32px; }
+    .full-width-white, .full-width-gray { padding: 40px 0; }
+    .final-quote p { font-size: 22px; }
+    .hero-content .headline { font-size: 42px; }
+    .hero-section { min-height: 450px; }
+    .hero-content { margin-left: 5%; }
   }
 </style>
+
+<script>
+  const animatedElements = document.querySelectorAll('.fade-up, .fade-left, .fade-right, .scale-in, .glide-in');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('revealed'); observer.unobserve(entry.target); } });
+  }, { threshold: 0.15 });
+  animatedElements.forEach(el => observer.observe(el));
+  window.addEventListener('scroll', function() { const nav = document.getElementById('stickyNav'); if (window.scrollY > 50) { nav.classList.add('scrolled'); document.body.classList.add('nav-shrunk'); } else { nav.classList.remove('scrolled'); document.body.classList.remove('nav-shrunk'); } });
+</script>
+
 @endsection

@@ -87,7 +87,7 @@
 <style>
   .full-width-white { width: 100%; background: white; padding: 80px 0; }
   .full-width-gray { width: 100%; background: #F5F6F8; padding: 80px 0; }
-  .breadcrumb-light { font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #5d6f7f; margin-bottom: 20px; font-weight: 500; }
+  .breadcrumb-light { font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #5d6f7f; margin-bottom: 20px; font-weight: 400; }
   .section-title-dark { font-size: 48px; font-weight: 400; color: #0e0e0e; margin-bottom: 20px; }
   .section-text-dark { font-size: 16px; color: #3a4c5e; line-height: 1.7; }
   .products-grid { display: flex; gap: 32px; flex-wrap: wrap; }

@@ -75,7 +75,7 @@
             <div class="form-step active" id="step1">
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 1 — ORGANIZATION PROFILE</h3>
+                        <h3>SECTION 1 -ORGANIZATION PROFILE</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -152,7 +152,7 @@
             <div class="form-step" id="step2">
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 2 — PRIMARY CONTACT REPRESENTATIVE</h3>
+                        <h3>SECTION 2 -PRIMARY CONTACT REPRESENTATIVE</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -193,7 +193,7 @@
 
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 3 — INSTITUTIONAL CAPACITY & STRATEGIC ALIGNMENT</h3>
+                        <h3>SECTION 3 -INSTITUTIONAL CAPACITY & STRATEGIC ALIGNMENT</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -281,7 +281,7 @@
 
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 4 — CAPITAL ALIGNMENT & EXECUTION READINESS</h3>
+                        <h3>SECTION 4 -CAPITAL ALIGNMENT & EXECUTION READINESS</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -327,7 +327,7 @@
             <div class="form-step" id="step3">
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 5 — TRUST & VERIFICATION (T&V) REQUIREMENTS</h3>
+                        <h3>SECTION 5 -TRUST & VERIFICATION (T&V) REQUIREMENTS</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -363,7 +363,7 @@
 
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 6 — REQUIRED DOCUMENTATION</h3>
+                        <h3>SECTION 6 -REQUIRED DOCUMENTATION</h3>
                         <span class="section-badge">Upload</span>
                     </div>
                     <div class="form-card-body">
@@ -503,7 +503,7 @@
 .selected-plan-details { flex: 1; }
 .selected-plan-details h4 { font-size: 18px; color: var(--primary); margin-bottom: 5px; }
 .selected-plan-details p { font-size: 13px; color: var(--text-muted); }
-.change-plan-link { font-size: 13px; color: var(--primary); text-decoration: none; font-weight: 500; padding: 8px 16px; border-radius: 30px; transition: all 0.2s ease; }
+.change-plan-link { font-size: 13px; color: var(--primary); text-decoration: none; font-weight: 400; padding: 8px 16px; border-radius: 30px; transition: all 0.2s ease; }
 .change-plan-link:hover { background: rgba(23, 1, 94, 0.05); }
 
 /* Progress Steps */
@@ -512,7 +512,7 @@
 .step-num { width: 36px; height: 36px; background: var(--gray-bg); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 400; font-size: 14px; color: var(--text-muted); transition: all 0.3s ease; }
 .step.active .step-num { background: var(--primary); color: white; }
 .step.completed .step-num { background: var(--success); color: white; }
-.step-text { font-size: 12px; color: var(--text-muted); font-weight: 500; }
+.step-text { font-size: 12px; color: var(--text-muted); font-weight: 400; }
 .step.active .step-text { color: var(--primary); }
 .step-line { width: 60px; height: 2px; background: var(--gray-border); margin: 0 10px; }
 
@@ -1180,24 +1180,24 @@ function generatePreview() {
                 <p><span>${escapeHtml(planName)}</span></p>
             </div>
             
-            <h4>SECTION 1 — ORGANIZATION PROFILE</h4>
+            <h4>SECTION 1 -ORGANIZATION PROFILE</h4>
             <div class="preview-row"><div class="preview-label">Legal Name:</div><div class="preview-value">${escapeHtml(legalName)}</div></div>
             <div class="preview-row"><div class="preview-label">Type of Institution:</div><div class="preview-value">${escapeHtml(institutionType)}</div></div>
             <div class="preview-row"><div class="preview-label">Country of Registration:</div><div class="preview-value">${escapeHtml(country)}</div></div>
             
-            <h4>SECTION 2 — PRIMARY CONTACT</h4>
+            <h4>SECTION 2 -PRIMARY CONTACT</h4>
             <div class="preview-row"><div class="preview-label">Full Name:</div><div class="preview-value">${escapeHtml(contactName)}</div></div>
             <div class="preview-row"><div class="preview-label">Email:</div><div class="preview-value">${escapeHtml(contactEmail)}</div></div>
             
-            <h4>SECTION 3 — STRATEGIC ALIGNMENT</h4>
+            <h4>SECTION 3 -STRATEGIC ALIGNMENT</h4>
             <div class="preview-row"><div class="preview-label">Primary Sector:</div><div class="preview-value">${escapeHtml(primarySector)}</div></div>
             <div class="preview-row"><div class="preview-label">Trade Corridors:</div><div class="preview-value">${selectedCorridors.join(', ') || 'None selected'}</div></div>
             <div class="preview-row"><div class="preview-label">Readiness Status:</div><div class="preview-value">${escapeHtml(readinessStatus)}</div></div>
             
-            <h4>SECTION 4 — DECLARATION</h4>
+            <h4>SECTION 4 -DECLARATION</h4>
             <div class="preview-row"><div class="preview-label">Signature:</div><div class="preview-value">${escapeHtml(signature)}</div></div>
             
-            <h4>SECTION 5 — DOCUMENTATION</h4>
+            <h4>SECTION 5 -DOCUMENTATION</h4>
             <div class="preview-row"><div class="preview-label">Documents Uploaded:</div><div class="preview-value">${fileStatus.join(', ') || 'No documents uploaded'}</div></div>
         `;
     }

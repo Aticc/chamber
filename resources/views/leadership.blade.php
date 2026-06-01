@@ -209,12 +209,12 @@
     text-transform: uppercase;
     color: #5d6f7f;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 400;
   }
   
   .section-title-dark {
     font-size: 48px;
-    font-weight: 400;
+    font-weight: 300;
     color: #0e0e0e;
     margin-bottom: 20px;
   }
@@ -240,7 +240,7 @@
   
   .product-card h4 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 12px;
     color: #0e0e0e;
   }
@@ -265,7 +265,7 @@
   
   .grid-card h4 {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 12px;
     color: #0e0e0e;
   }
@@ -280,7 +280,7 @@
   
   .large-statement {
     font-size: 48px;
-    font-weight: 400;
+    font-weight: 300;
     color: #031B4E;
     margin-bottom: 20px;
   }
@@ -322,7 +322,7 @@
   
   .framework-left h3 {
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 300;
     color: #0e0e0e;
     margin-bottom: 20px;
   }

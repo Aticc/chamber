@@ -17,7 +17,7 @@
 
 <div class="full-width-white">
   <div class="wide-container">
-    <div class="contact-form-wrapper" style="max-width: 800px; margin: 0 auto; background: white; border-radius: 2px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); border: 1px solid #D9DEE7;">
+    <div class="contact-form-wrapper" style="max-width: 800px; margin: 0 auto; background: white; border-radius: 20px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); border: 1px solid #E8EBED;">
       <form action="{{ route('contact.send') }}" method="POST">
         @csrf
         
@@ -47,12 +47,12 @@
           <input type="email" name="email" class="aticc-input-field" required style="width: 100%; padding: 12px 14px; border: 1px solid #D9DEE7; border-radius: 2px;">
         </div>
         
-        <div class="legal-disclosure" style="border: 1px solid #D9DEE7; background-color: #F7F7F5; border-left: 2px solid #C7CCD6; padding: 24px; margin: 32px 0;">
+        <div class="legal-disclosure" style="border: 1px solid #E8EBED; background-color: #F8F9FA; border-left: 2px solid #C49A6C; padding: 24px; margin: 32px 0; border-radius: 12px;">
           <h4 style="font-size: 11px; font-weight: 700; color: #041931; margin-bottom: 12px; text-transform: uppercase;">VERIFICATION NOTICE</h4>
           <p style="font-size: 12px; color: #5D6F7F; line-height: 1.5;">All submissions are subject to internal review, verification, and institutional coordination procedures. ATICC reserves the right to request supplementary documentation.</p>
         </div>
         
-        <button type="submit" class="aticc-submit" style="background-color: #041931; color: #FFFFFF; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 16px 32px; border-radius: 2px; border: none; cursor: pointer; width: 100%;">Submit Verification →</button>
+        <button type="submit" class="aticc-submit" style="background-color: #041931; color: #FFFFFF; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; padding: 16px 32px; border-radius: 4px; border: none; cursor: pointer; width: 100%; transition: all 0.3s ease;">Submit Verification →</button>
       </form>
     </div>
   </div>
@@ -61,8 +61,169 @@
 @include('layouts.footer')
 
 <style>
-  .full-width-white { width: 100%; background: white; padding: 80px 0; }
-  .aticc-input-field:focus { outline: none; border-color: #041931; box-shadow: 0 0 0 2px rgba(4, 25, 49, 0.1); }
-  @media (max-width: 768px) { .contact-form-wrapper { padding: 25px !important; } }
+  :root {
+    --color-primary: #041931;
+    --color-accent: #C49A6C;
+    --color-text-dark: #0e0e0e;
+    --color-text-light: #3a4c5e;
+    --bg-white: #ffffff;
+    --font-light: 300;
+    --font-regular: 300;
+    --font-medium: 500;
+  }
+
+  .full-width-white { width: 100%; background: var(--bg-white); padding: 80px 0; }
+  
+  .wide-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    margin-top: 0;
+  }
+  
+  .hero-content .breadcrumb {
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    font-weight: var(--font-regular);
+  }
+  
+  .hero-content .headline {
+    font-size: 58px;
+    font-weight: 300;
+    color: var(--color-text-dark);
+    margin: 20px 0 20px;
+    line-height: 1.2;
+  }
+  
+  .hero-content .body-text {
+    font-size: 18px;
+    color: var(--color-text-light);
+    line-height: 1.5;
+    font-weight: var(--font-light);
+  }
+  
+  /* Form Styles */
+  .aticc-input-field {
+    transition: all 0.3s ease;
+  }
+  
+  .aticc-input-field:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 2px rgba(196, 154, 108, 0.1);
+  }
+  
+  .aticc-submit:hover {
+    background-color: var(--color-accent) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(4, 25, 49, 0.12);
+  }
+  
+  /* Animations */
+  .fade-up, .fade-left, .fade-right, .scale-in, .glide-in {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.7s cubic-bezier(0.2, 0.9, 0.3, 1.1), transform 0.7s cubic-bezier(0.2, 0.9, 0.3, 1.1);
+  }
+  
+  .fade-up.revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .delay-2 { transition-delay: 0.2s; }
+  
+  @media (max-width: 1100px) {
+    .hero-content .headline {
+      max-width: 70% !important;
+      font-size: 48px;
+    }
+    .hero-content .body-text {
+      max-width: 70% !important;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .hero-content .headline {
+      font-size: 42px;
+      max-width: 80% !important;
+    }
+    .hero-content .body-text {
+      max-width: 80% !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .full-width-white {
+      padding: 50px 0;
+    }
+    .contact-form-wrapper {
+      padding: 25px !important;
+      margin: 0 15px;
+    }
+    .hero-content .headline {
+      font-size: 36px;
+      max-width: 100% !important;
+    }
+    .hero-content .body-text {
+      max-width: 100% !important;
+      font-size: 16px;
+    }
+    .hero-content {
+      padding: 40px 30px !important;
+    }
+    .hero-section {
+      min-height: 50vh !important;
+    }
+    /* Hide image overlay on mobile for better text visibility */
+    .hero-section > div:first-child {
+      opacity: 0.3;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-content .headline {
+      font-size: 32px;
+    }
+  }
 </style>
+
+<script>
+  const animatedElements = document.querySelectorAll('.fade-up, .fade-left, .fade-right, .scale-in, .glide-in');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { 
+      if (entry.isIntersecting) { 
+        entry.target.classList.add('revealed'); 
+        observer.unobserve(entry.target); 
+      } 
+    });
+  }, { threshold: 0.15 });
+  animatedElements.forEach(el => observer.observe(el));
+  
+  // Immediately reveal hero elements that are visible
+  const heroItems = document.querySelectorAll('.hero-section .fade-up');
+  heroItems.forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight - 50) {
+      el.classList.add('revealed');
+    }
+  });
+  
+  window.addEventListener('scroll', function() { 
+    const nav = document.getElementById('stickyNav'); 
+    if (window.scrollY > 50) { 
+      if (nav) nav.classList.add('scrolled'); 
+      document.body.classList.add('nav-shrunk'); 
+    } else { 
+      if (nav) nav.classList.remove('scrolled'); 
+      document.body.classList.remove('nav-shrunk'); 
+    } 
+  });
+</script>
+
 @endsection

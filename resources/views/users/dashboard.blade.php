@@ -201,7 +201,7 @@
         <!-- Membership & Transaction Section -->
         <div class="dashboard-card membership-card">
             <div class="membership-banner">
-                <img src="{{ asset('assets/images/IMG_0950.png') }}" alt="ATICC Membership" class="membership-banner-img">
+                <img src="{{ asset('assets/images/ATICC image .png') }}" alt="ATICC Membership" class="membership-banner-img">
                 <div class="banner-overlay">
                     <div class="banner-content">
                         <h4>Institutional Membership</h4>
@@ -559,7 +559,7 @@
     }
     .date-display {
         font-size: 11px;
-        font-weight: 500;
+        font-weight: 400;
         color: rgba(255,255,255,0.7);
         letter-spacing: 0.5px;
         margin-top: 4px;
@@ -616,7 +616,7 @@
         font-size: 13px;
         color: #7A8B9B;
         margin-bottom: 5px;
-        font-weight: 500;
+        font-weight: 400;
     }
     .stat-value {
         font-size: 16px;
@@ -736,7 +736,7 @@
         display: block;
         color: #0e0e0e;
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 400;
         margin-bottom: 4px;
     }
     .resource-info a:hover {
@@ -893,7 +893,7 @@
     }
     .payment-option span {
         font-size: 13px;
-        font-weight: 500;
+        font-weight: 400;
         color: #031B4E;
     }
 
@@ -1131,7 +1131,7 @@
         text-decoration: none;
         color: #7A8B9B;
         font-size: 11px;
-        font-weight: 500;
+        font-weight: 400;
         transition: all 0.2s ease;
         padding: 8px 12px;
         border-radius: 12px;
@@ -1161,7 +1161,7 @@
     
     .bottom-nav-item span {
         font-size: 10px;
-        font-weight: 500;
+        font-weight: 400;
     }
 
     /* Responsive */

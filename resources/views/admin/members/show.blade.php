@@ -257,7 +257,7 @@
     padding: 4px 12px;
     border-radius: 20px;
     font-size: 11px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .status-approved { background: #E8F5E9; color: #28a745; }
@@ -273,7 +273,7 @@
 .form-group label {
     display: block;
     margin-bottom: 8px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 13px;
     color: #1A2C3E;
 }

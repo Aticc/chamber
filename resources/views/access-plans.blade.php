@@ -161,7 +161,7 @@
   font-size: 48px;
   color: #0e0e0e;
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .plans-hero-content .body-text {
@@ -240,7 +240,7 @@
 
 .plan-name {
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 300;
   color: #031B4E;
   margin-bottom: 15px;
   text-align: center;
@@ -262,7 +262,7 @@
 
 .price-range {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 300;
   color: #031B4E;
 }
 
@@ -319,7 +319,7 @@
 
 .comparison-title {
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 300;
   color: #031B4E;
   text-align: center;
   margin-bottom: 30px;
@@ -382,7 +382,7 @@
 
 .accession-info h4 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   color: #031B4E;
   margin-bottom: 10px;
 }

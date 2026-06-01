@@ -217,7 +217,7 @@
     <div class="centered-eyebrow fade-up" style="text-align: center;">PARTICIPATION</div>
     <div class="large-statement fade-up delay-1" style="text-align: center; font-size: 32px;">Secure Your Invitation</div>
     <p class="section-text-dark fade-up delay-2" style="text-align: center; max-width: 600px; margin: 0 auto 30px auto;">Access to ATICC summits and missions is structured and based on verification status. Institutional partners and verified members receive priority access.</p>
-    <a href="{{ route('contact') }}" class="cta-button" style="display: inline-block; background-color: #0e0e0e; color: white; border: none; padding: 16px 36px; font-size: 16px; font-weight: 600; letter-spacing: 0.05em; border-radius: 4px; text-decoration: none; text-transform: uppercase;">Request Invitation →</a>
+    <a href="#" class="cta-button" style="display: inline-block; background-color: #0e0e0e; color: white; border: none; padding: 16px 36px; font-size: 16px; font-weight: 600; letter-spacing: 0.05em; border-radius: 4px; text-decoration: none; text-transform: uppercase;">Request Invitation →</a>
   </div>
 </div>
 
@@ -248,12 +248,12 @@
     text-transform: uppercase;
     color: #5d6f7f;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 400;
   }
   
   .section-title-dark {
     font-size: 48px;
-    font-weight: 400;
+    font-weight: 300;
     color: #0e0e0e;
     margin-bottom: 20px;
   }
@@ -279,7 +279,7 @@
   
   .product-card h4 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 12px;
     color: #0e0e0e;
   }
@@ -300,7 +300,7 @@
   
   .large-statement {
     font-size: 48px;
-    font-weight: 400;
+    font-weight: 300;
     color: #031B4E;
     margin-bottom: 20px;
   }
