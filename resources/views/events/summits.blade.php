@@ -9,11 +9,11 @@
   
   <!-- Image as a soft background element on the right -->
   <div style="position: absolute; top: 0; right: 0; width: 65%; height: 100%; pointer-events: none;">
-    <div style="position: absolute; top: 0; right: 0; width: 90%; height: 100%; background: url('{{ asset('assets/images/ATICC Image (2).png') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
+    <div style="position: absolute; top: 0; right: 0; width: 90%; height: 100%; background: url('{{ asset('assets/images/Institutional Summits.png') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
   </div>
   
   <!-- Text content - consistent padding -->
-  <div class="hero-content" style="position: relative; z-index: 2; max-width: 1400px; margin: 0; padding: 60px 40px;">
+  <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Events / Summits</div>
     <h1 class="headline fade-up revealed" style="max-width: 65%;">Institutional Summits</h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 108%; line-height: 1.5;">ATICC convenes institutional summits to align capital, policy, and market participants within structured engagement environments.</div>

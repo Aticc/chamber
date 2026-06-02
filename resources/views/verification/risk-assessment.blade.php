@@ -8,7 +8,7 @@
   <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
     <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: url('{{ asset('assets/images/Risk Assessment  .jpeg') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
   </div>
-  <div class="hero-content" style="position: relative; z-index: 2; max-width: 1400px; margin: 0; padding: 60px 40px;">
+  <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Verification / Risk Assessment</div>
     <h1 class="headline fade-up revealed" style="max-width: 55%;">Risk Assessment</h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 50%;">ATICC incorporates structured risk-awareness protocols across the transaction lifecycle to identify potential execution barriers.</div>

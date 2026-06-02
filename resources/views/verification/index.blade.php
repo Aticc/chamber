@@ -12,7 +12,7 @@
     <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: url('{{ asset('assets/images/ATICC web pics 2.png') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
   </div>
   
-  <div class="hero-content" style="position: relative; z-index: 2; max-width: 1400px; margin: 0; padding: 60px 40px;">
+  <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Verification</div>
     <h1 class="headline fade-up revealed" style="max-width: 55%;">Verification</h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 50%; line-height: 1.5;">ATICC operates a structured verification framework to ensure institutional integrity, transaction credibility, and trusted participation across all engagements.</div>
@@ -88,7 +88,7 @@
   .full-width-white { width: 100%; background: white; padding: 80px 0; }
   .full-width-gray { width: 100%; background: #F5F6F8; padding: 80px 0; }
   .centered-eyebrow { font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; color: #C49A6C; margin-bottom: 15px; text-align: center; }
-  .large-statement { font-size: 48px; font-weight: 300; color: #031B4E; margin-bottom: 20px; text-align: center; }
+  .large-statement { font-size: 48px; font-weight: 400; color: #031B4E; margin-bottom: 20px; text-align: center; }
   .section-text-dark { font-size: 16px; color: #3a4c5e; line-height: 1.7; }
   .products-grid { display: flex; gap: 32px; flex-wrap: wrap; }
   .product-card { flex: 1; background: #f5f6f8; padding: 32px 28px; border-radius: 16px; }

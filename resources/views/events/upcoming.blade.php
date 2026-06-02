@@ -9,11 +9,11 @@
   
   <!-- Image as a soft background element on the right -->
   <div style="position: absolute; top: 0; right: 0; width: 65%; height: 100%; pointer-events: none;">
-    <div style="position: absolute; top: 0; right: 0; width: 90%; height: 100%; background: url('{{ asset('assets/images/ATICC Image (2).png') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
+    <div style="position: absolute; top: 0; right: 0; width: 90%; height: 100%; background: url('{{ asset('assets/images/Upcoming Events.png') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
   </div>
   
   <!-- Text content - consistent padding -->
-  <div class="hero-content" style="position: relative; z-index: 2; max-width: 1400px; margin: 0; padding: 60px 40px;">
+  <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Events / Upcoming Events</div>
     <h1 class="headline fade-up revealed" style="max-width: 65%;">Upcoming Events</h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 108%; line-height: 1.5;">View all upcoming ATICC institutional engagements and strategic convenings.</div>
@@ -31,7 +31,7 @@
     <div class="event-card glide-in delay-1" style="display: flex; gap: 40px; align-items: center; margin-top: 50px; background: #F5F6F8; border-radius: 20px; overflow: hidden; flex-wrap: wrap;">
       <div style="flex: 1; padding: 40px;">
         <div style="font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #C49A6C; margin-bottom: 10px;">{{ $event->start_date->format('F j, Y') }}</div>
-        <h3 style="font-size: 28px; font-weight: 300; color: #0e0e0e; margin-bottom: 15px;">{{ $event->title }}</h3>
+        <h3 style="font-size: 28px; font-weight: 400; color: #0e0e0e; margin-bottom: 15px;">{{ $event->title }}</h3>
         <p style="font-size: 16px; color: #3a4c5e; line-height: 1.6; margin-bottom: 20px;">{{ $event->description }}</p>
         <div style="display: flex; gap: 15px; flex-wrap: wrap;">
           <span style="background: #041931; color: white; padding: 5px 15px; border-radius: 20px; font-size: 12px;">{{ ucfirst($event->event_type) }}</span>
@@ -58,7 +58,7 @@
 <style>
   .full-width-white { width: 100%; background: white; padding: 80px 0; }
   .centered-eyebrow { font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; color: #C49A6C; margin-bottom: 15px; text-align: center; }
-  .large-statement { font-size: 48px; font-weight: 300; color: #031B4E; margin-bottom: 20px; text-align: center; }
+  .large-statement { font-size: 48px; font-weight: 400; color: #031B4E; margin-bottom: 20px; text-align: center; }
   .final-quote { background: white; text-align: center; padding: 80px 20px; }
   .final-quote p { font-size: 28px; color: #0e0e0e; line-height: 1.4; }
   @media (max-width: 768px) { .full-width-white { padding: 40px 0; } .large-statement { font-size: 28px !important; } .event-card { flex-direction: column; } .event-card > div:last-child { margin: 0 20px 20px 20px; width: auto; } .final-quote p { font-size: 22px !important; } }

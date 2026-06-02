@@ -13,7 +13,7 @@
   </div>
   
   <!-- Text content -->
-  <div class="hero-content" style="position: relative; z-index: 2; max-width: 1400px; margin: 0; padding: 60px 40px;">
+  <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Contact Us</div>
     <h1 class="headline fade-up revealed" style="max-width: 55%; font-size: 48px;">CONTACT US</h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 55%; line-height: 1.5; font-size: 16px; color: #3a4c5e;">

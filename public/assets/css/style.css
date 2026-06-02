@@ -175,6 +175,13 @@ p {
     will-change: transform, opacity;
 }
 
+.cta-button {
+    display: inline-block;
+    background: var(--color-primary) !important;
+    color: var(--color-text-white) !important;
+    margin-top: 10px;
+}
+
 /* Animation when revealed */
 .fade-up.revealed {
     animation: smoothFadeUp 0.8s cubic-bezier(0.2, 0.9, 0.4, 1.1) forwards;
@@ -413,7 +420,7 @@ p {
 
 .hero-section .cta-button {
     background-color: var(--color-primary);
-    color: var(--color-text-white);
+    color: var(--color-text-white) !important;
     border: none;
     padding: 16px 36px;
     font-size: 12px;
@@ -1314,7 +1321,7 @@ footer {
 
     .cta-button {
         background: var(--color-primary) !important;
-        color: var(--color-text-dark) !important;
+        color: var(--color-text-white) !important;
     }
 }
 

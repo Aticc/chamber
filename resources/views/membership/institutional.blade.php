@@ -251,7 +251,7 @@
   .cta-button {
     display: inline-block;
     background: var(--color-primary);
-    color: var(--color-text-dark);
+    color: var(--color-text-white);
     padding: 14px 42px;
     border-radius: 40px;
     text-decoration: none;

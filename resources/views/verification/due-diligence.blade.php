@@ -4,11 +4,15 @@
 
 @include('layouts.nav')
 
-<div id="hero" class="hero-section" style="position: relative; background-color: white; overflow: hidden; min-height: 60vh;">
-  <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
-    <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: url('{{ asset('assets/images/Due Diligence Standards.jpeg') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
+  <div id="hero" class="hero-section" style="position: relative; background-color: white; overflow: hidden; min-height: 60vh;">
+  
+  <!-- Image as a soft background element on the right -->
+  <div style="position: absolute; top: 0; right: 0; width: 65%; height: 100%; pointer-events: none;">
+    <div style="position: absolute; top: 0; right: 0; width: 90%; height: 100%; background: url('{{ asset('assets/images/Due Diligence Standards.jpeg') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
   </div>
-  <div class="hero-content" style="position: relative; z-index: 2; max-width: 1400px; margin: 0; padding: 60px 40px;">
+  
+
+  <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Verification / Due Diligence</div>
     <h1 class="headline fade-up revealed" style="max-width: 55%;">Due Diligence Standards</h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 50%;">ATICC applies rigorous due diligence standards across all institutional engagements and transaction validations.</div>
@@ -154,7 +158,7 @@
   }
   
   .bullet-list li {
-    padding: 12px 0;
+    padding: 12px 28px;
     font-size: 15px;
     color: var(--color-text-muted);
     border-bottom: 1px solid var(--border-card);
@@ -163,7 +167,7 @@
   
   .bullet-list li::before {
     content: "✓";
-    color: var(--color-accent);
+    color: var(--color-primary);
     margin-right: 12px;
     font-weight: bold;
   }

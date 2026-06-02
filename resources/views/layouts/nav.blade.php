@@ -1,4 +1,3 @@
-<!-- TOP NAVIGATION - FULLY RESPONSIVE WITH AUTH (8 PRIMARY MENU ITEMS) -->
 <div class="top-nav" id="stickyNav">
   <div class="nav-logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
     <img src="{{ asset('assets/images/ATICC FINAL LOGO  (2).png') }}" alt="ATICC Logo">
@@ -88,7 +87,7 @@
         
         <!-- 4. TRADE & INVESTMENT with Dropdown -->
         <div class="nav-dropdown">
-          <a href="{{ route('trade.index') }}">Trade & Investment</a>
+          <a href="#">Trade & Investment</a>
           <div class="dropdown-menu">
             <div class="dropdown-header mobile-only">
               <button class="back-btn" onclick="closeSubMenu(this)">← Back</button>
@@ -184,7 +183,7 @@
         
         <!-- 7. VERIFICATION with Dropdown -->
         <div class="nav-dropdown">
-          <a href="{{ route('verification.index') }}">Verification</a>
+          <a href="#">Verification</a>
           <div class="dropdown-menu">
             <div class="dropdown-header mobile-only">
               <button class="back-btn" onclick="closeSubMenu(this)">← Back</button>
