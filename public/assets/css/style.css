@@ -413,7 +413,7 @@ p {
 
 .hero-section .cta-button {
     background-color: var(--color-primary);
-    color: var(--color-text-dark);
+    color: var(--color-text-white);
     border: none;
     padding: 16px 36px;
     font-size: 12px;
