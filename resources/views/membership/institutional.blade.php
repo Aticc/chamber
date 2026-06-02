@@ -5,11 +5,11 @@
 @include('layouts.nav')
 
 <!-- ========= HERO SECTION ========= -->
-<div id="hero" class="hero-section" style="position: relative; background-color: white; overflow: hidden; min-height: 60vh;">
-    <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
-      <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: url('{{ asset('assets/images/INSTITUTIONAL MEMBERSHIP.jpeg') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
-      </div>
-      
+<!-- ========= HERO SECTION ========= -->
+<div id="hero" class="hero-section" style="position: relative; width: 121%; background-color: white; overflow: hidden; min-height: 60vh;">
+  <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
+    <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: url('{{ asset('assets/images/INSTITUTIONAL MEMBERSHIP.jpeg') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
+  </div>
   
   <!-- Text content - consistent padding -->
   <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">

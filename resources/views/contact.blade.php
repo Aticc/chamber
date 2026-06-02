@@ -9,7 +9,7 @@
   
   <!-- Image as a soft background element on the right -->
   <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
-    <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: url('{{ asset('assets/images/a2ea0b8a-ea9f-443a-a73e-015309fbdd02.png') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 40%, transparent 90%); -webkit-mask-image: linear-gradient(to left, black 40%, transparent 90%);"></div>
+    <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: url('{{ asset('assets/images/contact us .png') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 40%, transparent 90%); -webkit-mask-image: linear-gradient(to left, black 40%, transparent 90%);"></div>
   </div>
   
   <!-- Text content -->

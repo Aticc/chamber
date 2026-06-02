@@ -4,14 +4,11 @@
 
 @include('layouts.nav')
 
-<!-- ========= TRADE MISSIONS HERO SECTION ========= -->
 <div id="hero" class="hero-section" style="position: relative; background-color: white; overflow: hidden; min-height: 60vh;">
-  
-  <!-- Image as a soft background element on the right -->
-  <div style="position: absolute; top: 0; right: 0; width: 65%; height: 100%; pointer-events: none;">
-    <div style="position: absolute; top: 0; right: 0; width: 90%; height: 100%; background: url('{{ asset('assets/images/ATICC Image (2).png') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
+  <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
+    <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: url('{{ asset('assets/images/TRADE MISSION.png') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
   </div>
-  
+
   <!-- Text content - consistent padding -->
   <div class="hero-content" style="position: relative; z-index: 2; max-width: 1400px; margin: 0; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Events / Trade Missions</div>
@@ -79,7 +76,7 @@
   .full-width-white { width: 100%; background: white; padding: 80px 0; }
   .full-width-gray { width: 100%; background: #F5F6F8; padding: 80px 0; }
   .centered-eyebrow { font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; color: #C49A6C; margin-bottom: 15px; text-align: center; }
-  .large-statement { font-size: 48px; font-weight: 300; color: #031B4E; margin-bottom: 20px; text-align: center; }
+  .large-statement { font-size: 48px; font-weight: 400; color: #031B4E; margin-bottom: 20px; text-align: center; }
   .final-quote { background: white; text-align: center; padding: 80px 20px; }
   .final-quote p { font-size: 28px; color: #0e0e0e; line-height: 1.4; }
   .section-spacer { height: 1px; background: transparent; }
