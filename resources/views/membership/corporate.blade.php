@@ -177,21 +177,21 @@
   .hero-content .headline {
     font-size: 58px;
     font-weight: 300;
-    color: var(--color-text-white);
+    color: var(--color-text-dark);
     margin: 20px 0 20px;
     line-height: 1.2;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-shadow: none;
   }
   .hero-content .headline span {
     color: var(--color-accent);
   }
   .hero-content .body-text {
     font-size: 18px;
-    color: var(--color-text-offwhite);
+    color: var(--color-text-dark);
     max-width: 620px;
     line-height: 1.5;
     font-weight: var(--font-light);
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+
   }
   
   /* Content Grid */
@@ -259,7 +259,7 @@
   .cta-button {
     display: inline-block;
     background: var(--color-primary);
-    color: var(--color-text-white);
+    color: var(--color-text-dark);
     padding: 14px 42px;
     border-radius: 40px;
     text-decoration: none;

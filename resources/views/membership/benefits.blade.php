@@ -100,7 +100,7 @@
     color: white;
     margin: 20px 0 20px;
     line-height: 1.2;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-shadow: none;
   }
   .hero-content .headline span {
     color: #C49A6C;
@@ -111,7 +111,7 @@
     max-width: 620px;
     line-height: 1.5;
     font-weight: 300;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+
   }
 
   @media (max-width: 768px) {

@@ -411,7 +411,7 @@
 
 .nav-menu > .nav-dropdown > a {
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--nav-text);
   text-decoration: none;
   letter-spacing: 0.03em;
@@ -504,7 +504,7 @@
   display: block;
   padding: 10px 24px;
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--nav-text);
   text-decoration: none;
   transition: all 0.2s ease;
@@ -558,7 +558,7 @@
   display: block;
   padding: 10px 24px;
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--nav-text-light);
   text-decoration: none;
   transition: all 0.2s ease;
@@ -589,7 +589,7 @@
   display: block;
   padding: 10px 24px;
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--nav-text-light);
   text-decoration: none;
   transition: all 0.2s ease;
@@ -600,12 +600,12 @@
   color: var(--nav-accent);
 }
 
-/* ===== CTA BUTTON - NEVER HIDES ===== */
+/* ===== CTA BUTTON ===== */
 .nav-btn {
   padding: 10px 28px;
   border-radius: 1px;
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.03em;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -646,7 +646,7 @@
   border-radius: 1px;
   cursor: pointer;
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--nav-text);
   transition: all 0.2s ease;
 }
@@ -691,7 +691,7 @@
   display: block;
   padding: 12px 24px;
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--nav-text-light);
   text-decoration: none;
   transition: all 0.2s ease;
@@ -765,7 +765,7 @@
   display: none;
 }
 
-/* ===== RESPONSIVE - BUTTON NEVER HIDES ===== */
+/* ===== RESPONSIVE ===== */
 @media (max-width: 1400px) {
   .top-nav { padding: 8px 40px; }
   .nav-right { gap: 30px; }
@@ -784,8 +784,8 @@
   .top-nav { padding: 8px 30px; }
   .nav-right { gap: 20px; }
   .nav-menu { gap: 15px; }
-  .nav-menu > .nav-dropdown > a { font-size: 11px; }
-  .nav-btn { padding: 8px 18px; font-size: 11px; }
+  .nav-menu > .nav-dropdown > a { font-size: 12px; }
+  .nav-btn { padding: 8px 18px; font-size: 12px; }
 }
 
 @media (max-width: 1100px) {
@@ -863,7 +863,7 @@
   
   .nav-menu > .nav-dropdown > a {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     padding: 12px 0;
     width: 100%;
     white-space: normal;
@@ -923,7 +923,7 @@
     background: none;
     border: none;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--nav-primary);
     cursor: pointer;
     padding: 8px 0;
@@ -934,14 +934,14 @@
   
   .dropdown-title {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--nav-primary);
   }
   
   .dropdown-group > .group-link {
     padding: 14px 0;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
   }
   
   .sub-dropdown {
@@ -965,7 +965,7 @@
   .sub-dropdown a {
     padding: 10px 0;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     white-space: normal;
   }
   
@@ -997,7 +997,7 @@
     text-align: center;
     padding: 14px 24px;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     border-radius: 1px;
   }
   
@@ -1013,7 +1013,7 @@
     width: 100%;
     justify-content: space-between;
     padding: 12px 16px;
-    font-weight: 300;
+    font-weight: 400;
     border-radius: 1px;
   }
   
