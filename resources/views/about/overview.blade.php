@@ -5,7 +5,10 @@
 @include('layouts.nav')
 
 <!-- ========= HERO SECTION ========= -->
-<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/ATICC image .png') }}'); background-position: 70% center;">
+<div id="hero" class="hero-section" style="position: relative; background-color: white; overflow: hidden; min-height: 60vh;">
+  <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
+    <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: url('{{ asset('assets/images/Institutional Overview.jpeg') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
+  </div>
   <div class="hero-content">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / About / Institutional Overview</div>
     <h1 class="headline fade-up revealed">Institutional <span style="color: #17015e;">Overview</span></h1>

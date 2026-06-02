@@ -371,7 +371,7 @@ p {
     background-position: center right;
     display: flex;
     align-items: center;
-    min-height: 750px;
+    min-height: 600px !important;
 }
 
 .hero-section::before {

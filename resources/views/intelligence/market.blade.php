@@ -5,7 +5,13 @@
 @include('layouts.nav')
 
 <!-- ========= HERO SECTION ========= -->
-<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/ATICC image .png') }}'); background-position: 60% center;">
+<div id="hero" class="hero-section" style="position: relative; background-color: white; overflow: hidden; min-height: 60vh;">
+  
+  <!-- Image as a soft background element on the right -->
+  <div style="position: absolute; top: 0; right: 0; width: 65%; height: 100%; pointer-events: none;">
+    <div style="position: absolute; top: 0; right: 0; width: 90%; height: 100%; background: url('{{ asset('assets/images/Market Intelligence..png') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
+  </div>
+
   <div class="hero-content">
     <div class="breadcrumb fade-up revealed">Home / Intelligence / Market Intelligence</div>
     <h1 class="headline fade-up revealed">Market <span style="color: #041931;">Intelligence</span></h1>

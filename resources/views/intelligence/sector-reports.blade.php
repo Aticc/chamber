@@ -4,8 +4,14 @@
 
 @include('layouts.nav')
 
-<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/ATICC image .png') }}'); background-position: 60% center;">
-  <div class="hero-content">
+<div id="hero" class="hero-section" style="position: relative; background-color: white; overflow: hidden; min-height: 60vh;">
+  
+  <!-- Image as a soft background element on the right -->
+  <div style="position: absolute; top: 0; right: 0; width: 65%; height: 100%; pointer-events: none;">
+    <div style="position: absolute; top: 0; right: 0; width: 90%; height: 100%; background: url('{{ asset('assets/images/SECTOR REPORTS.png') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
+  </div>
+
+    <div class="hero-content">
     <div class="breadcrumb fade-up revealed">Home / Intelligence / Sector Reports</div>
     <h1 class="headline fade-up revealed">Sector Reports</h1>
     <div class="body-text fade-up delay-2 revealed">In-depth analysis of priority sectors driving African economic growth.</div>

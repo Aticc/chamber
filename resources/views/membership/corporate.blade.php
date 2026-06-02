@@ -5,11 +5,16 @@
 @include('layouts.nav')
 
 <!-- ========= HERO SECTION ========= -->
-<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/Corporate Membership.png') }}'); background-position: 70% center;">
-  <div class="hero-content">
-    <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Membership / Corporate Membership</div>
-    <h1 class="headline fade-up revealed">Corporate <span style="color: #17015e;">Membership</span></h1>
-    <div class="body-text fade-up delay-2 revealed">Tier II: Strategic Corporate Partners</div>
+<div id="hero" class="hero-section" style="position: relative; background-color: white; overflow: hidden; min-height: 60vh;">
+    <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
+      <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: url('{{ asset('assets/images/CORPORATE MEMBERSHIP.jpeg') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
+      </div>
+      
+    <div class="hero-content">
+      <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Membership / Corporate Membership</div>
+      <h1 class="headline fade-up revealed">Corporate <span style="color: #17015e;">Membership</span></h1>
+      <div class="body-text fade-up delay-2 revealed">Tier II: Strategic Corporate Partners</div>
+    </div>
   </div>
 </div>
 

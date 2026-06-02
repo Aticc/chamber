@@ -5,12 +5,17 @@
 @include('layouts.nav')
 
 <!-- ========= HERO SECTION ========= -->
-<div id="hero" class="hero-section" style="background-image: url('{{ asset('assets/images/ATICC image .png') }}'); background-position: 70% center; background-size: cover; background-repeat: no-repeat; min-height: 600px;">
+<div id="hero" class="hero-section" style="position: relative; background-color: white; overflow: hidden; min-height: 60vh;">
+    <div style="position: absolute; top: 0; right: 0; width: 55%; height: 100%; pointer-events: none;">
+      <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: url('{{ asset('') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
+      </div>
+      
   <div class="hero-content">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Membership / Membership Benefits</div>
     <h1 class="headline fade-up revealed">Membership <span style="color: #17015e;">Benefits</span></h1>
     <div class="body-text fade-up delay-2 revealed">What you gain as an ATICC member</div>
   </div>
+</div>
 </div>
 
 <!-- ========= TIER I ========= -->
