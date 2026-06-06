@@ -12,7 +12,7 @@
   <!-- Text content - consistent padding -->
   <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Events / Trade Missions</div>
-    <h1 class="headline fade-up revealed" style="max-width: 65%;">Trade Missions</h1>
+    <h1 class="headline fade-up revealed" style="max-width: 65%;">Trade <span>Missions</span></h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 108%; line-height: 1.5;">ATICC executes targeted trade and investment missions across priority markets and sectors.</div>
   </div>
 </div>

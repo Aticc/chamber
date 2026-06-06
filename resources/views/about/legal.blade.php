@@ -165,8 +165,8 @@
     --font-medium: 500;
   }
 
-  .full-width-white { width: 100%; background: var(--bg-white); padding: 80px 0; }
-  .full-width-gray { width: 100%; background: var(--bg-gray); padding: 80px 0; }
+  .full-width-white { width: 100%; background: var(--bg-white-2); padding: 80px 0; }
+  .full-width-gray { width: 100%; background: var(--bg-gray-2); padding: 80px 0; }
   
   .wide-container {
     max-width: 1200px;
@@ -203,7 +203,7 @@
   }
   
   .final-quote {
-    background: var(--bg-white);
+    background: var(--bg-white-2);
     text-align: center;
     padding: 80px 20px;
   }

@@ -10,7 +10,7 @@
   </div>
   <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Contact Us</div>
-    <h1 class="headline fade-up revealed" style="max-width: 55%;">Contact Us</h1>
+    <h1 class="headline fade-up revealed" style="max-width: 55%;">Contact <span>Us</span></h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 50%; line-height: 1.5;">Institutional Engagement & Strategic Submissions. ATICC manages all institutional correspondence, engagement requests, and transaction-related inquiries through a centralized verification framework.</div>
   </div>
 </div>
@@ -151,22 +151,9 @@
 @include('layouts.footer')
 
 <style>
-  :root {
-    --color-primary: #041931;
-    --color-accent: #C49A6C;
-    --color-text-dark: #0e0e0e;
-    --color-text-light: #3a4c5e;
-    --color-text-muted: #4a5b6b;
-    --bg-white: #ffffff;
-    --bg-gray: #F5F6F8;
-    --border-card: #E8EBED;
-    --font-light: 300;
-    --font-regular: 300;
-    --font-medium: 500;
-  }
 
-  .full-width-white { width: 100%; background: var(--bg-white); padding: 80px 0; }
-  .full-width-gray { width: 100%; background: var(--bg-gray); padding: 80px 0; }
+  .full-width-white { width: 100%; background: var(--bg-white-2); padding: 80px 0; }
+  .full-width-gray { width: 100%; background: var(--bg-gray-2); padding: 80px 0; }
   
   .wide-container {
     max-width: 1200px;
@@ -215,14 +202,6 @@
     font-weight: var(--font-regular);
   }
   
-  .hero-content .headline {
-    font-size: 58px;
-    font-weight: 300;
-    color: var(--color-text-dark);
-    margin: 20px 0 20px;
-    line-height: 1.2;
-  }
-  
   .hero-content .body-text {
     font-size: 18px;
     color: var(--color-text-light);
@@ -234,7 +213,7 @@
   .grid-card {
     flex: 1;
     min-width: 200px;
-    background: var(--bg-white);
+    background: var(--bg-white-2);
     border: 1px solid var(--border-card);
     padding: 32px 28px;
     border-radius: 20px;
@@ -294,7 +273,7 @@
     font-size: 15px;
     color: var(--color-text-muted);
     padding: 12px 20px;
-    background: var(--bg-white);
+    background: var(--bg-white-2);
     border-radius: 12px;
     border-left: 3px solid var(--color-accent);
     font-weight: var(--font-light);

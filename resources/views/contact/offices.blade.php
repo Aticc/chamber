@@ -12,7 +12,7 @@
   
   <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Contact / Office Locations</div>
-    <h1 class="headline fade-up revealed" style="max-width: 55%;">Office Locations</h1>
+    <h1 class="headline fade-up revealed" style="max-width: 55%;">Office <span>Locations</span></h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 50%; line-height: 1.5;">ATICC institutional offices, regional coordination hubs, and representative locations across Africa.</div>
   </div>
 </div>
@@ -36,7 +36,7 @@
           <p style="font-weight: 600; margin-bottom: 8px; color: #0e0e0e;">Lagos, Nigeria</p>
           <p style="color: #4a5e72; line-height: 1.6;">ATICC Central Secretariat<br>Plot 14B, Admiralty Way, Lekki Phase 1<br>Lagos, Nigeria</p>
           <p style="margin-top: 12px; color: #4a5e72;"><strong>Tel:</strong> +234 1 234 5678</p>
-          <p style="color: #4a5e72;"><strong>Email:</strong> secretariat@aticc.org</p>
+          <p style="color: #4a5e72;"><strong>Email:</strong> secretariat@aticchamber.org</p>
         </div>
         <div>
           <p style="font-weight: 600; margin-bottom: 8px; color: #0e0e0e;">Hours of Operation</p>
@@ -51,37 +51,37 @@
         <h4>West Africa Regional Hub</h4>
         <p>Accra, Ghana</p>
         <p class="contact-info">+233 30 123 4567</p>
-        <p class="contact-email">westafrica@aticc.org</p>
+        <p class="contact-email">westafrica@aticchamber.org</p>
       </div>
       <div class="office-card glide-in delay-2">
         <h4>East Africa Regional Hub</h4>
         <p>Nairobi, Kenya</p>
         <p class="contact-info">+254 20 123 4567</p>
-        <p class="contact-email">eastafrica@aticc.org</p>
+        <p class="contact-email">eastafrica@aticchamber.org</p>
       </div>
       <div class="office-card glide-in delay-3">
         <h4>Southern Africa Hub</h4>
         <p>Johannesburg, South Africa</p>
         <p class="contact-info">+27 11 123 4567</p>
-        <p class="contact-email">southernafrica@aticc.org</p>
+        <p class="contact-email">southernafrica@aticchamber.org</p>
       </div>
       <div class="office-card glide-in delay-4">
         <h4>North Africa Hub</h4>
         <p>Casablanca, Morocco</p>
         <p class="contact-info">+212 522 123 456</p>
-        <p class="contact-email">northafrica@aticc.org</p>
+        <p class="contact-email">northafrica@aticchamber.org</p>
       </div>
       <div class="office-card glide-in delay-5">
         <h4>Central Africa Hub</h4>
         <p>Yaoundé, Cameroon</p>
         <p class="contact-info">+237 222 123 456</p>
-        <p class="contact-email">centralafrica@aticc.org</p>
+        <p class="contact-email">centralafrica@aticchamber.org</p>
       </div>
       <div class="office-card glide-in delay-6">
         <h4>International Representative</h4>
         <p>London, United Kingdom</p>
         <p class="contact-info">+44 20 1234 5678</p>
-        <p class="contact-email">international@aticc.org</p>
+        <p class="contact-email">international@aticchamber.org</p>
       </div>
     </div>
   </div>
@@ -100,23 +100,9 @@
 @include('layouts.footer')
 
 <style>
-  :root {
-    --color-primary: #041931;
-    --color-accent: #C49A6C;
-    --color-text-dark: #0e0e0e;
-    --color-text-light: #3a4c5e;
-    --color-text-muted: #4a5b6b;
-    --bg-white: #ffffff;
-    --bg-gray: #F5F6F8;
-    --bg-card: #F8F9FA;
-    --border-card: #E8EBED;
-    --font-light: 300;
-    --font-regular: 400;
-    --font-medium: 500;
-  }
 
-  .full-width-white { width: 100%; background: var(--bg-white); padding: 80px 0; }
-  .full-width-gray { width: 100%; background: var(--bg-gray); padding: 80px 0; }
+  .full-width-white { width: 100%; background: var(--bg-white-2); padding: 80px 0; }
+  .full-width-gray { width: 100%; background: var(--bg-gray-2); padding: 80px 0; }
   
   .wide-container {
     max-width: 1200px;
@@ -163,14 +149,6 @@
     text-transform: uppercase;
     color: var(--color-accent);
     font-weight: var(--font-regular);
-  }
-  
-  .hero-content .headline {
-    font-size: 58px;
-    font-weight: 400;
-    color: var(--color-text-dark);
-    margin: 20px 0 20px;
-    line-height: 1.2;
   }
   
   .hero-content .body-text {

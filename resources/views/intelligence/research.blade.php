@@ -11,7 +11,7 @@
 
       <div class="hero-content">
     <div class="breadcrumb fade-up revealed">Home / Intelligence / Research Publications</div>
-    <h1 class="headline fade-up revealed">Research Publications</h1>
+    <h1 class="headline fade-up revealed">Research <span>Publications</span></h1>
     <div class="body-text fade-up delay-2 revealed">Institutional research and analysis for strategic decision-making.</div>
   </div>
 </div>

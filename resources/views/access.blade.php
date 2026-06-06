@@ -210,7 +210,7 @@
 
 .partner-section {
   width: 100%;
-  background: white;
+  background: var(--bg-white-2);
   text-align: center;
   padding: 80px;
 }

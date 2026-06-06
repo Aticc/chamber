@@ -10,6 +10,11 @@ use App\Http\Controllers\MembershipController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MemberAuthController;
 
+
+// TEST
+Route::get('/test', function () { return view('test'); })->name('test');
+
+
 // ========= ABOUT SUBPAGES =========
 Route::get('/about', function () { return view('about'); })->name('about');
 Route::get('/about/overview', function () { return view('about.overview'); })->name('about.overview');
@@ -150,4 +155,6 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::post('/membership-application/{id}/status', [MembershipController::class, 'adminUpdateStatus'])->name('membership.update-status');
         Route::get('/membership-application/{id}/download/{field}', [MembershipController::class, 'adminDownloadFile'])->name('membership.download');
     });
+
+    
 });

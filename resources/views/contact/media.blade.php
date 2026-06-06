@@ -12,7 +12,7 @@
   
   <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">
       <div class="breadcrumb fade-up revealed">Home / Contact / Media Relations</div>
-      <h1 class="headline fade-up revealed">Media Relations</h1>
+      <h1 class="headline fade-up revealed">Media <span>Relations</span></h1>
       <div class="body-text fade-up delay-2 revealed">ATICC Media Relations & Public Communications Desk – Press inquiries, interviews, and official statements.</div>
     </div>
   </div>

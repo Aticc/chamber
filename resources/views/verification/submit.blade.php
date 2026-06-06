@@ -10,7 +10,7 @@
   </div>
   <div class="hero-content" style="position: relative; z-index: 2; max-width: 55%; margin: 0; padding: 60px 40px;">
     <div class="breadcrumb fade-up revealed" style="margin-bottom: 20px;">Home / Verification / Submit</div>
-    <h1 class="headline fade-up revealed" style="max-width: 55%;">Verification Submission</h1>
+    <h1 class="headline fade-up revealed" style="max-width: 55%;">Verification <span>Submission</span></h1>
     <div class="body-text fade-up delay-2 revealed" style="max-width: 50%;">Submit your institutional information to begin the verification process.</div>
   </div>
 </div>
@@ -61,18 +61,7 @@
 @include('layouts.footer')
 
 <style>
-  :root {
-    --color-primary: #041931;
-    --color-accent: #C49A6C;
-    --color-text-dark: #0e0e0e;
-    --color-text-light: #3a4c5e;
-    --bg-white: #ffffff;
-    --font-light: 300;
-    --font-regular: 300;
-    --font-medium: 500;
-  }
-
-  .full-width-white { width: 100%; background: var(--bg-white); padding: 80px 0; }
+  .full-width-white { width: 100%; background: var(--bg-white-2); padding: 80px 0; }
   
   .wide-container {
     max-width: 1200px;
@@ -93,13 +82,6 @@
     font-weight: var(--font-regular);
   }
   
-  .hero-content .headline {
-    font-size: 58px;
-    font-weight: 300;
-    color: var(--color-text-dark);
-    margin: 20px 0 20px;
-    line-height: 1.2;
-  }
   
   .hero-content .body-text {
     font-size: 18px;

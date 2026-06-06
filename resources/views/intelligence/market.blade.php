@@ -101,28 +101,8 @@
 @include('layouts.footer')
 
 <style>
-  :root {
-    --color-primary: #041931;
-    --color-accent: #C49A6C;
-    --color-text-dark: #0e0e0e;
-    --color-text-gray: #1a2c3e;
-    --color-text-light: #3a4c5e;
-    --color-text-lighter: #5d6f7f;
-    --color-text-muted: #4a5b6b;
-    --color-text-white: #ffffff;
-    --color-text-offwhite: rgba(255,255,255,0.92);
-    --bg-white: #ffffff;
-    --bg-gray: #F5F6F8;
-    --bg-card: #F8F9FA;
-    --border-light: #e8eef2;
-    --border-card: #E8EBED;
-    --font-light: 300;
-    --font-regular: 300;
-    --font-medium: 500;
-  }
-
-  .full-width-white { width: 100%; background: var(--bg-white); padding: 80px 0; }
-  .full-width-gray { width: 100%; background: var(--bg-gray); padding: 80px 0; }
+  .full-width-white { width: 100%; background: var(--bg-white-2); padding: 80px 0; }
+  .full-width-gray { width: 100%; background: var(--bg-gray-2); padding: 80px 0; }
 
   /* Hero Section */
   .hero-section {
@@ -137,7 +117,7 @@
     position: relative;
     z-index: 2;
     max-width: 900px;
-    margin-left: 8%;
+
     padding: 40px 20px;
   }
   .hero-content .breadcrumb {
@@ -280,7 +260,7 @@
     gap: 16px;
     margin-bottom: 24px;
     padding: 16px 20px;
-    background: var(--bg-white);
+    background: var(--bg-white-2);
     border-radius: 12px;
     transition: all 0.3s ease;
   }

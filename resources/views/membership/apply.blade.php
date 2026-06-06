@@ -4,7 +4,7 @@
 @include('layouts.nav')
 
 @if($errors->any())
-    <div style="background: #f8d7da; color: #721c24; padding: 15px; margin-bottom: 20px; border-radius: 8px;">
+    <div class="error-alert">
         <ul>
             @foreach($errors->all() as $error)
                 <li>{{ $error }}</li>
@@ -14,7 +14,7 @@
 @endif
 
 @if(session('error'))
-    <div style="background: #f8d7da; color: #721c24; padding: 15px; margin-bottom: 20px; border-radius: 8px;">
+    <div class="error-alert">
         {{ session('error') }}
     </div>
 @endif
@@ -22,7 +22,7 @@
 <div class="tier-application-container">
     <div class="application-header">
         <div class="breadcrumb">Membership / Accession Application</div>
-        <h1>ATICC MEMBERSHIP ACCESSION FORM</h1>
+        <h1>ATICC MEMBERSHIP <span class="gold-accent">ACCESSION FORM</span></h1>
         <p class="subtitle" id="selectedTierDisplay">Complete the form below based on your selected membership tier</p>
     </div>
 
@@ -36,7 +36,7 @@
             <!-- Selected Plan Summary -->
             <div class="selected-plan-card" id="selectedPlanCard">
                 <div class="selected-plan-icon">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#041931" stroke-width="1.5">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                         <path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/>
                         <path d="M9 3v18M15 3v18M3 9h18M3 15h18"/>
                     </svg>
@@ -75,7 +75,7 @@
             <div class="form-step active" id="step1">
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 1 -ORGANIZATION PROFILE</h3>
+                        <h3>SECTION 1 — ORGANIZATION PROFILE</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -152,7 +152,7 @@
             <div class="form-step" id="step2">
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 2 -PRIMARY CONTACT REPRESENTATIVE</h3>
+                        <h3>SECTION 2 — PRIMARY CONTACT REPRESENTATIVE</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -193,7 +193,7 @@
 
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 3 -INSTITUTIONAL CAPACITY & STRATEGIC ALIGNMENT</h3>
+                        <h3>SECTION 3 — INSTITUTIONAL CAPACITY & STRATEGIC ALIGNMENT</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -281,7 +281,7 @@
 
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 4 -CAPITAL ALIGNMENT & EXECUTION READINESS</h3>
+                        <h3>SECTION 4 — CAPITAL ALIGNMENT & EXECUTION READINESS</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -327,7 +327,7 @@
             <div class="form-step" id="step3">
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 5 -TRUST & VERIFICATION (T&V) REQUIREMENTS</h3>
+                        <h3>SECTION 5 — TRUST & VERIFICATION (T&V) REQUIREMENTS</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -344,7 +344,7 @@
                             <label class="checkbox-container">
                                 <input type="checkbox" name="verification_acknowledgement" id="verification_ack">
                                 <span class="checkmark"></span>
-                                <span class="checkbox-text">Verification Acknowledgment - I acknowledge and understand that: The Trust & Verification (T&V) review is mandatory; Verification-related fees are non-refundable; False documentation or material misrepresentation may result in immediate rejection; ATICC reserves the right to suspend or decline accession requests where institutional integrity standards are not satisfied.</span>
+                                <span class="checkbox-text">Verification Acknowledgment — I acknowledge and understand that: The Trust & Verification (T&V) review is mandatory; Verification-related fees are non-refundable; False documentation or material misrepresentation may result in immediate rejection; ATICC reserves the right to suspend or decline accession requests where institutional integrity standards are not satisfied.</span>
                             </label>
                         </div>
 
@@ -363,7 +363,7 @@
 
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 6 -REQUIRED DOCUMENTATION</h3>
+                        <h3>SECTION 6 — REQUIRED DOCUMENTATION</h3>
                         <span class="section-badge">Upload</span>
                     </div>
                     <div class="form-card-body">
@@ -371,7 +371,10 @@
                             <div class="upload-card">
                                 <label>Certificate of Incorporation / Registration <span class="required">*</span></label>
                                 <div class="upload-area" onclick="document.getElementById('incorporation_file').click()">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#7A8B9B"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14 2 14 8 20 8"/>
+                                    </svg>
                                     <p>Click to upload</p>
                                     <span>PDF, PNG, JPG (Max 10MB)</span>
                                 </div>
@@ -381,7 +384,10 @@
                             <div class="upload-card">
                                 <label>Corporate / Business Profile</label>
                                 <div class="upload-area" onclick="document.getElementById('profile_file').click()">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#7A8B9B"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14 2 14 8 20 8"/>
+                                    </svg>
                                     <p>Click to upload</p>
                                     <span>PDF, DOC (Max 10MB)</span>
                                 </div>
@@ -391,7 +397,10 @@
                             <div class="upload-card">
                                 <label>Proof of Address</label>
                                 <div class="upload-area" onclick="document.getElementById('address_file').click()">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#7A8B9B"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14 2 14 8 20 8"/>
+                                    </svg>
                                     <p>Click to upload</p>
                                     <span>PDF, PNG, JPG (Max 5MB)</span>
                                 </div>
@@ -401,7 +410,10 @@
                             <div class="upload-card">
                                 <label>Authorized Representative ID</label>
                                 <div class="upload-area" onclick="document.getElementById('id_file').click()">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#7A8B9B"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14 2 14 8 20 8"/>
+                                    </svg>
                                     <p>Click to upload</p>
                                     <span>PDF, PNG, JPG (Max 5MB)</span>
                                 </div>
@@ -473,48 +485,58 @@
 @include('layouts.footer')
 
 <style>
-:root {
-    --primary: #041931;
-    --primary-dark: #0e0145;
-    --primary-light: #031B4E;
-    --gold: #C49A6C;
-    --gray-bg: #F8F9FA;
-    --gray-border: #E8EBED;
-    --text-dark: #1A2C3E;
-    --text-muted: #5D6F7F;
-    --success: #28a745;
-    --warning: #ffc107;
-    --danger: #dc3545;
+
+body {
+    background: var(--bg-gray-2);
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+/* Using Updated Color Variables - All colors updated to new specification */
+  .full-width-white { 
+    width: 100%; 
+    background: var(--bg-white-2); 
+    padding: 80px 0; 
+    border-bottom: 1px solid var(--color-text-muted-2);
+  }
+  
+/* Error Alert */
+.error-alert {
+    max-width: 1000px;
+    margin: 20px auto 0;
+    background: rgba(201, 160, 61, 0.1);
+    border-left: 4px solid var(--color-accent);
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+.error-alert ul { margin: 0 0 0 20px; color: var(--color-accent); }
 
-.tier-application-container { max-width: 950px; margin: 0 auto; padding: 40px 20px; }
+/* Main Container */
+.tier-application-container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
 .application-header { text-align: center; margin-bottom: 40px; }
-.application-header .breadcrumb { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 15px; }
-.application-header h1 { font-size: 32px; color: var(--primary); margin-bottom: 10px; font-weight: 400; }
-.application-header .subtitle { font-size: 16px; color: var(--text-muted); }
+.application-header .breadcrumb { font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 15px; font-weight: 500; }
+.application-header h1 { font-family: var(--font-heading); font-size: 42px; color: var(--color-text-lighter-2); margin-bottom: 10px; font-weight: 400; letter-spacing: -0.01em; }
+.gold-accent { color: var(--color-accent); }
+.application-header .subtitle { font-size: 16px; color: var(--color-text-gray-2); }
 
-.application-content { background: white; border-radius: 28px; box-shadow: 0 20px 40px rgba(0,0,0,0.08); padding: 40px; }
+.application-content { background: var(--bg-white-2); border-radius: 24px; box-shadow: 0 20px 40px rgba(0,0,0,0.06); padding: 40px; border: 1px solid var(--color-text-muted-2); }
 
 /* Selected Plan Card */
-.selected-plan-card { display: flex; align-items: center; gap: 20px; background: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%); border: 1px solid var(--gray-border); border-radius: 20px; padding: 20px 25px; margin-bottom: 30px; }
-.selected-plan-icon { width: 55px; height: 55px; background: rgba(23, 1, 94, 0.1); border-radius: 16px; display: flex; align-items: center; justify-content: center; }
+.selected-plan-card { display: flex; align-items: center; gap: 20px; background: var(--bg-gray-2); border: 1px solid var(--color-text-muted-2); border-radius: 20px; padding: 20px 25px; margin-bottom: 30px; }
+.selected-plan-icon { width: 55px; height: 55px; background: rgba(4, 21, 46, 0.08); border-radius: 16px; display: flex; align-items: center; justify-content: center; color: var(--color-text-dark-2); }
 .selected-plan-details { flex: 1; }
-.selected-plan-details h4 { font-size: 18px; color: var(--primary); margin-bottom: 5px; }
-.selected-plan-details p { font-size: 13px; color: var(--text-muted); }
-.change-plan-link { font-size: 13px; color: var(--primary); text-decoration: none; font-weight: 400; padding: 8px 16px; border-radius: 30px; transition: all 0.2s ease; }
-.change-plan-link:hover { background: rgba(23, 1, 94, 0.05); }
+.selected-plan-details h4 { font-size: 18px; font-weight: 500; color: var(--color-text-lighter-2); margin-bottom: 5px; }
+.selected-plan-details p { font-size: 13px; color: var(--color-text-gray-2); }
+.change-plan-link { font-size: 13px; color: var(--color-accent); text-decoration: none; font-weight: 500; padding: 8px 16px; border-radius: 30px; transition: all 0.2s ease; }
+.change-plan-link:hover { background: rgba(201, 160, 61, 0.1); }
 
 /* Progress Steps */
-.progress-steps { display: flex; align-items: center; justify-content: center; margin-bottom: 40px; }
+.progress-steps { display: flex; align-items: center; justify-content: center; margin-bottom: 40px; flex-wrap: wrap; gap: 10px; }
 .step { display: flex; align-items: center; gap: 8px; cursor: pointer; }
-.step-num { width: 36px; height: 36px; background: var(--gray-bg); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 400; font-size: 14px; color: var(--text-muted); transition: all 0.3s ease; }
-.step.active .step-num { background: var(--primary); color: white; }
-.step.completed .step-num { background: var(--success); color: white; }
-.step-text { font-size: 12px; color: var(--text-muted); font-weight: 400; }
-.step.active .step-text { color: var(--primary); }
-.step-line { width: 60px; height: 2px; background: var(--gray-border); margin: 0 10px; }
+.step-num { width: 38px; height: 38px; background: var(--bg-gray-2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 500; font-size: 14px; color: var(--color-text-gray-2); transition: all 0.3s ease; border: 1px solid var(--color-text-muted-2); }
+.step.active .step-num { background: var(--color-text-dark-2); color: var(--color-text-white-2); border-color: var(--color-text-dark-2); }
+.step.completed .step-num { background: var(--color-accent); color: var(--color-text-dark-2); border-color: var(--color-accent); }
+.step-text { font-size: 12px; color: var(--color-text-gray-2); font-weight: 500; }
+.step.active .step-text { color: var(--color-accent); }
+.step-line { width: 50px; height: 2px; background: var(--color-text-muted-2); margin: 0 5px; }
 
 /* Form Steps */
 .form-step { display: none; }
@@ -522,119 +544,97 @@
 @keyframes fadeIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
 
 /* Form Cards */
-.form-card { background: white; border: 1px solid var(--gray-border); border-radius: 20px; margin-bottom: 25px; overflow: hidden; }
-.form-card-header { display: flex; justify-content: space-between; align-items: center; padding: 18px 24px; background: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%); border-bottom: 1px solid var(--gray-border); }
-.form-card-header h3 { font-size: 17px; color: var(--primary); font-weight: 600; margin: 0; }
-.section-badge { font-size: 11px; padding: 4px 10px; background: var(--primary); color: white; border-radius: 30px; }
-.form-card-body { padding: 24px; }
+.form-card { background: var(--bg-white-2); border: 1px solid var(--color-text-muted-2); border-radius: 20px; margin-bottom: 25px; overflow: hidden; }
+.form-card-header { display: flex; justify-content: space-between; align-items: center; padding: 18px 24px; background: var(--bg-gray-2); border-bottom: 1px solid var(--color-text-muted-2); }
+.form-card-header h3 { font-size: 16px; color: var(--color-text-lighter-2); font-weight: 600; margin: 0; letter-spacing: 0.5px; }
+.section-badge { font-size: 10px; padding: 4px 12px; background: var(--color-text-dark-2); color: var(--color-text-white-2); border-radius: 30px; font-weight: 500; letter-spacing: 0.5px; }
+.form-card-body { padding: 28px; }
 
 /* Form Elements */
-.form-group { margin-bottom: 20px; }
-.form-group label { display: block; margin-bottom: 8px; font-weight: 600; font-size: 13px; color: var(--text-dark); }
-.form-input, .form-select, .form-textarea { width: 100%; padding: 12px 16px; border: 1.5px solid var(--gray-border); border-radius: 12px; font-size: 14px; transition: all 0.2s ease; font-family: inherit; }
-.form-input:focus, .form-select:focus, .form-textarea:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(23, 1, 94, 0.1); }
+.form-group { margin-bottom: 22px; }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 600; font-size: 13px; color: var(--color-text-lighter-2); }
+.form-input, .form-select, .form-textarea { width: 100%; padding: 12px 16px; border: 1.5px solid var(--color-text-muted-2); border-radius: 12px; font-size: 14px; transition: all 0.2s ease; font-family: inherit; background: var(--bg-white-2); color: var(--color-text-dark-2); }
+.form-input:focus, .form-select:focus, .form-textarea:focus { outline: none; border-color: var(--color-accent); box-shadow: 0 0 0 3px rgba(201, 160, 61, 0.1); }
 .form-textarea { resize: vertical; font-family: inherit; }
 .form-row { display: flex; gap: 20px; }
 .form-row .form-group { flex: 1; }
-.required { color: var(--danger); }
+.required { color: #d32f2f; margin-left: 3px; }
 
 /* Validation Styles */
-.form-input.error, 
-.form-select.error, 
-.form-textarea.error {
-    border-color: var(--danger) !important;
-    background-color: #fff8f8;
-}
-
-.form-input.error:focus, 
-.form-select.error:focus, 
-.form-textarea.error:focus {
-    border-color: var(--danger) !important;
-    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
-}
-
-.error-message {
-    color: var(--danger);
-    font-size: 11px;
-    margin-top: 5px;
-    display: block;
-}
-
-.btn-next.disabled,
-.btn-next:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-    transform: none;
-}
+.form-input.error, .form-select.error, .form-textarea.error { border-color: #d32f2f !important; background-color: rgba(211, 47, 47, 0.05); }
+.error-message { color: #d32f2f; font-size: 11px; margin-top: 6px; display: block; }
 
 /* Radio & Checkbox */
-.radio-group { display: flex; gap: 25px; }
-.radio-label { display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: normal; }
-.radio-label input { width: 16px; height: 16px; accent-color: var(--primary); }
-.help-text { font-size: 11px; color: var(--text-muted); margin-top: 6px; }
+.radio-group { display: flex; gap: 30px; }
+.radio-label { display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: normal; font-size: 14px; color: var(--color-text-lighter-2); }
+.radio-label input { width: 16px; height: 16px; accent-color: var(--color-accent); }
+.help-text { font-size: 11px; color: var(--color-text-gray-2); margin-top: 6px; }
 
 .checkbox-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 5px; }
-.checkbox-label { display: flex; align-items: center; gap: 8px; cursor: pointer; font-size: 13px; color: var(--text-dark); }
-.checkbox-label input { width: 16px; height: 16px; accent-color: var(--primary); }
-.mt-2 { margin-top: 10px; }
+.checkbox-label { display: flex; align-items: center; gap: 8px; cursor: pointer; font-size: 13px; color: var(--color-text-lighter-2); }
+.checkbox-label input { width: 16px; height: 16px; accent-color: var(--color-accent); }
+.mt-2 { margin-top: 12px; }
 
 /* Checkbox Wrapper */
 .checkbox-wrapper { margin: 20px 0; }
-.checkbox-container { display: flex; align-items: flex-start; gap: 12px; cursor: pointer; font-size: 13px; line-height: 1.5; color: var(--text-dark); }
+.checkbox-container { display: flex; align-items: flex-start; gap: 12px; cursor: pointer; font-size: 13px; line-height: 1.5; color: var(--color-text-lighter-2); }
 .checkbox-container input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
-.checkmark { position: relative; display: inline-block; width: 20px; height: 20px; background: white; border: 2px solid var(--gray-border); border-radius: 5px; flex-shrink: 0; transition: all 0.2s ease; }
-.checkbox-container input:checked ~ .checkmark { background: var(--primary); border-color: var(--primary); }
-.checkbox-container input:checked ~ .checkmark:after { content: ''; position: absolute; left: 6px; top: 2px; width: 5px; height: 10px; border: solid white; border-width: 0 2px 2px 0; transform: rotate(45deg); }
+.checkmark { position: relative; display: inline-block; width: 20px; height: 20px; background: var(--bg-white-2); border: 2px solid var(--color-text-muted-2); border-radius: 5px; flex-shrink: 0; margin-top: 1px; transition: all 0.2s ease; }
+.checkbox-container input:checked ~ .checkmark { background: var(--color-accent); border-color: var(--color-accent); }
+.checkbox-container input:checked ~ .checkmark:after { content: ''; position: absolute; left: 6px; top: 2px; width: 5px; height: 10px; border: solid var(--color-text-dark-2); border-width: 0 2px 2px 0; transform: rotate(45deg); }
 .checkbox-text { flex: 1; }
 
 /* Notice Boxes */
 .notice-box { display: flex; gap: 15px; padding: 20px; border-radius: 16px; margin-bottom: 25px; }
-.notice-box.warning { background: #FEF2E8; border-left: 4px solid var(--gold); }
-.notice-box.info { background: #E8F0FE; border-left: 4px solid var(--primary); }
-.notice-box.success { background: #E8F5E9; border-left: 4px solid var(--success); }
+.notice-box.warning { background: rgba(201, 160, 61, 0.1); border-left: 4px solid var(--color-accent); }
+.notice-box.info { background: rgba(4, 21, 46, 0.05); border-left: 4px solid var(--color-text-dark-2); }
+.notice-box.success { background: rgba(46, 125, 50, 0.1); border-left: 4px solid #2e7d32; }
 .notice-icon { font-size: 24px; flex-shrink: 0; }
-.notice-content h4 { font-size: 14px; font-weight: 400; margin-bottom: 8px; color: var(--text-dark); }
-.notice-content p { font-size: 13px; color: var(--text-muted); line-height: 1.5; margin-bottom: 8px; }
+.notice-content h4 { font-size: 14px; font-weight: 600; margin-bottom: 8px; color: var(--color-text-lighter-2); }
+.notice-content p { font-size: 13px; color: var(--color-text-gray-2); line-height: 1.5; margin-bottom: 8px; }
 
 /* Document Upload */
 .doc-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
-.upload-card { background: var(--gray-bg); border-radius: 16px; padding: 18px; }
-.upload-card label { font-weight: 600; font-size: 13px; display: block; margin-bottom: 12px; color: var(--text-dark); }
-.upload-area { border: 2px dashed var(--gray-border); border-radius: 12px; padding: 20px; text-align: center; cursor: pointer; transition: all 0.2s ease; background: white; }
-.upload-area:hover { border-color: var(--primary); background: rgba(23, 1, 94, 0.02); }
-.upload-area svg { margin-bottom: 8px; }
-.upload-area p { font-size: 12px; color: var(--text-dark); margin-top: 8px; }
-.upload-area span { font-size: 10px; color: var(--text-muted); display: block; margin-top: 4px; }
-.file-status { font-size: 11px; color: var(--success); display: block; margin-top: 8px; text-align: center; }
+.upload-card { background: var(--bg-gray-2); border-radius: 16px; padding: 18px; }
+.upload-card label { font-weight: 600; font-size: 13px; display: block; margin-bottom: 12px; color: var(--color-text-lighter-2); }
+.upload-area { border: 2px dashed var(--color-text-muted-2); border-radius: 12px; padding: 20px; text-align: center; cursor: pointer; transition: all 0.2s ease; background: var(--bg-white-2); }
+.upload-area:hover { border-color: var(--color-accent); background: rgba(201, 160, 61, 0.02); }
+.upload-area svg { margin-bottom: 8px; color: var(--color-text-gray-2); }
+.upload-area p { font-size: 12px; color: var(--color-text-lighter-2); margin-top: 8px; font-weight: 500; }
+.upload-area span { font-size: 10px; color: var(--color-text-gray-2); display: block; margin-top: 4px; }
+.file-status { font-size: 11px; color: #2e7d32; display: block; margin-top: 8px; text-align: center; font-weight: 500; }
 
 /* Step Navigation */
-.step-navigation { display: flex; justify-content: space-between; margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--gray-border); }
-.btn-prev, .btn-next, .btn-submit { padding: 12px 28px; border-radius: 40px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; font-family: inherit; }
-.btn-prev { background: transparent; border: 1.5px solid var(--gray-border); color: var(--text-dark); }
-.btn-prev:hover { border-color: var(--primary); color: var(--primary); transform: translateX(-2px); }
-.btn-next, .btn-submit { background: var(--primary); border: none; color: white; display: flex; align-items: center; gap: 10px; }
-.btn-next:hover:not(:disabled), .btn-submit:hover { background: var(--primary-light); transform: translateX(2px); }
+.step-navigation { display: flex; justify-content: space-between; margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--color-text-muted-2); }
+.btn-prev, .btn-next, .btn-submit { padding: 12px 32px; border-radius: 1px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; font-family: inherit; letter-spacing: 0.5px; }
+.btn-prev { background: transparent; border: 1.5px solid var(--color-text-muted-2); color: var(--color-text-lighter-2); }
+.btn-prev:hover { border-color: var(--color-accent); color: var(--color-accent); transform: translateX(-2px); }
+.btn-next, .btn-submit { background: var(--color-accent); border: none; color: var(--color-text-dark-2); display: flex; align-items: center; gap: 10px; }
+.btn-next:hover:not(:disabled), .btn-submit:hover { background: var(--color-accent-hover); transform: translateX(2px); }
 .btn-next:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 
 /* Preview Content */
-.preview-content { background: var(--gray-bg); border-radius: 20px; padding: 30px; max-height: 550px; overflow-y: auto; font-size: 13px; line-height: 1.6; }
-.preview-content h3 { color: var(--primary); text-align: center; margin-bottom: 20px; font-size: 18px; }
-.preview-content h4 { color: var(--primary); margin: 20px 0 12px; padding-bottom: 6px; border-bottom: 2px solid var(--gray-border); font-size: 15px; }
-.preview-content .preview-row { display: flex; padding: 10px 0; border-bottom: 1px solid var(--gray-border); }
-.preview-content .preview-label { width: 220px; font-weight: 600; color: var(--text-dark); flex-shrink: 0; }
-.preview-content .preview-value { flex: 1; color: var(--text-muted); }
+.preview-content { background: var(--bg-gray-2); border-radius: 20px; padding: 30px; max-height: 550px; overflow-y: auto; font-size: 13px; line-height: 1.6; }
+.preview-content h3 { color: var(--color-text-lighter-2); text-align: center; margin-bottom: 20px; font-size: 18px; font-weight: 600; }
+.preview-content h4 { color: var(--color-accent); margin: 20px 0 12px; padding-bottom: 6px; border-bottom: 2px solid var(--color-text-muted-2); font-size: 14px; font-weight: 600; }
+.preview-content .preview-row { display: flex; padding: 10px 0; border-bottom: 1px solid var(--color-text-muted-2); }
+.preview-content .preview-label { width: 220px; font-weight: 600; color: var(--color-text-lighter-2); flex-shrink: 0; }
+.preview-content .preview-value { flex: 1; color: var(--color-text-gray-2); }
 
 /* Responsive */
 @media (max-width: 768px) {
     .application-content { padding: 25px; }
+    .application-header h1 { font-size: 32px; }
     .form-row { flex-direction: column; gap: 0; }
     .checkbox-grid { grid-template-columns: repeat(2, 1fr); }
     .doc-grid { grid-template-columns: 1fr; }
-    .progress-steps { flex-wrap: wrap; gap: 10px; }
+    .progress-steps { flex-wrap: wrap; justify-content: center; }
     .step-line { width: 30px; }
     .preview-content .preview-row { flex-direction: column; }
     .preview-content .preview-label { width: 100%; margin-bottom: 5px; }
     .form-card-header { flex-direction: column; gap: 10px; align-items: flex-start; }
+    .step-navigation { flex-direction: column; gap: 12px; }
+    .btn-prev, .btn-next, .btn-submit { justify-content: center; }
 }
 </style>
 
@@ -645,13 +645,11 @@ let step1Attempted = false;
 let step2Attempted = false;
 let step3Attempted = false;
 
-// Define required fields for each step
 const step1Fields = ['legal_name', 'institution_type', 'country_registration', 'address'];
 const step2Fields = ['contact_name', 'contact_position', 'contact_email', 'contact_phone'];
 const step3Fields = ['verification_ack', 'signature', 'signature_date'];
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Get selected plan from URL parameters
     const urlParams = new URLSearchParams(window.location.search);
     const tier = urlParams.get('tier');
     const planName = urlParams.get('plan');
@@ -707,29 +705,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (errorMsg) errorMsg.remove();
                 }
             });
-            field.addEventListener('change', function() {
-                if (this.value.trim() !== '') {
-                    this.classList.remove('error');
-                    const errorMsg = this.parentElement.querySelector('.error-message');
-                    if (errorMsg) errorMsg.remove();
-                }
-            });
         }
     });
     
-    // Add live error removal for Step 2 fields
     step2Fields.forEach(fieldId => {
         const field = document.getElementById(fieldId);
         if (field) {
             field.addEventListener('input', function() {
-                if (this.value.trim() !== '') {
-                    this.classList.remove('error');
-                    const errorMsg = this.parentElement.querySelector('.error-message');
-                    if (errorMsg) errorMsg.remove();
-                }
-            });
-            field.addEventListener('change', function() {
-                if (this.value.trim() !== '') {
+                if (fieldId === 'contact_email') {
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (emailRegex.test(this.value.trim()) || this.value.trim() === '') {
+                        this.classList.remove('error');
+                        const errorMsg = this.parentElement.querySelector('.error-message');
+                        if (errorMsg) errorMsg.remove();
+                    }
+                } else if (this.value.trim() !== '') {
                     this.classList.remove('error');
                     const errorMsg = this.parentElement.querySelector('.error-message');
                     if (errorMsg) errorMsg.remove();
@@ -738,24 +728,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Email specific validation - remove error when email becomes valid
-    const emailField = document.getElementById('contact_email');
-    if (emailField) {
-        emailField.addEventListener('input', function() {
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (emailRegex.test(this.value.trim())) {
-                this.classList.remove('error');
-                const errorMsg = this.parentElement.querySelector('.error-message');
-                if (errorMsg) errorMsg.remove();
-            } else if (this.value.trim() === '') {
-                this.classList.remove('error');
-                const errorMsg = this.parentElement.querySelector('.error-message');
-                if (errorMsg) errorMsg.remove();
-            }
-        });
-    }
-    
-    // Radio button live error removal
     const radioButtons = document.querySelectorAll('input[name="authorized_status"]');
     radioButtons.forEach(radio => {
         radio.addEventListener('change', function() {
@@ -766,7 +738,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Step 3 live error removal
     const verificationAck = document.getElementById('verification_ack');
     if (verificationAck) {
         verificationAck.addEventListener('change', function() {
@@ -802,7 +773,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Clear error styling for a field
 function clearFieldError(fieldId) {
     const field = document.getElementById(fieldId);
     if (field) {
@@ -812,15 +782,10 @@ function clearFieldError(fieldId) {
     }
 }
 
-// Clear all errors for a step
 function clearStepErrors(stepFields) {
-    stepFields.forEach(fieldId => {
-        clearFieldError(fieldId);
-    });
-    // Clear radio button error
+    stepFields.forEach(fieldId => clearFieldError(fieldId));
     const radioError = document.querySelector('.radio-group .error-message');
     if (radioError) radioError.remove();
-    // Clear checkbox error
     const verificationAck = document.getElementById('verification_ack');
     if (verificationAck) {
         const wrapper = verificationAck.closest('.checkbox-wrapper');
@@ -829,16 +794,13 @@ function clearStepErrors(stepFields) {
     }
 }
 
-// Validate Step 1 (returns true if valid, shows errors if attempted)
 function validateStep1(showErrors = true) {
     let allValid = true;
     
     step1Fields.forEach(fieldId => {
         const field = document.getElementById(fieldId);
         if (field) {
-            const value = field.value.trim();
-            const isValid = value !== '';
-            
+            const isValid = field.value.trim() !== '';
             if (!isValid) {
                 allValid = false;
                 if (showErrors) {
@@ -861,7 +823,6 @@ function validateStep1(showErrors = true) {
     return allValid;
 }
 
-// Validate Step 2 (returns true if valid, shows errors if attempted)
 function validateStep2(showErrors = true) {
     let allValid = true;
     
@@ -871,7 +832,6 @@ function validateStep2(showErrors = true) {
             let value = field.value.trim();
             let isValid = value !== '';
             
-            // Special validation for email
             if (fieldId === 'contact_email' && isValid) {
                 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
                 isValid = emailRegex.test(value);
@@ -896,7 +856,6 @@ function validateStep2(showErrors = true) {
         }
     });
     
-    // Check radio button
     const radioChecked = document.querySelector('input[name="authorized_status"]:checked');
     if (!radioChecked) {
         allValid = false;
@@ -917,7 +876,6 @@ function validateStep2(showErrors = true) {
     return allValid;
 }
 
-// Validate Step 3 (returns true if valid, shows errors if attempted)
 function validateStep3(showErrors = true) {
     let allValid = true;
     
@@ -986,18 +944,16 @@ function validateStep3(showErrors = true) {
     return allValid;
 }
 
-// Show/hide "Other" fields
 document.getElementById('institution_type')?.addEventListener('change', function() {
     const otherField = document.getElementById('institution_type_other');
-    otherField.style.display = this.value === 'Other' ? 'block' : 'none';
+    if (otherField) otherField.style.display = this.value === 'Other' ? 'block' : 'none';
 });
 
 document.getElementById('primary_sector')?.addEventListener('change', function() {
     const otherField = document.getElementById('primary_sector_other');
-    otherField.style.display = this.value === 'Other' ? 'block' : 'none';
+    if (otherField) otherField.style.display = this.value === 'Other' ? 'block' : 'none';
 });
 
-// Step navigation
 function showStep(step) {
     document.querySelectorAll('.form-step').forEach(el => el.classList.remove('active'));
     document.getElementById(`step${step}`).classList.add('active');
@@ -1012,7 +968,6 @@ function showStep(step) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// Handle Next button clicks with validation on demand
 document.querySelectorAll('.btn-next').forEach(btn => {
     btn.addEventListener('click', function(e) {
         let canProceed = false;
@@ -1051,7 +1006,6 @@ document.querySelectorAll('.btn-next').forEach(btn => {
     });
 });
 
-// Handle Previous button clicks
 document.querySelectorAll('.btn-prev').forEach(btn => {
     btn.addEventListener('click', () => { 
         if (currentStep > 1) {
@@ -1067,7 +1021,6 @@ document.querySelectorAll('.btn-prev').forEach(btn => {
     });
 });
 
-// Step click navigation
 document.querySelectorAll('.step').forEach((step, idx) => {
     step.addEventListener('click', () => {
         const targetStep = idx + 1;
@@ -1122,7 +1075,6 @@ document.querySelectorAll('.step').forEach((step, idx) => {
     });
 });
 
-// File upload handlers
 function setupFileUpload(inputId, statusId) {
     const input = document.getElementById(inputId);
     if (input) {
@@ -1138,7 +1090,6 @@ setupFileUpload('profile_file', 'profile_status');
 setupFileUpload('address_file', 'address_status');
 setupFileUpload('id_file', 'id_status');
 
-// Generate preview
 const reviewBtn = document.getElementById('step3Next');
 if (reviewBtn) {
     reviewBtn.addEventListener('click', function() {
@@ -1177,28 +1128,28 @@ function generatePreview() {
         previewDiv.innerHTML = `
             <div style="text-align:center; margin-bottom:25px;">
                 <h3>ATICC MEMBERSHIP ACCESSION FORM</h3>
-                <p><span>${escapeHtml(planName)}</span></p>
+                <p><span style="color: var(--color-accent); font-weight: 500;">${escapeHtml(planName)}</span></p>
             </div>
             
-            <h4>SECTION 1 -ORGANIZATION PROFILE</h4>
+            <h4>SECTION 1 — ORGANIZATION PROFILE</h4>
             <div class="preview-row"><div class="preview-label">Legal Name:</div><div class="preview-value">${escapeHtml(legalName)}</div></div>
             <div class="preview-row"><div class="preview-label">Type of Institution:</div><div class="preview-value">${escapeHtml(institutionType)}</div></div>
             <div class="preview-row"><div class="preview-label">Country of Registration:</div><div class="preview-value">${escapeHtml(country)}</div></div>
             
-            <h4>SECTION 2 -PRIMARY CONTACT</h4>
+            <h4>SECTION 2 — PRIMARY CONTACT</h4>
             <div class="preview-row"><div class="preview-label">Full Name:</div><div class="preview-value">${escapeHtml(contactName)}</div></div>
             <div class="preview-row"><div class="preview-label">Email:</div><div class="preview-value">${escapeHtml(contactEmail)}</div></div>
             
-            <h4>SECTION 3 -STRATEGIC ALIGNMENT</h4>
+            <h4>SECTION 3 — STRATEGIC ALIGNMENT</h4>
             <div class="preview-row"><div class="preview-label">Primary Sector:</div><div class="preview-value">${escapeHtml(primarySector)}</div></div>
-            <div class="preview-row"><div class="preview-label">Trade Corridors:</div><div class="preview-value">${selectedCorridors.join(', ') || 'None selected'}</div></div>
+            <div class="preview-row"><div class="preview-label">Trade Corridors:</div><div class="preview-value">${escapeHtml(selectedCorridors.join(', ') || 'None selected')}</div></div>
             <div class="preview-row"><div class="preview-label">Readiness Status:</div><div class="preview-value">${escapeHtml(readinessStatus)}</div></div>
             
-            <h4>SECTION 4 -DECLARATION</h4>
+            <h4>SECTION 4 — DECLARATION</h4>
             <div class="preview-row"><div class="preview-label">Signature:</div><div class="preview-value">${escapeHtml(signature)}</div></div>
             
-            <h4>SECTION 5 -DOCUMENTATION</h4>
-            <div class="preview-row"><div class="preview-label">Documents Uploaded:</div><div class="preview-value">${fileStatus.join(', ') || 'No documents uploaded'}</div></div>
+            <h4>SECTION 5 — DOCUMENTATION</h4>
+            <div class="preview-row"><div class="preview-label">Documents Uploaded:</div><div class="preview-value">${escapeHtml(fileStatus.join(', ') || 'No documents uploaded')}</div></div>
         `;
     }
 }
@@ -1210,7 +1161,6 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
-// Form submission
 const form = document.getElementById('membershipForm');
 if (form) {
     form.addEventListener('submit', function(e) {

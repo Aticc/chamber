@@ -13,7 +13,7 @@
 
     <div class="hero-content">
     <div class="breadcrumb fade-up revealed">Home / Intelligence / Sector Reports</div>
-    <h1 class="headline fade-up revealed">Sector Reports</h1>
+    <h1 class="headline fade-up revealed">Sector <span>Reports</span> </h1>
     <div class="body-text fade-up delay-2 revealed">In-depth analysis of priority sectors driving African economic growth.</div>
   </div>
 </div>

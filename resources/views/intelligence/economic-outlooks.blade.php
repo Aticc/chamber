@@ -12,7 +12,7 @@
 
 <div class="hero-content">
     <div class="breadcrumb fade-up revealed">Home / Intelligence / Economic Outlooks</div>
-    <h1 class="headline fade-up revealed">Economic Outlooks</h1>
+    <h1 class="headline fade-up revealed">Economic <span>Outlooks</span></h1>
     <div class="body-text fade-up delay-2 revealed">Forecasts and analysis of economic trends across African markets.</div>
   </div>
 </div>

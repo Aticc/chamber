@@ -13,7 +13,7 @@
 
   <div class="hero-content">
     <div class="breadcrumb fade-up revealed">Home / Intelligence / Investment Briefings</div>
-    <h1 class="headline fade-up revealed">Investment Briefings</h1>
+    <h1 class="headline fade-up revealed">Investment <span>Briefings</span></h1>
     <div class="body-text fade-up delay-2 revealed">Strategic investment insights and opportunity briefings for institutional capital.</div>
   </div>
 </div>

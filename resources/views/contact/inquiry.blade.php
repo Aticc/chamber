@@ -11,7 +11,7 @@
   
   <div class="hero-content">
     <div class="breadcrumb fade-up revealed">Home / Contact / Institutional Inquiry</div>
-    <h1 class="headline fade-up revealed">Institutional Inquiry</h1>
+    <h1 class="headline fade-up revealed">Institutional <span>Inquiry</span></h1>
     <div class="body-text fade-up delay-2 revealed">Submit a formal inquiry to the ATICC Secretariat through our centralized coordination framework.</div>
   </div>
 </div>

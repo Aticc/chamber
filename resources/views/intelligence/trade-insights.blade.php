@@ -13,7 +13,7 @@
 
   <div class="hero-content">
     <div class="breadcrumb fade-up revealed">Home / Intelligence / Trade Insights</div>
-    <h1 class="headline fade-up revealed">Trade Insights</h1>
+    <h1 class="headline fade-up revealed">Trade <span>Insights</span></h1>
     <div class="body-text fade-up delay-2 revealed">Strategic trade intelligence and cross-border market analysis.</div>
   </div>
 </div>
