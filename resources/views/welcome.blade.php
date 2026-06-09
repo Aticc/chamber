@@ -44,8 +44,8 @@
     </div>
   </div>
 
-  <div class="metrics-dashboard-bar">
-    </div>
+  {{-- <div class="metrics-dashboard-bar">
+    </div> --}}
 </section>
 
   <!-- ========= 5 PILLARS SYSTEM FRAMEWORK PANEL ========= -->
