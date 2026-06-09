@@ -1131,6 +1131,8 @@ footer {
     color: #8da2bb;
     letter-spacing: 2.5px;
     text-align: center;
+    width: 70%;
+    margin: 0 auto !important;
 }
 
 /* Ecosystem Architecture Workspace (What We Do 6-Columns) */
