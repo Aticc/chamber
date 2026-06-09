@@ -331,7 +331,7 @@ p {
 .hero-content {
     position: relative;
     z-index: 2;
-    max-width: 880px;
+    max-width: 100%;
     padding: 160px 40px 60px 40px;
 }
 
@@ -343,7 +343,7 @@ p {
     color: var(--color-text-lighter-2); /* Ivory */
     margin-bottom: 30px;
     letter-spacing: -0.02em;
-    text-transform: none;
+    text-transform: uppercase;
 }
 
 .hero-section .headline span {
@@ -869,7 +869,7 @@ footer {
 }
 .container-max {
     max-width: 1360px;
-    margin: 0 auto;
+    margin: 0 !important;
     padding: 0 40px !important;
 }
 
