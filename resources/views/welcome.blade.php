@@ -18,7 +18,7 @@
         <h1 class="hero-main-title">
           Connecting <br>
           <span style="color: #ffffff;">Institutional Capital</span> <br>
-          <span class="gold-brand-text" style="font-size: 20px;">With Verified African <br> Market Infrastructure</span>
+          <span class="gold-brand-text" style="font-size: 30px;">With Verified African Market Infrastructure</span>
         </h1>
         
         <p class="hero-supporting-text">
