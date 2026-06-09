@@ -171,7 +171,7 @@
   }
   
   .leadership-card { 
-    background: var(--color-primary-light); 
+    background: var(--bg-gray-2); 
     padding: 40px 30px; 
     border-bottom: 3px solid var(--color-accent);
     transition: all 0.3s ease;

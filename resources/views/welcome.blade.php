@@ -99,7 +99,9 @@
 
   <!-- ========= AXIOM CENTRAL SEPARATOR LAYER ========= -->
   <div class="axiom-display-block">
-    <div class="container-max">
+    <div class="container-max" style="background-image: url('{{ asset('assets/images/ATICC SEAL .png') }}')">
+      {{-- <img src="{{ asset('assets/images/ATICC SEAL .png') }}" alt="" srcset=""> --}}
+
       <h2 class="axiom-headline-text">
         Structure Defines Authority.<br>
         Verification Enables Trust.<br>

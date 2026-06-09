@@ -5,7 +5,7 @@
 @include('layouts.nav')
 
 <!-- ========= HERO SECTION ========= -->
-<div id="hero" class="hero-section" style="position: relative; background-color: var(--bg-white-2); overflow: hidden; min-height: 60vh;">
+<div id="hero" class="hero-section" style="position: relative; background-color: var(--bg-white-2); overflow: hidden; min-height: 60vh !important;">
   <!-- Image as a soft background element on the right -->
   <div style="position: absolute; top: 0; right: 0; width: 65%; height: 100%; pointer-events: none;">
     <div style="position: absolute; top: 0; right: -224px; width: 100%; height: 100%; background: url('{{ asset('assets/images/CROSS-BORDER MARKET ACCESS.jpeg') }}') no-repeat right center; background-size: cover; mask-image: linear-gradient(to left, black 71%, transparent 100%); -webkit-mask-image: linear-gradient(to left, black 71%, transparent 100%);"></div>
