@@ -97,21 +97,25 @@
     </div>
   </section>
 
-  <!-- ========= AXIOM CENTRAL SEPARATOR LAYER ========= -->
-  <div class="axiom-display-block">
-    <div class="container-max" style="background-image: url('{{ asset('assets/images/ATICC SEAL .png') }}')">
-      {{-- <img src="{{ asset('assets/images/ATICC SEAL .png') }}" alt="" srcset=""> --}}
+<!-- ========= AXIOM CENTRAL SEPARATOR LAYER ========= -->
+<div class="axiom-display-block" style="display: flex; align-items: center; justify-content: center; min-height: 454px; position: relative;">
+  
+  <!-- Background image (full container, behind everything) -->
+  <div class="l" style="background-image: url('{{ asset('assets/images/ATICC SEAL .png') }}'); background-position: left center; background-size: auto 80%; background-repeat: no-repeat; position: absolute; top: -63px; left: 0; width: 100%; height: 100%; opacity: 0.15;"></div>
 
-      <h2 class="axiom-headline-text">
-        Structure Defines Authority.<br>
-        Verification Enables Trust.<br>
-        <span class="gold-brand-text">Execution Drives Scale.</span>
-      </h2>
-      <div class="axiom-under-eyebrow">
-        An Institutional Platform Engineered For Impact, Governed By Integrity, And Driven By Results.
-      </div>
+  <!-- Text centered -->
+  <div class="container-max" style="position: relative; z-index: 90; text-align: center; max-width: 800px; padding: 2rem;">
+    <h2 class="axiom-headline-text">
+      Structure Defines Authority.<br>
+      Verification Enables Trust.<br>
+      <span class="gold-brand-text">Execution Drives Scale.</span>
+    </h2>
+    <div class="axiom-under-eyebrow">
+      An Institutional Platform Engineered For Impact, Governed By Integrity, And Driven By Results.
     </div>
   </div>
+  
+</div>
 
   <!-- ========= 6-COLUMN SYSTEM ECOSYSTEM OVERVIEW MATRIX ========= -->
   <section id="solutions-matrix-box" class="ecosystem-container-section">
@@ -216,13 +220,13 @@
     <div class="container-max">
       <div class="trust-strip-header">Trusted By Leading Institutions Worldwide</div>
       <div class="flex-brand-logospace">
-        <img src="{{ asset('assets/images/brands/afreximbank.png') }}" alt="Afreximbank">
+        {{-- <img src="{{ asset('assets/images/brands/afreximbank.png') }}" alt="Afreximbank">
         <img src="{{ asset('assets/images/brands/ifc.png') }}" alt="International Finance Corporation">
         <img src="{{ asset('assets/images/brands/african-union.png') }}" alt="African Union">
         <img src="{{ asset('assets/images/brands/dbsa.png') }}" alt="DBSA">
         <img src="{{ asset('assets/images/brands/isdb.png') }}" alt="Islamic Development Bank">
         <img src="{{ asset('assets/images/brands/afc.png') }}" alt="Africa Finance Corporation">
-        <img src="{{ asset('assets/images/brands/undp.png') }}" alt="UNDP">
+        <img src="{{ asset('assets/images/brands/undp.png') }}" alt="UNDP"> --}}
       </div>
     </div>
   </div>
