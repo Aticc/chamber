@@ -9,10 +9,11 @@
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
   <meta name="description" content="ATICC connects institutional capital with verified opportunities across Africa. Built on trust. Driven by outcomes.">
 </head>
-<body>
-
-
-    @yield('content')
-
-   </body>
+    <body>
+        <section class="content-fit">
+          @include('layouts.nav')
+          
+          @yield('content')
+        </section>
+    </body>
 </html>

@@ -324,8 +324,7 @@
 </head>
 <body>
     <!-- Navigation -->
- @include('layouts.nav')
-
+ 
 
     <!-- Error Content -->
     <div class="error-container">

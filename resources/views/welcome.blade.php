@@ -2,7 +2,6 @@
 
 @section('content')
 
-@include('layouts.nav')
 
 <div class="aticc-viewport">
 

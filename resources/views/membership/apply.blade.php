@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-@include('layouts.nav')
 
 @if($errors->any())
     <div class="error-alert">

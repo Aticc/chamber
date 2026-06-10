@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-@include('layouts.nav')
 
 <div class="login-wrapper">
     <div class="login-container-split">

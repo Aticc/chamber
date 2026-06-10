@@ -2,8 +2,6 @@
 
 @section('content')
 
-@include('layouts.nav')
-
 <!-- ========= PLANS HERO SECTION ========= -->
 <div class="plans-hero-section">
   <div class="plans-hero-content">

@@ -2,7 +2,6 @@
 
 @section('content')
 
-@include('layouts.nav')
 
 <div id="hero" class="hero-section" style="position: relative; background-color: white; overflow: hidden; min-height: 60vh;">
 

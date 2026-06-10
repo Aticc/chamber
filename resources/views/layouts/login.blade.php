@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-@include('layouts.nav')
 
 <div class="member-login-container">
     <div class="member-login-card">

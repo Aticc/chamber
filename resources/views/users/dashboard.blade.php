@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-@include('layouts.nav')
 
 <div class="dashboard-container">
     <!-- Welcome Section -->

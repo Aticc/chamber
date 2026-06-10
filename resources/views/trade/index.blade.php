@@ -2,7 +2,6 @@
 
 @section('content')
 
-@include('layouts.nav')
 
 <!-- ========= HERO SECTION WITH VIDEO BACKGROUND ========= -->
 
