@@ -74,7 +74,7 @@
             <div class="form-step active" id="step1">
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 1 — ORGANIZATION PROFILE</h3>
+                        <h3>SECTION 1 - ORGANIZATION PROFILE</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -151,7 +151,7 @@
             <div class="form-step" id="step2">
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 2 — PRIMARY CONTACT REPRESENTATIVE</h3>
+                        <h3>SECTION 2 - PRIMARY CONTACT REPRESENTATIVE</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -192,7 +192,7 @@
 
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 3 — INSTITUTIONAL CAPACITY & STRATEGIC ALIGNMENT</h3>
+                        <h3>SECTION 3 - INSTITUTIONAL CAPACITY & STRATEGIC ALIGNMENT</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -280,7 +280,7 @@
 
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 4 — CAPITAL ALIGNMENT & EXECUTION READINESS</h3>
+                        <h3>SECTION 4 - CAPITAL ALIGNMENT & EXECUTION READINESS</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -326,7 +326,7 @@
             <div class="form-step" id="step3">
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 5 — TRUST & VERIFICATION (T&V) REQUIREMENTS</h3>
+                        <h3>SECTION 5 - TRUST & VERIFICATION (T&V) REQUIREMENTS</h3>
                         <span class="section-badge">Required</span>
                     </div>
                     <div class="form-card-body">
@@ -343,7 +343,7 @@
                             <label class="checkbox-container">
                                 <input type="checkbox" name="verification_acknowledgement" id="verification_ack">
                                 <span class="checkmark"></span>
-                                <span class="checkbox-text">Verification Acknowledgment — I acknowledge and understand that: The Trust & Verification (T&V) review is mandatory; Verification-related fees are non-refundable; False documentation or material misrepresentation may result in immediate rejection; ATICC reserves the right to suspend or decline accession requests where institutional integrity standards are not satisfied.</span>
+                                <span class="checkbox-text">Verification Acknowledgment - I acknowledge and understand that: The Trust & Verification (T&V) review is mandatory; Verification-related fees are non-refundable; False documentation or material misrepresentation may result in immediate rejection; ATICC reserves the right to suspend or decline accession requests where institutional integrity standards are not satisfied.</span>
                             </label>
                         </div>
 
@@ -362,7 +362,7 @@
 
                 <div class="form-card">
                     <div class="form-card-header">
-                        <h3>SECTION 6 — REQUIRED DOCUMENTATION</h3>
+                        <h3>SECTION 6 - REQUIRED DOCUMENTATION</h3>
                         <span class="section-badge">Upload</span>
                     </div>
                     <div class="form-card-body">
@@ -524,7 +524,7 @@ body {
 .selected-plan-details { flex: 1; }
 .selected-plan-details h4 { font-size: 18px; font-weight: 500; color: var(--color-text-lighter-2); margin-bottom: 5px; }
 .selected-plan-details p { font-size: 13px; color: var(--color-text-gray-2); }
-.change-plan-link { font-size: 13px; color: var(--color-accent); text-decoration: none; font-weight: 500; padding: 8px 16px; border-radius: 30px; transition: all 0.2s ease; }
+.change-plan-link { font-size: 13px; background: var(--color-primary-light); color: var(--color-text-lighter); text-decoration: none; font-weight: 500; padding: 8px 16px; border-radius: 30px; transition: all 0.2s ease; }
 .change-plan-link:hover { background: rgba(201, 160, 61, 0.1); }
 
 /* Progress Steps */
@@ -1130,24 +1130,24 @@ function generatePreview() {
                 <p><span style="color: var(--color-accent); font-weight: 500;">${escapeHtml(planName)}</span></p>
             </div>
             
-            <h4>SECTION 1 — ORGANIZATION PROFILE</h4>
+            <h4>SECTION 1 - ORGANIZATION PROFILE</h4>
             <div class="preview-row"><div class="preview-label">Legal Name:</div><div class="preview-value">${escapeHtml(legalName)}</div></div>
             <div class="preview-row"><div class="preview-label">Type of Institution:</div><div class="preview-value">${escapeHtml(institutionType)}</div></div>
             <div class="preview-row"><div class="preview-label">Country of Registration:</div><div class="preview-value">${escapeHtml(country)}</div></div>
             
-            <h4>SECTION 2 — PRIMARY CONTACT</h4>
+            <h4>SECTION 2 - PRIMARY CONTACT</h4>
             <div class="preview-row"><div class="preview-label">Full Name:</div><div class="preview-value">${escapeHtml(contactName)}</div></div>
             <div class="preview-row"><div class="preview-label">Email:</div><div class="preview-value">${escapeHtml(contactEmail)}</div></div>
             
-            <h4>SECTION 3 — STRATEGIC ALIGNMENT</h4>
+            <h4>SECTION 3 - STRATEGIC ALIGNMENT</h4>
             <div class="preview-row"><div class="preview-label">Primary Sector:</div><div class="preview-value">${escapeHtml(primarySector)}</div></div>
             <div class="preview-row"><div class="preview-label">Trade Corridors:</div><div class="preview-value">${escapeHtml(selectedCorridors.join(', ') || 'None selected')}</div></div>
             <div class="preview-row"><div class="preview-label">Readiness Status:</div><div class="preview-value">${escapeHtml(readinessStatus)}</div></div>
             
-            <h4>SECTION 4 — DECLARATION</h4>
+            <h4>SECTION 4 - DECLARATION</h4>
             <div class="preview-row"><div class="preview-label">Signature:</div><div class="preview-value">${escapeHtml(signature)}</div></div>
             
-            <h4>SECTION 5 — DOCUMENTATION</h4>
+            <h4>SECTION 5 - DOCUMENTATION</h4>
             <div class="preview-row"><div class="preview-label">Documents Uploaded:</div><div class="preview-value">${escapeHtml(fileStatus.join(', ') || 'No documents uploaded')}</div></div>
         `;
     }

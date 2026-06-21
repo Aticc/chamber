@@ -420,7 +420,7 @@ p {
     background: var(--color-primary);
     border-top: 1px solid var(--border-light);
     padding: 45px 0;
-    text-align: left;
+    text-align: center;
 }
 
 .bg-section {
