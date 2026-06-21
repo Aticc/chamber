@@ -310,7 +310,7 @@ p {
     cursor: pointer;
 }
 .nav-btn:hover {
-    background-color: rgba(198, 164, 106, 0.05) !important;
+    background-color: var(--color-accent-light) !important;
     border-color: var(--color-accent-light) !important;
 }
 
