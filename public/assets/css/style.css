@@ -12,7 +12,7 @@
     /* ========= TEXT COLORS (IVORY & SILVER MATRIX) ========= */
     --color-text-dark: #04152e; /* Inverted High-Contrast Text */
     --color-text-gray: #b7bdc7; /* Soft Silver Base */
-    --color-text-light: #b7bdc7; /* Soft Silver Secondary */
+    --color-text-light: #9d9fa3; /* Soft Silver Secondary */
     --color-text-lighter: #f5f3ee; /* Ivory Element Base */
     --color-text-muted: #b7bdc7; /* Soft Silver Structural */
     --color-text-white: #f5f3ee; /* Standard Ivory Text Override */
@@ -4028,7 +4028,7 @@ footer {
 }
 
 .hero-content {
-    max-width: 680px;
+    max-width: 700px;
     padding: 120px 40px 80px 40px;
     position: relative;
     z-index: 2;
